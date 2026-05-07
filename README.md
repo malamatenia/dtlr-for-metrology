@@ -2,7 +2,7 @@
 
 # <p align="center"> 🔗 [Project Webpage]([add_project_webpage]) </p> <p align="center"> <sub> [Malamatenia Vlachou Efstathiou](https://malamatenia.github.io/), [Raphael Baena](https://raphael-baena.github.io/), [Dominique Stutzmann](https://www.irht.cnrs.fr/fr/annuaire/stutzmann-dominique), [Mathieu Aubry](https://mathieuaubry.github.io/)</sub> </p>
 
-![measures_definition.png](./.media/measures_definition.png)
+![measures_definition](./media/measures_definition.jpeg)
 
 ### Purpose
 
