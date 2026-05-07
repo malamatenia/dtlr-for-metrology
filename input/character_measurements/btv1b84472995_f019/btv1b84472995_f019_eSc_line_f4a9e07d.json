@@ -1,0 +1,572 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 28.87747196394597,
+        "cy": 43.91929550170898,
+        "w": 29.382421387519607,
+        "h": 36.12125648856163
+      },
+      "confidence": 0.9962172508239746,
+      "query_idx": 0,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 50.12137803167653,
+        "cy": 44.346091029047955,
+        "w": 27.479261664070947,
+        "h": 38.77272776961326
+      },
+      "confidence": 0.9962225556373596,
+      "query_idx": 2,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 46,
+      "character": "u",
+      "bbox": {
+        "cx": 78.15247396520667,
+        "cy": 45.62194673269987,
+        "w": 37.89487158285606,
+        "h": 37.12375397980213
+      },
+      "confidence": 0.9962116479873657,
+      "query_idx": 4,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 104.72879097485038,
+        "cy": 45.36191608458756,
+        "w": 25.371875144451394,
+        "h": 40.99368561804294
+      },
+      "confidence": 0.9962227940559387,
+      "query_idx": 6,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 39,
+      "character": "n",
+      "bbox": {
+        "cx": 126.22353270247177,
+        "cy": 45.536405396461475,
+        "w": 37.513773119127436,
+        "h": 38.1430013179779
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 8,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 155.8324428638844,
+        "cy": 49.11434206366538,
+        "w": 15.471208794327481,
+        "h": 12.214180961251259
+      },
+      "confidence": 0.9876641035079956,
+      "query_idx": 14,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 171.90427295581716,
+        "cy": 40.96319832801819,
+        "w": 9.280903925766836,
+        "h": 11.319729852676389
+      },
+      "confidence": 0.9867031574249268,
+      "query_idx": 16,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 182.64144535586354,
+        "cy": 46.138606186211106,
+        "w": 27.835170864783862,
+        "h": 39.37705210745333
+      },
+      "confidence": 0.9962226748466492,
+      "query_idx": 18,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 46,
+      "character": "u",
+      "bbox": {
+        "cx": 210.85408298389333,
+        "cy": 46.80151881873607,
+        "w": 41.77948562518969,
+        "h": 38.18778160214424
+      },
+      "confidence": 0.9819175004959106,
+      "query_idx": 20,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 46,
+      "character": "u",
+      "bbox": {
+        "cx": 246.0951421583021,
+        "cy": 45.78806799203157,
+        "w": 42.77283730378019,
+        "h": 38.16847948729992
+      },
+      "confidence": 0.5335884094238281,
+      "query_idx": 24,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 276.96549754268136,
+        "cy": 46.1990198135376,
+        "w": 33.9425498138304,
+        "h": 38.720519280433656
+      },
+      "confidence": 0.9962215423583984,
+      "query_idx": 30,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 298.23261819537663,
+        "cy": 45.23787397146225,
+        "w": 28.1137967681218,
+        "h": 38.64949309825898
+      },
+      "confidence": 0.9962105751037598,
+      "query_idx": 32,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 319.50058535535476,
+        "cy": 46.776376676559444,
+        "w": 27.908955008824933,
+        "h": 40.98881521224975
+      },
+      "confidence": 0.9962212443351746,
+      "query_idx": 34,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 347.10402938688117,
+        "cy": 51.77911424636841,
+        "w": 15.290024904817699,
+        "h": 11.41988115310668
+      },
+      "confidence": 0.9962090253829956,
+      "query_idx": 40,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 357.6537457027951,
+        "cy": 45.3664192199707,
+        "w": 7.092840661873652,
+        "h": 4.291339150071138
+      },
+      "confidence": 0.9962226748466492,
+      "query_idx": 42,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 370.0239910925842,
+        "cy": 38.702826690673824,
+        "w": 25.61220831628964,
+        "h": 52.01668686609178
+      },
+      "confidence": 0.9962201714515686,
+      "query_idx": 44,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 49,
+      "character": "y",
+      "bbox": {
+        "cx": 392.3963255379323,
+        "cy": 48.42339920997619,
+        "w": 39.15677905978265,
+        "h": 46.62017798423766
+      },
+      "confidence": 0.9962111711502075,
+      "query_idx": 48,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 424.65349207204787,
+        "cy": 37.26490633934736,
+        "w": 30.229615015144987,
+        "h": 52.213548859953875
+      },
+      "confidence": 0.9962064623832703,
+      "query_idx": 50,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 35,
+      "character": "i",
+      "bbox": {
+        "cx": 435.68685562546193,
+        "cy": 44.24763550758362,
+        "w": 20.215108149760454,
+        "h": 39.19644227027892
+      },
+      "confidence": 0.9962213039398193,
+      "query_idx": 52,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 460.26709396173356,
+        "cy": 42.65935018211603,
+        "w": 30.017005794116585,
+        "h": 40.258534625172615
+      },
+      "confidence": 0.9962208867073059,
+      "query_idx": 58,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 46,
+      "character": "u",
+      "bbox": {
+        "cx": 488.08247478588214,
+        "cy": 42.51456599831581,
+        "w": 41.282322187681416,
+        "h": 38.18716710805893
+      },
+      "confidence": 0.9960850477218628,
+      "query_idx": 62,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 48,
+      "character": "x",
+      "bbox": {
+        "cx": 518.9080955941922,
+        "cy": 42.90258107185363,
+        "w": 34.36276820382284,
+        "h": 42.23463792800902
+      },
+      "confidence": 0.9962196946144104,
+      "query_idx": 82,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 540.368274379421,
+        "cy": 40.06359972953796,
+        "w": 13.848764445330744,
+        "h": 15.79064154624939
+      },
+      "confidence": 0.9962218999862671,
+      "query_idx": 92,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 27,
+      "character": "a",
+      "bbox": {
+        "cx": 564.2038863026758,
+        "cy": 40.144435110427196,
+        "w": 41.518875998551835,
+        "h": 38.25670316763174
+      },
+      "confidence": 0.996195375919342,
+      "query_idx": 100,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 46,
+      "character": "u",
+      "bbox": {
+        "cx": 597.7595882931272,
+        "cy": 41.72777451276779,
+        "w": 42.432585046097984,
+        "h": 39.40456545352936
+      },
+      "confidence": 0.9960870742797852,
+      "query_idx": 102,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 628.5874434194923,
+        "cy": 41.72261137962341,
+        "w": 35.42713149156373,
+        "h": 38.93196712732315
+      },
+      "confidence": 0.9962171316146851,
+      "query_idx": 104,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 650.1797760408776,
+        "cy": 40.1256803125143,
+        "w": 28.72987929906833,
+        "h": 37.510923022031776
+      },
+      "confidence": 0.9962170124053955,
+      "query_idx": 108,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 39,
+      "character": "n",
+      "bbox": {
+        "cx": 676.9471315950962,
+        "cy": 40.77018409371376,
+        "w": 42.47102853414185,
+        "h": 39.27054351568222
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 112,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 29,
+      "character": "c",
+      "bbox": {
+        "cx": 710.4620583524927,
+        "cy": 39.13042538166046,
+        "w": 30.739763095642388,
+        "h": 40.96561274528503
+      },
+      "confidence": 0.9962198734283447,
+      "query_idx": 114,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 729.0343019222307,
+        "cy": 38.456809014081955,
+        "w": 31.52868922398204,
+        "h": 40.22334502935409
+      },
+      "confidence": 0.9962149858474731,
+      "query_idx": 116,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 751.7374890137964,
+        "cy": 39.59343487769365,
+        "w": 34.8417230624209,
+        "h": 40.19609269201755
+      },
+      "confidence": 0.9962223172187805,
+      "query_idx": 124,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 784.68005772521,
+        "cy": 41.010465282201764,
+        "w": 13.740647926505517,
+        "h": 11.996392503380775
+      },
+      "confidence": 0.9962114095687866,
+      "query_idx": 148,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 794.610962738862,
+        "cy": 40.55651006698608,
+        "w": 12.279378762116266,
+        "h": 5.826186954975128
+      },
+      "confidence": 0.9962218403816223,
+      "query_idx": 154,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 804.7849396229124,
+        "cy": 32.22601547241211,
+        "w": 29.292864141973723,
+        "h": 53.17813262642308
+      },
+      "confidence": 0.9962214231491089,
+      "query_idx": 156,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 35,
+      "character": "i",
+      "bbox": {
+        "cx": 821.611039445207,
+        "cy": 38.94424767494201,
+        "w": 21.838623459274686,
+        "h": 38.044703006744385
+      },
+      "confidence": 0.9962207674980164,
+      "query_idx": 158,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 838.8575583793022,
+        "cy": 44.04078798294067,
+        "w": 10.34199855778661,
+        "h": 7.401016545295718
+      },
+      "confidence": 0.9962226748466492,
+      "query_idx": 160,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 38,
+      "character": "m",
+      "bbox": {
+        "cx": 868.2058084848766,
+        "cy": 40.262785885502566,
+        "w": 62.663209193461626,
+        "h": 39.461008773861366
+      },
+      "confidence": 0.9962181448936462,
+      "query_idx": 162,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 27,
+      "character": "a",
+      "bbox": {
+        "cx": 915.1103872455699,
+        "cy": 38.797899616640834,
+        "w": 39.84137156681402,
+        "h": 41.535925604665344
+      },
+      "confidence": 0.9961450695991516,
+      "query_idx": 164,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 144,
+      "character": "\u0303",
+      "bbox": {
+        "cx": 926.6506665204023,
+        "cy": 10.898854815959929,
+        "w": 32.651591056102006,
+        "h": 25.56934468746185
+      },
+      "confidence": 0.9957094192504883,
+      "query_idx": 165,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 946.239006002432,
+        "cy": 40.59659219384193,
+        "w": 35.10253473507521,
+        "h": 39.07378302812576
+      },
+      "confidence": 0.9962201714515686,
+      "query_idx": 180,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "r",
+    "o",
+    "u",
+    "e",
+    "n",
+    ".",
+    " ",
+    "e",
+    "u",
+    "i",
+    "r",
+    "r",
+    "e",
+    "s",
+    ".",
+    " ",
+    "l",
+    "y",
+    "s",
+    "i",
+    "e",
+    "u",
+    "x",
+    " ",
+    "a",
+    "u",
+    "r",
+    "e",
+    "n",
+    "c",
+    "e",
+    "s",
+    ".",
+    " ",
+    "l",
+    "i",
+    " ",
+    "m",
+    "\u00e3",
+    "s"
+  ],
+  "predicted_text": "rouen. euures. lysieux aurences. li ma\u0303s",
+  "ground_truth_text": "rouen. euirres. lysieux aurences. li m\u00e3s",
+  "cer": 0.04878048780487805,
+  "num_predictions": 40,
+  "num_ground_truth": 40,
+  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f019/btv1b84472995_f019_eSc_line_f4a9e07d.png"
+}

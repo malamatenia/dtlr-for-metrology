@@ -1,0 +1,124 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 28,
+      "character": "b",
+      "bbox": {
+        "cx": 32.47185489001026,
+        "cy": 53.984917235374446,
+        "w": 22.288390661298102,
+        "h": 44.70692706108092
+      },
+      "confidence": 0.6451934576034546,
+      "query_idx": 6,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 62.76774678411997,
+        "cy": 49.72015590667724,
+        "w": 16.58822388897123,
+        "h": 46.97146934324273
+      },
+      "confidence": 0.9961824417114258,
+      "query_idx": 16,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 86.79037215912554,
+        "cy": 53.51167509953181,
+        "w": 18.455392295539497,
+        "h": 40.006303652127585
+      },
+      "confidence": 0.9961910843849182,
+      "query_idx": 22,
+      "error_label": "insertion"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 87.13020184769368,
+        "cy": 53.64527378280957,
+        "w": 18.766864663259966,
+        "h": 39.07718544403712
+      },
+      "confidence": 0.5395694375038147,
+      "query_idx": 24,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 112.1517640375996,
+        "cy": 52.73572292327881,
+        "w": 3.551942420670713,
+        "h": 2.049999999999997
+      },
+      "confidence": 0.9914152026176453,
+      "query_idx": 28,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 123.86155292727511,
+        "cy": 49.07003726959229,
+        "w": 15.592624741586988,
+        "h": 47.076716980804925
+      },
+      "confidence": 0.9317571520805359,
+      "query_idx": 36,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 152.10733901255358,
+        "cy": 51.74306225379308,
+        "w": 27.973903400240033,
+        "h": 36.80246571699779
+      },
+      "confidence": 0.8087828755378723,
+      "query_idx": 42,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 49,
+      "character": "y",
+      "bbox": {
+        "cx": 179.88461898165315,
+        "cy": 55.43142709732055,
+        "w": 22.74244796752774,
+        "h": 47.221268749237055
+      },
+      "confidence": 0.6133008599281311,
+      "query_idx": 60,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "b",
+    "l",
+    "e",
+    " ",
+    "l",
+    "o",
+    "y",
+    "s"
+  ],
+  "predicted_text": "blee loy",
+  "ground_truth_text": "ble loys",
+  "cer": 0.25,
+  "num_predictions": 8,
+  "num_ground_truth": 8,
+  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f370/btv1b84472995_f370_eSc_line_cceea1a7.png"
+}

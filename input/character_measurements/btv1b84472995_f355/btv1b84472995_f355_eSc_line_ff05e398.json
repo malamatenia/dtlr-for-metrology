@@ -1,0 +1,168 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 31.456151637892482,
+        "cy": 48.92617421150207,
+        "w": 21.334472091652415,
+        "h": 48.2488207847689
+      },
+      "confidence": 0.9962192177772522,
+      "query_idx": 0,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 55.39253650805384,
+        "cy": 52.267762765288346,
+        "w": 27.256783708897984,
+        "h": 35.56868850588798
+      },
+      "confidence": 0.9961913228034973,
+      "query_idx": 2,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 74.0610264617833,
+        "cy": 46.45530867576599,
+        "w": 8.081570948630656,
+        "h": 12.987866306304937
+      },
+      "confidence": 0.996221661567688,
+      "query_idx": 4,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 39,
+      "character": "n",
+      "bbox": {
+        "cx": 95.30625285178509,
+        "cy": 53.860760763287544,
+        "w": 38.069450443626465,
+        "h": 37.57876297831535
+      },
+      "confidence": 0.9892181158065796,
+      "query_idx": 6,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 129.38132883908963,
+        "cy": 51.80086394995451,
+        "w": 28.800855006126113,
+        "h": 38.672766861319545
+      },
+      "confidence": 0.9961419105529785,
+      "query_idx": 8,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 28,
+      "character": "b",
+      "bbox": {
+        "cx": 156.32777113520524,
+        "cy": 45.96949899941683,
+        "w": 20.786600019019318,
+        "h": 49.04115077555179
+      },
+      "confidence": 0.996044397354126,
+      "query_idx": 10,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 187.26816587239904,
+        "cy": 43.47660570144652,
+        "w": 22.4531863098627,
+        "h": 49.26084742996544
+      },
+      "confidence": 0.9962199926376343,
+      "query_idx": 14,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 208.67807862379453,
+        "cy": 48.68450636118651,
+        "w": 23.809644185515737,
+        "h": 37.61110776364804
+      },
+      "confidence": 0.9955350160598755,
+      "query_idx": 16,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 208.79230884948316,
+        "cy": 48.16562742143869,
+        "w": 20.849289366979576,
+        "h": 39.62710278332234
+      },
+      "confidence": 0.628731906414032,
+      "query_idx": 18,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 232.0552849837518,
+        "cy": 44.695820331573486,
+        "w": 7.560570686970664,
+        "h": 8.717136061191553
+      },
+      "confidence": 0.9962223172187805,
+      "query_idx": 22,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 49,
+      "character": "y",
+      "bbox": {
+        "cx": 323.2371846653226,
+        "cy": 48.10390033721924,
+        "w": 20.64205190227375,
+        "h": 43.33881525993347
+      },
+      "confidence": 0.5482180118560791,
+      "query_idx": 52,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "l",
+    "e",
+    " ",
+    "n",
+    "o",
+    "b",
+    "l",
+    "e",
+    " ",
+    "R",
+    "o",
+    "y",
+    "."
+  ],
+  "predicted_text": "le noblee y",
+  "ground_truth_text": "le noble Roy.",
+  "cer": 0.3076923076923077,
+  "num_predictions": 11,
+  "num_ground_truth": 13,
+  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f355/btv1b84472995_f355_eSc_line_ff05e398.png"
+}

@@ -1,0 +1,179 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 27,
+      "character": "a",
+      "bbox": {
+        "cx": 36.343584358978816,
+        "cy": 50.27202160581318,
+        "w": 36.71388829589572,
+        "h": 39.25503249614173
+      },
+      "confidence": 0.9961986541748047,
+      "query_idx": 2,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 62.96792608658898,
+        "cy": 43.72428088188171,
+        "w": 7.656535965873601,
+        "h": 9.312977850437164
+      },
+      "confidence": 0.9962224364280701,
+      "query_idx": 4,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 29,
+      "character": "c",
+      "bbox": {
+        "cx": 78.21060503034914,
+        "cy": 48.03332280814647,
+        "w": 21.986151920836065,
+        "h": 40.19477196335792
+      },
+      "confidence": 0.9962055087089539,
+      "query_idx": 6,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 95.82687339218222,
+        "cy": 47.54957528114318,
+        "w": 26.706036923728576,
+        "h": 38.60814303159713
+      },
+      "confidence": 0.9959366321563721,
+      "query_idx": 8,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 118.56538172169613,
+        "cy": 48.35773102641106,
+        "w": 23.371195181794363,
+        "h": 40.10703910589219
+      },
+      "confidence": 0.996112585067749,
+      "query_idx": 10,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 38,
+      "character": "m",
+      "bbox": {
+        "cx": 160.79962019486862,
+        "cy": 49.178666841769044,
+        "w": 46.96714202350472,
+        "h": 40.135571406983274
+      },
+      "confidence": 0.9905562996864319,
+      "query_idx": 12,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 203.92349067665896,
+        "cy": 46.41200080364943,
+        "w": 29.768463291535113,
+        "h": 44.43746381700039
+      },
+      "confidence": 0.995858371257782,
+      "query_idx": 14,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 38,
+      "character": "m",
+      "bbox": {
+        "cx": 276.9306295466296,
+        "cy": 46.89187253978508,
+        "w": 37.600301875150194,
+        "h": 38.84479731718645
+      },
+      "confidence": 0.7021579742431641,
+      "query_idx": 18,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 38,
+      "character": "m",
+      "bbox": {
+        "cx": 277.36262879397145,
+        "cy": 46.702960550345125,
+        "w": 38.70493993912146,
+        "h": 39.69807235930645
+      },
+      "confidence": 0.9930316209793091,
+      "query_idx": 20,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 313.80292995961486,
+        "cy": 44.921245260536665,
+        "w": 28.394736135675373,
+        "h": 42.528481855988495
+      },
+      "confidence": 0.9802185893058777,
+      "query_idx": 22,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 358.173624703447,
+        "cy": 45.42187215685844,
+        "w": 9.206097822755908,
+        "h": 17.168897822499275
+      },
+      "confidence": 0.9710111618041992,
+      "query_idx": 34,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 35,
+      "character": "i",
+      "bbox": {
+        "cx": 373.69836817450704,
+        "cy": 49.94064402580261,
+        "w": 9.816171243229064,
+        "h": 27.17584390640259
+      },
+      "confidence": 0.5431579351425171,
+      "query_idx": 196,
+      "error_label": "insertion"
+    }
+  ],
+  "ground_truth": [
+    "a",
+    " ",
+    "c",
+    "r",
+    "e",
+    "m",
+    "o",
+    "n",
+    "n",
+    "e",
+    "."
+  ],
+  "predicted_text": "a cremomme.i",
+  "ground_truth_text": "a cremonne.",
+  "cer": 0.2727272727272727,
+  "num_predictions": 12,
+  "num_ground_truth": 11,
+  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f538/btv1b84472995_f538_eSc_line_bacb298d.png"
+}

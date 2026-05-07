@@ -1,0 +1,193 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 30,
+      "character": "d",
+      "bbox": {
+        "cx": 20.046016247934993,
+        "cy": 54.98135096232096,
+        "w": 18.58743779989084,
+        "h": 44.76400502522787
+      },
+      "confidence": 0.9962019920349121,
+      "query_idx": 10,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 40.70597902435768,
+        "cy": 56.50908002853393,
+        "w": 15.367391897609608,
+        "h": 42.089037513732904
+      },
+      "confidence": 0.9962193369865417,
+      "query_idx": 12,
+      "error_label": "insertion"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 45.057601862933865,
+        "cy": 57.03885696530341,
+        "w": 14.16894619625441,
+        "h": 40.898799479007714
+      },
+      "confidence": 0.7614810466766357,
+      "query_idx": 14,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 67.17968033669112,
+        "cy": 58.68454383611679,
+        "w": 16.822271598746177,
+        "h": 43.534879755973826
+      },
+      "confidence": 0.9961561560630798,
+      "query_idx": 16,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 87.02876354085988,
+        "cy": 55.21292381286621,
+        "w": 5.97837633305582,
+        "h": 11.218778753280645
+      },
+      "confidence": 0.9962166547775269,
+      "query_idx": 34,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 45,
+      "character": "t",
+      "bbox": {
+        "cx": 103.79717464852445,
+        "cy": 56.07691097259521,
+        "w": 15.047156744054874,
+        "h": 41.169420051574704
+      },
+      "confidence": 0.9815766215324402,
+      "query_idx": 38,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 121.34725523188759,
+        "cy": 56.92763214111328,
+        "w": 15.562197089430668,
+        "h": 36.711738459269206
+      },
+      "confidence": 0.9962217211723328,
+      "query_idx": 44,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 35,
+      "character": "i",
+      "bbox": {
+        "cx": 170.38299040958802,
+        "cy": 57.60017490386963,
+        "w": 13.055419761559051,
+        "h": 38.203839302062995
+      },
+      "confidence": 0.9961782693862915,
+      "query_idx": 58,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 192.36470237454887,
+        "cy": 56.81469656229019,
+        "w": 19.219264477187693,
+        "h": 40.443814969062814
+      },
+      "confidence": 0.9391927719116211,
+      "query_idx": 70,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 192.62748371631687,
+        "cy": 56.749146697918576,
+        "w": 19.62561337917569,
+        "h": 40.641825004418685
+      },
+      "confidence": 0.9664965271949768,
+      "query_idx": 72,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 39,
+      "character": "n",
+      "bbox": {
+        "cx": 220.4467372236581,
+        "cy": 57.11883224248886,
+        "w": 28.63463485652005,
+        "h": 37.90231382846834
+      },
+      "confidence": 0.9960207939147949,
+      "query_idx": 86,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 251.41478242715905,
+        "cy": 57.928683251142495,
+        "w": 21.019783756527033,
+        "h": 41.266606652736655
+      },
+      "confidence": 0.9959202408790588,
+      "query_idx": 126,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 262.1650112647359,
+        "cy": 54.526262172063184,
+        "w": 4.5574682635823365,
+        "h": 21.79856887658437
+      },
+      "confidence": 0.7621126174926758,
+      "query_idx": 160,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "d",
+    "e",
+    "s",
+    " ",
+    "t",
+    "r",
+    "o",
+    "i",
+    "e",
+    "n",
+    "s",
+    "."
+  ],
+  "predicted_text": "dees trieens.",
+  "ground_truth_text": "des troiens.",
+  "cer": 0.25,
+  "num_predictions": 13,
+  "num_ground_truth": 12,
+  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f010/btv1b84472995_f010_eSc_line_f368eb5a.png"
+}

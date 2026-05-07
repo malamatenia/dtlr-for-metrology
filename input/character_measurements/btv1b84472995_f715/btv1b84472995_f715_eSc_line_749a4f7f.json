@@ -1,0 +1,83 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 32,
+      "character": "f",
+      "bbox": {
+        "cx": 34.562096771529895,
+        "cy": 42.56022361715634,
+        "w": 8.306250818460317,
+        "h": 49.51925590435663
+      },
+      "confidence": 0.9952049851417542,
+      "query_idx": 8,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 94.1805448708746,
+        "cy": 39.63400148103635,
+        "w": 7.539648379878017,
+        "h": 55.32589256664119
+      },
+      "confidence": 0.996219277381897,
+      "query_idx": 26,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 109.51042400002225,
+        "cy": 45.06811648507913,
+        "w": 7.940854166529618,
+        "h": 44.11817772189777
+      },
+      "confidence": 0.9958649277687073,
+      "query_idx": 28,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 112.51148505194618,
+        "cy": 44.77251302103201,
+        "w": 6.637807998672557,
+        "h": 43.83164398868879
+      },
+      "confidence": 0.995858907699585,
+      "query_idx": 32,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 141.57375466687637,
+        "cy": 51.76836954752605,
+        "w": 7.78651992856274,
+        "h": 19.93199602762858
+      },
+      "confidence": 0.9961819648742676,
+      "query_idx": 194,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "f",
+    "r",
+    "i",
+    "s",
+    "e",
+    "."
+  ],
+  "predicted_text": "fsee.",
+  "ground_truth_text": "frise.",
+  "cer": 0.5,
+  "num_predictions": 5,
+  "num_ground_truth": 6,
+  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f715/btv1b84472995_f715_eSc_line_749a4f7f.png"
+}

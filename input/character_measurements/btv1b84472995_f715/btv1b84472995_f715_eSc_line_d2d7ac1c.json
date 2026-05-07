@@ -1,0 +1,153 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 20,
+      "character": "R",
+      "bbox": {
+        "cx": 28.342049625941687,
+        "cy": 56.215792655944824,
+        "w": 38.61897007533482,
+        "h": 46.95986223220825
+      },
+      "confidence": 0.9962093234062195,
+      "query_idx": 0,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 69.66295444988603,
+        "cy": 55.0449485629797,
+        "w": 29.278623703515947,
+        "h": 43.6252336204052
+      },
+      "confidence": 0.9961517453193665,
+      "query_idx": 2,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 49,
+      "character": "y",
+      "bbox": {
+        "cx": 99.94370886214932,
+        "cy": 60.74074387550354,
+        "w": 25.510956084894318,
+        "h": 51.909839391708374
+      },
+      "confidence": 0.9930735230445862,
+      "query_idx": 4,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 127.98447902134488,
+        "cy": 53.177860736846924,
+        "w": 7.102820974077503,
+        "h": 6.3713603019714355
+      },
+      "confidence": 0.9962217211723328,
+      "query_idx": 10,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 33,
+      "character": "g",
+      "bbox": {
+        "cx": 149.85056138639533,
+        "cy": 60.46838665008545,
+        "w": 36.05449747518648,
+        "h": 58.67577862739563
+      },
+      "confidence": 0.9440562725067139,
+      "query_idx": 14,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 27,
+      "character": "a",
+      "bbox": {
+        "cx": 184.15966845714183,
+        "cy": 50.81194957288069,
+        "w": 36.131267551745964,
+        "h": 41.65687076632108
+      },
+      "confidence": 0.9960518479347229,
+      "query_idx": 16,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 212.8863321118297,
+        "cy": 51.90927195549011,
+        "w": 25.709774261622442,
+        "h": 40.68028355638185
+      },
+      "confidence": 0.99620121717453,
+      "query_idx": 18,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 316.76384622744547,
+        "cy": 47.40811185042063,
+        "w": 28.503362973750313,
+        "h": 46.00381191571553
+      },
+      "confidence": 0.9961760640144348,
+      "query_idx": 28,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 356.4806150859839,
+        "cy": 48.76691995064418,
+        "w": 9.883337015048653,
+        "h": 17.45196277896563
+      },
+      "confidence": 0.6731376647949219,
+      "query_idx": 104,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 361.49399377405456,
+        "cy": 46.23115793863933,
+        "w": 16.578801174742807,
+        "h": 20.29914037386576
+      },
+      "confidence": 0.9962204694747925,
+      "query_idx": 196,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "R",
+    "o",
+    "y",
+    " ",
+    "g",
+    "a",
+    "r",
+    "b",
+    "u",
+    "s",
+    "."
+  ],
+  "predicted_text": "Roy gars..",
+  "ground_truth_text": "Roy garbus.",
+  "cer": 0.2727272727272727,
+  "num_predictions": 10,
+  "num_ground_truth": 11,
+  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f715/btv1b84472995_f715_eSc_line_d2d7ac1c.png"
+}

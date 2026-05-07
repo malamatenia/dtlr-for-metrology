@@ -1,0 +1,56 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 27,
+      "character": "a",
+      "bbox": {
+        "cx": 25.261570764236225,
+        "cy": 43.385904938143064,
+        "w": 17.123052226827976,
+        "h": 39.913099778019514
+      },
+      "confidence": 0.9585052728652954,
+      "query_idx": 8,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 46,
+      "character": "u",
+      "bbox": {
+        "cx": 85.12717076351768,
+        "cy": 43.62000495195389,
+        "w": 11.494716393320175,
+        "h": 38.68005359172822
+      },
+      "confidence": 0.9942395091056824,
+      "query_idx": 62,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 172.2147322257523,
+        "cy": 48.57126410802206,
+        "w": 6.741460497902352,
+        "h": 14.543364222844446
+      },
+      "confidence": 0.9962118864059448,
+      "query_idx": 170,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "a",
+    "m",
+    "e",
+    "n",
+    "."
+  ],
+  "predicted_text": "au.",
+  "ground_truth_text": "amen.",
+  "cer": 0.6,
+  "num_predictions": 3,
+  "num_ground_truth": 5,
+  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f010/btv1b84472995_f010_eSc_line_0f160fce.png"
+}

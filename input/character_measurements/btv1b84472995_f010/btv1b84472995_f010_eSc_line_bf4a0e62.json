@@ -1,0 +1,71 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 29,
+      "character": "c",
+      "bbox": {
+        "cx": 21.59323109330009,
+        "cy": 52.32778416574001,
+        "w": 12.74741247556739,
+        "h": 40.52942827343941
+      },
+      "confidence": 0.9155771732330322,
+      "query_idx": 4,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 46.72626265480308,
+        "cy": 44.750998401641844,
+        "w": 8.795167407226465,
+        "h": 55.76257184794299
+      },
+      "confidence": 0.9902312755584717,
+      "query_idx": 46,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 30,
+      "character": "d",
+      "bbox": {
+        "cx": 96.22481350802042,
+        "cy": 47.931982479989536,
+        "w": 17.658773457286415,
+        "h": 52.19448744952679
+      },
+      "confidence": 0.991666853427887,
+      "query_idx": 104,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 35,
+      "character": "i",
+      "bbox": {
+        "cx": 123.69771957397461,
+        "cy": 52.979915189743046,
+        "w": 10.82637709987408,
+        "h": 38.54921331405639
+      },
+      "confidence": 0.9960871338844299,
+      "query_idx": 120,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "c",
+    "l",
+    "o",
+    "d",
+    "i",
+    "o",
+    "."
+  ],
+  "predicted_text": "cldi",
+  "ground_truth_text": "clodio.",
+  "cer": 0.42857142857142855,
+  "num_predictions": 4,
+  "num_ground_truth": 7,
+  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f010/btv1b84472995_f010_eSc_line_bf4a0e62.png"
+}

@@ -1,0 +1,128 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 12.469219214520669,
+        "cy": 50.312310791015626,
+        "w": 17.652058207865377,
+        "h": 54.98916408544345
+      },
+      "confidence": 0.9959980249404907,
+      "query_idx": 4,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 36.27098610404616,
+        "cy": 54.00766944885253,
+        "w": 20.641429632648016,
+        "h": 40.43663101196289
+      },
+      "confidence": 0.9962157607078552,
+      "query_idx": 6,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 87.03827653159954,
+        "cy": 53.76100158691406,
+        "w": 7.175144987352667,
+        "h": 10.995407867431638
+      },
+      "confidence": 0.9962216019630432,
+      "query_idx": 18,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 27,
+      "character": "a",
+      "bbox": {
+        "cx": 214.12651116654274,
+        "cy": 59.93169854005978,
+        "w": 28.565365377654672,
+        "h": 38.560238510783634
+      },
+      "confidence": 0.9803726077079773,
+      "query_idx": 58,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 300.5162411436512,
+        "cy": 64.69369153976442,
+        "w": 19.779922640869756,
+        "h": 41.08330593109132
+      },
+      "confidence": 0.8011309504508972,
+      "query_idx": 116,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 300.51173960439417,
+        "cy": 64.78332214355468,
+        "w": 18.456409601654457,
+        "h": 40.99548034667967
+      },
+      "confidence": 0.45969438552856445,
+      "query_idx": 118,
+      "error_label": "substitution"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 300.6347713547665,
+        "cy": 64.85820689201356,
+        "w": 18.85989655643249,
+        "h": 41.60485830307006
+      },
+      "confidence": 0.49520614743232727,
+      "query_idx": 120,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 305.2361543973963,
+        "cy": 62.394089126586906,
+        "w": 9.925602492979806,
+        "h": 21.546055412292468
+      },
+      "confidence": 0.6718857884407043,
+      "query_idx": 160,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "l",
+    "e",
+    "s",
+    " ",
+    "r",
+    "o",
+    "m",
+    "a",
+    "i",
+    "n",
+    "s",
+    "."
+  ],
+  "predicted_text": "le asss.",
+  "ground_truth_text": "les romains.",
+  "cer": 0.5,
+  "num_predictions": 8,
+  "num_ground_truth": 12,
+  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f010/btv1b84472995_f010_eSc_line_da7e74e1.png"
+}
