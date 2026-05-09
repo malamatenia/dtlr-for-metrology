@@ -4,27 +4,32 @@
 
 ![measures_definition](./media/measures_definition.jpeg)
 
-### Purpose
+## Purpose
+ 
+This repository contains the scripts, notebook, and data needed to reproduce the metrological analysis of the paper. It also documents how to adapt the analysis to other datasets.
 
-This repository contains the scripts and data necessary for reproducing the results of the paper. We also detail how to use/adapt the script for your data. All data comes from the output of the DTLR-for-paleography method. On how to train the system, see : [add url of method] 
-
-
-### Repository Structure
-
-[add]
-
-### Analysis scripts
+## Reproduce the paper
+ 
+Open `metrological_analysis.ipynb` and run all cells. The notebook:
+ 
+1. Builds the working corpus from the DTLR output in `input/`, applying the filters described in §3.2 of the paper (line-type, zone, error-neighbour, 4 σ outlier).
+2. Computes every metric used in Figures 6–7: letter aspect ratios, bigram edge-to-edge distances, word distances.
+3. Renders the linear and crossed plots into `results/`
 
 For running the analysis code online, we provide a standalone Colab[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qqrAT2PDNlz-DvnFuEyUeYbUZT2frTKZ?usp=sharing) notebook.
 
-## Run it on your data
+## Run it on your own data
+ 
+The analysis pipeline is intentionally modular: anything DTLR can produce, this code can analyse. Two steps:
+ 
+**1. Generate DTLR outputs for your manuscript.** See the DTLR-for-paleography repository: [add url]. You will need:
+ 
+- A folder of per-line prediction JSONs (one folder per document, one `.json` per line).
+- A `transcribe.json` mapping character indices to characters.
+- A folder of per-document character prototypes.
 
-What you'll need: 
+More details on how to apply the analysis in `metrological_analysis.ipynb`.
 
-From the DTLR model, adapted for paleographical analysis: [url to the method] output: 
-- a folder with prototypes per letter
-- a transcribe.json file with character indexing
-- a prediction folder with .json metrics per line
 
 ## Cite us
 
