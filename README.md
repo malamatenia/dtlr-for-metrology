@@ -1,6 +1,6 @@
 # <p align="center"> Leveraging Morphology for Historical Script Metrological Analysis (ICDAR 2026) [![DOI](https://zenodo.org/badge/[add_badge].svg)](https://doi.org/10.5281/zenodo.18745702) <p/>
 
-# <p align="center"> 🔗 [Project Webpage]([https://malamatenia.github.io/dtlr-for-metrology/]) </p> <p align="center"> <sub> [Malamatenia Vlachou Efstathiou](https://malamatenia.github.io/), [Raphael Baena](https://raphael-baena.github.io/), [Dominique Stutzmann](https://www.irht.cnrs.fr/fr/annuaire/stutzmann-dominique), [Mathieu Aubry](https://mathieuaubry.github.io/)</sub> </p>
+# <p align="center"> 🔗 [Project Webpage](https://malamatenia.github.io/dtlr-for-metrology/) </p> <p align="center"> <sub> [Malamatenia Vlachou Efstathiou](https://malamatenia.github.io/), [Raphael Baena](https://raphael-baena.github.io/), [Dominique Stutzmann](https://www.irht.cnrs.fr/fr/annuaire/stutzmann-dominique), [Mathieu Aubry](https://mathieuaubry.github.io/)</sub> </p>
 
 ![measures_definition](./media/measures_definition.jpeg)
 
