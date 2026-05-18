@@ -701,10 +701,19 @@ def compute_bigram_metrics(
     bigram: str,
     config: StudyConfig,
     idx: Optional[FolioIndex] = None,
+    metadata_rows: Optional[list] = None,
 ) -> pd.DataFrame:
     """
     Add bigram-level spacing metrics for `bigram` to df.
     Re-reads JSON files (sequence information required).
+
+    Parameters
+    ----------
+    metadata_rows : list of dicts | None
+        The metadata_rows returned by build_and_crop_working_corpus.
+        When provided, a bigram instance is only kept when BOTH bboxes
+        survived the nomatch + std filter (kept=True).
+        When None, falls back to the original global std filter behaviour.
 
     New columns added
     -----------------
@@ -715,6 +724,142 @@ def compute_bigram_metrics(
     cv_b_distance_{bigram}              -- CV of distances
     count_{bigram}                      -- number of filtered instances
     """
+    if idx is None:
+        idx = FolioIndex(config)
+
+    l1, l2 = bigram[0], bigram[1]
+
+    # Build kept lookup: (json_file, cx_rounded) -> bool
+    kept_lookup: Dict[tuple, bool] = {}
+    if metadata_rows is not None:
+        for row in metadata_rows:
+            key = (row["json_file"], round(row["bbox_cx"], 1))
+            kept_lookup[key] = bool(row.get("kept", False))
+
+    first_pass:     Dict[str, list] = defaultdict(list)
+    folio_m_widths: Dict[str, list] = defaultdict(list)
+    folio_lw:       Dict[str, list] = defaultdict(list)
+
+    for doc_folder in os.listdir(config.character_measurements):
+        folio = idx.doc_mappings["folio"].get(doc_folder)
+        if doc_folder in config.exclude_doc_ids or folio in config.exclude_doc_ids:
+            continue
+        doc_path = os.path.join(config.character_measurements, doc_folder)
+        if not os.path.isdir(doc_path) or doc_folder not in idx.doc_line_order:
+            continue
+
+        files = _select_files(doc_folder, doc_path, idx.doc_line_order,
+                              idx.line_mappings, folio, config)
+
+        for fname in files:
+            try:
+                with open(os.path.join(doc_path, fname)) as f:
+                    data = json.load(f)
+            except Exception:
+                continue
+
+            preds = sorted(data.get("predictions", []),
+                           key=lambda x: x.get("bbox", {}).get("cx", 0))
+
+            for p in preds:
+                char = p.get("character", "")
+                if p.get("error_label") != "match" or "bbox" not in p:
+                    continue
+                # For normalisation widths, only use kept bboxes when lookup available
+                if kept_lookup:
+                    if not kept_lookup.get((fname, round(p["bbox"]["cx"], 1)), False):
+                        continue
+                w = p["bbox"].get("w", 0)
+                if w <= 0:
+                    continue
+                if char == "m":
+                    folio_m_widths[doc_folder].append(w)
+                if char in VALID_AVG_WIDTH_CHARS:
+                    folio_lw[doc_folder].append(w)
+
+            for i in range(len(preds) - 1):
+                p1, p2 = preds[i], preds[i + 1]
+                if (p1.get("character", "") == l1 and
+                        p2.get("character", "") == l2 and
+                        p1.get("error_label") == "match" and
+                        p2.get("error_label") == "match"):
+                    lo  = (i == 0)              or (preds[i - 1].get("error_label") == "match")
+                    ro  = (i + 2 >= len(preds)) or (preds[i + 2].get("error_label") == "match")
+                    if not (lo and ro):
+                        continue
+                    b1, b2 = p1["bbox"], p2["bbox"]
+                    if not (all(k in b1 for k in ("cx","w","h")) and
+                            all(k in b2 for k in ("cx","w","h"))):
+                        continue
+                    # Require both bboxes to be kept when lookup is available
+                    if kept_lookup:
+                        k1 = (fname, round(b1["cx"], 1))
+                        k2 = (fname, round(b2["cx"], 1))
+                        if not (kept_lookup.get(k1, False) and kept_lookup.get(k2, False)):
+                            continue
+                    dist = (b2["cx"] - b2["w"]/2) - (b1["cx"] + b1["w"]/2)
+                    cw   = (b2["cx"] + b2["w"]/2) - (b1["cx"] - b1["w"]/2)
+                    ch   = max(b1["h"], b2["h"])
+                    first_pass[doc_folder].append({
+                        "distance": dist, "combined_w": cw, "combined_h": ch,
+                        "w1": b1["w"], "h1": b1["h"], "w2": b2["w"], "h2": b2["h"],
+                    })
+
+    # When metadata_rows supplied, bboxes already filtered — skip global std pass.
+    # When None, apply original global std filter for backward compatibility.
+    if kept_lookup:
+        bounds: dict = {}
+    else:
+        bounds = {}
+        if config.bbox_filter_mode == "threshold" and config.outlier_std_threshold:
+            all_vals = {k: [e[k] for ex in first_pass.values() for e in ex]
+                        for k in ("w1","h1","w2","h2")}
+            for k, arr in all_vals.items():
+                if arr:
+                    mv, s = np.mean(arr), np.std(arr)
+                    t     = config.outlier_std_threshold
+                    bounds[k] = (mv - t*s, mv + t*s)
+
+    sfx  = bigram
+    rows: Dict[str, dict] = {}
+
+    for doc, examples in first_pass.items():
+        keep = [e for e in examples
+                if all(bounds[k][0] <= e[k] <= bounds[k][1] for k in bounds)]
+        if not keep:
+            continue
+
+        dists   = [e["distance"] for e in keep]
+        mean_px = float(np.mean(dists))
+        std_px  = float(np.std(dists, ddof=1)) if len(dists) > 1 else 0.0
+        cv      = std_px / mean_px if mean_px != 0 else np.nan
+        mean_ar = float(np.mean([e["combined_w"] / e["combined_h"] for e in keep]))
+
+        mean_norm_m = mean_norm_avg = None
+
+        if folio_m_widths.get(doc):
+            m_half = np.mean(folio_m_widths[doc]) / 2
+            if m_half > 0:
+                mean_norm_m = mean_px / m_half
+
+        if folio_lw.get(doc):
+            avg_lw = np.mean(folio_lw[doc])
+            if avg_lw > 0:
+                mean_norm_avg = mean_px / avg_lw
+
+        rows[doc] = {
+            f"mean_b_distance_m_{sfx}":           mean_norm_m,
+            f"mean_b_distance_avg_letter_{sfx}":  mean_norm_avg,
+            f"mean_b_distance_px_{sfx}":          mean_px,
+            f"mean_b_ar_{sfx}":                   mean_ar,
+            f"cv_b_distance_{sfx}":               cv,
+            f"count_{sfx}":                       len(keep),
+        }
+
+    metric_df = pd.DataFrame.from_dict(rows, orient="index").reset_index()
+    metric_df = metric_df.rename(columns={"index": "folder"})
+
+    return df.merge(metric_df, on="folder", how="left")
     if idx is None:
         idx = FolioIndex(config)
 
@@ -837,10 +982,20 @@ def compute_word_metrics(
     df: pd.DataFrame,
     config: StudyConfig,
     idx: Optional[FolioIndex] = None,
+    metadata_rows: Optional[list] = None,
 ) -> pd.DataFrame:
     """
     Add word-spacing metrics per folio to df.
     Re-reads JSON files.
+
+    Parameters
+    ----------
+    metadata_rows : list of dicts | None
+        The metadata_rows returned by build_and_crop_working_corpus.
+        When provided, word gaps are only counted when BOTH boundary bboxes
+        (last char of word 1, first char of word 2) survived the nomatch +
+        std filter (kept=True).
+        When None, only the nomatch filter is applied (original behaviour).
 
     New columns added (all three normalisations x mean/std/cv)
     ----------------------------------------------------------
@@ -852,7 +1007,14 @@ def compute_word_metrics(
     if idx is None:
         idx = FolioIndex(config)
 
-    def _word_distances(predictions):
+    # Build kept lookup: (json_file, cx_rounded) -> bool
+    kept_lookup: Dict[tuple, bool] = {}
+    if metadata_rows is not None:
+        for row in metadata_rows:
+            key = (row["json_file"], round(row["bbox_cx"], 1))
+            kept_lookup[key] = bool(row.get("kept", False))
+
+    def _word_distances(predictions, jf):
         lines: Dict[int, list] = defaultdict(list)
         for p in predictions:
             if "bbox" in p:
@@ -870,7 +1032,15 @@ def compute_word_metrics(
             if cur:
                 words.append(cur)
             for w1, w2 in zip(words, words[1:]):
-                last, first = w1[-1]["bbox"], w2[0]["bbox"]
+                last_char  = w1[-1]
+                first_char = w2[0]
+                # Require both boundary bboxes to be kept when lookup available
+                if kept_lookup:
+                    lk = (jf, round(last_char["bbox"]["cx"],  1))
+                    fk = (jf, round(first_char["bbox"]["cx"], 1))
+                    if not (kept_lookup.get(lk, False) and kept_lookup.get(fk, False)):
+                        continue
+                last, first = last_char["bbox"], first_char["bbox"]
                 d = (first["cx"] - first["w"]/2) - (last["cx"] + last["w"]/2)
                 if d > 0:
                     dists.append(d)
@@ -917,7 +1087,7 @@ def compute_word_metrics(
                     if char in VALID_AVG_WIDTH_CHARS:
                         all_lw.append(w)
 
-            all_distances.extend(_word_distances(valid_preds))
+            all_distances.extend(_word_distances(valid_preds, jf))
 
         if not all_distances:
             continue
