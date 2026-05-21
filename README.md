@@ -12,29 +12,27 @@ This repository contains the scripts, notebook, and data needed to reproduce the
  
 Open `metrological_analysis.ipynb` and run all cells. The notebook:
  
-1. Builds the working corpus from the DTLR output in `input/`, applying the filters described in §3.2 of the paper (line-type, zone, error-neighbour, 4 σ outlier).
-2. Computes every metric used in Figures 6–7: letter aspect ratios, bigram edge-to-edge distances, word distances.
-3. Renders the linear and crossed plots into `results/`
-
-For running the analysis code online, we provide a standalone Colab[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qqrAT2PDNlz-DvnFuEyUeYbUZT2frTKZ?usp=sharing) notebook.
+1. Builds the working corpus in `input/`, as described in §3.2 of the paper.
+2. Computes every metric explained in the paper: letter aspect ratios, bigram edge-to-edge distances, word distances.
+3. Renders the linear and crossed plots (Figures 6 and 7 in the paper) into `results/`
 
 ## Run it on your own data
  
-The analysis pipeline is intentionally modular: anything DTLR can produce, this code can analyse. Two steps:
+Two steps:
  
-**1. Generate DTLR outputs for your manuscript.** See the DTLR-for-paleography repository: [add url]. You will need:
+**1. Generate DTLR outputs for your manuscript.** See the DTLR-for-paleography repository: [add url]. You will obtain:
  
 - A folder of per-line prediction JSONs (one folder per document, one `.json` per line).
 - A `transcribe.json` mapping character indices to characters.
 - A folder of per-document character prototypes.
 
-More details on how to apply the analysis in `metrological_analysis.ipynb`.
+**2. Adapt the analysis to your metadata. More details in `metrological_analysis.ipynb`.
 
 
 ## Cite us
 
 ```bibtex
-@misc{vlachou2026metrology,
+@misc{vlachou_baena2026metrology,
     title = {Leveraging Morphology for Historical Script Metrological Analysis},
     author = {Vlachou-Efstathiou, Malamatenia and Baena, Raphael and Stutzmann, Dominique and Aubry, Mathieu},
     publisher = {Document Analysis and Recognition--ICDAR 2026 Vienna, Austria, August 30--September 4, 2026, Proceedings},
