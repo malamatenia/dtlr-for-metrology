@@ -10,7 +10,7 @@ This repository contains the scripts, notebook, and data needed to reproduce the
 
 ## Reproduce the paper
 
-Download the paper `dataset`, available on Zenodo [![DOI](https://zenodo.org/badge/[add_badge].svg)](https://doi.org/10.5281/zenodo.18745702).
+Download the paper `dataset`, available on Zenodo with [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18745702.svg)](https://doi.org/10.5281/zenodo.18745702).
 Open `metrological_analysis.ipynb`. The notebook:
  
 1. Builds the working corpus in `input/`, as described in §3.2 of the paper.
