@@ -1,6 +1,6 @@
 # <p align="center"> Leveraging Morphology for Historical Script Metrological Analysis (ICDAR 2026) <p/>
 
-# <p align="center"> 🔗 [Project Webpage](https://malamatenia.github.io/dtlr-for-metrology/) </p> <p align="center"> <sub> [Malamatenia Vlachou Efstathiou](https://malamatenia.github.io/), [Raphael Baena](https://raphael-baena.github.io/), [Dominique Stutzmann](https://www.irht.cnrs.fr/fr/annuaire/stutzmann-dominique), [Mathieu Aubry](https://mathieuaubry.github.io/)</sub> </p>
+# <p align="center"> 🔗 [Project Webpage](https://malamatenia.github.io/dtlr-for-metrology/) </p> <p align="center"> <sub> [Malamatenia Vlachou Efstathiou*](https://malamatenia.github.io/), [Raphael Baena*](https://raphael-baena.github.io/), [Dominique Stutzmann](https://www.irht.cnrs.fr/fr/annuaire/stutzmann-dominique), [Mathieu Aubry](https://mathieuaubry.github.io/)</sub> </p>
 
 ![measures_definition](./media/measures_definition.jpeg)
 
@@ -8,7 +8,10 @@
  
 This repository contains the scripts, notebook, and data needed to reproduce the metrological analysis of the paper. It also documents how to adapt the analysis to other datasets.
 
-## Reproduce the paper
+> **Note:** This repository performs the downstream metrological and paleographical analysis (and reproduces the visualizations reported in the paper). To do so, it uses the outputs from the **[learnable-DTLR]([https://github.com/malamatenia/dtlr-for-metrology](https://github.com/malamatenia/learnable-DTLR/tree/main))** architecture, which handles training and output generation.
+
+<details>
+<summary>Reproduce the paper </summary>
 
 Download the paper `dataset`, available on Zenodo with [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18745702.svg)](https://doi.org/10.5281/zenodo.18745702).
 Open `metrological_analysis.ipynb`. The notebook:
@@ -17,7 +20,10 @@ Open `metrological_analysis.ipynb`. The notebook:
 2. Computes every metric defined in the paper: letter aspect ratios, bigram edge-to-edge distances, word distances.
 3. Renders the linear and crossed plots (Figures 6 and 7 in the paper) into `results/`
 
-## Run it on your own data
+<details>
+ 
+<details>
+<summary>Run it on your data </summary>
  
 Two steps:
  
@@ -29,11 +35,12 @@ Two steps:
 
 **2. Adapt the analysis to your metadata. More details in `metrological_analysis.ipynb`.
 
+</detail>
 
 ## Cite us
 
 ```bibtex
-@misc{vlachou_baena2026metrology,
+@misc{vlachou2026metrology,
     title = {Leveraging Morphology for Historical Script Metrological Analysis},
     author = {Vlachou-Efstathiou, Malamatenia and Baena, Raphael and Stutzmann, Dominique and Aubry, Mathieu},
     publisher = {Document Analysis and Recognition--ICDAR 2026 Vienna, Austria, August 30--September 4, 2026, Proceedings},
