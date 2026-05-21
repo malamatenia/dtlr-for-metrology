@@ -1,4 +1,4 @@
-# <p align="center"> Leveraging Morphology for Historical Script Metrological Analysis (ICDAR 2026) [![DOI](https://zenodo.org/badge/[add_badge].svg)](https://doi.org/10.5281/zenodo.18745702) <p/>
+# <p align="center"> Leveraging Morphology for Historical Script Metrological Analysis (ICDAR 2026) <p/>
 
 # <p align="center"> 🔗 [Project Webpage](https://malamatenia.github.io/dtlr-for-metrology/) </p> <p align="center"> <sub> [Malamatenia Vlachou Efstathiou](https://malamatenia.github.io/), [Raphael Baena](https://raphael-baena.github.io/), [Dominique Stutzmann](https://www.irht.cnrs.fr/fr/annuaire/stutzmann-dominique), [Mathieu Aubry](https://mathieuaubry.github.io/)</sub> </p>
 
@@ -9,11 +9,12 @@
 This repository contains the scripts, notebook, and data needed to reproduce the metrological analysis of the paper. It also documents how to adapt the analysis to other datasets.
 
 ## Reproduce the paper
- 
-Open `metrological_analysis.ipynb` and run all cells. The notebook:
+
+Download the paper `dataset`, available on Zenodo [![DOI](https://zenodo.org/badge/[add_badge].svg)](https://doi.org/10.5281/zenodo.18745702).
+Open `metrological_analysis.ipynb`. The notebook:
  
 1. Builds the working corpus in `input/`, as described in §3.2 of the paper.
-2. Computes every metric explained in the paper: letter aspect ratios, bigram edge-to-edge distances, word distances.
+2. Computes every metric defined in the paper: letter aspect ratios, bigram edge-to-edge distances, word distances.
 3. Renders the linear and crossed plots (Figures 6 and 7 in the paper) into `results/`
 
 ## Run it on your own data
