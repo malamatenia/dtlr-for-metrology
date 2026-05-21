@@ -2,13 +2,21 @@
 # <p align="center"> 🔗 [Project Webpage](https://malamatenia.github.io/dtlr-for-metrology/) </p> <p align="center"> <sub> [Malamatenia Vlachou Efstathiou*](https://malamatenia.github.io/), [Raphael Baena*](https://raphael-baena.github.io/), [Dominique Stutzmann](https://www.irht.cnrs.fr/fr/annuaire/stutzmann-dominique), [Mathieu Aubry](https://mathieuaubry.github.io/)</sub> </p>
 ![measures_definition](./media/measures_definition.jpeg)
 ## Purpose
+ <br>
  
-This repository contains the scripts, notebook, and data needed to reproduce the metrological analysis of the paper. It also documents how to adapt the analysis to other datasets.
+This repository contains the scripts, notebook, and data needed to **reproduce the metrological analysis** of the paper. It also documents how to **adapt the analysis to other datasets**.
+
+<br>
+
 > **Note:** This repository performs the downstream metrological and paleographical analysis (and reproduces the visualizations reported in the paper). To do so, it uses the outputs from the **[learnable-DTLR](https://github.com/malamatenia/learnable-DTLR/tree/main)** architecture, which handles training and output generation.
 
+## Content
 <details>
 <summary>Reproduce the paper </summary>
-Download the paper `dataset`, available on Zenodo with [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18745702.svg)](https://doi.org/10.5281/zenodo.18745702).
+<br>
+ 
+> **Note:** First, you have to download the paper `dataset`, available on Zenodo with [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18745702.svg)](https://doi.org/10.5281/zenodo.18745702).
+<br>
 Open `metrological_analysis.ipynb`. The notebook:
  
 1. Builds the working corpus in `input/`, as described in §3.2 of the paper.
@@ -19,15 +27,20 @@ Open `metrological_analysis.ipynb`. The notebook:
 <details>
 <summary>Run it on your data </summary>
  
+ <br>
 Two steps:
+
+ <br>
  
 **1. Generate DTLR outputs for your manuscript.** See the DTLR-for-paleography repository: [add url]. You will obtain:
  
 - A folder of per-line prediction JSONs (one folder per document, one `.json` per line).
 - A `transcribe.json` mapping character indices to characters.
 - A folder of per-document character prototypes.
+<br>
 
-**2. Adapt the analysis to your metadata. More details in `metrological_analysis.ipynb`.
+**2. Adapt the analysis to your metadata**. More details in `metrological_analysis.ipynb`.
+
 </details>
 
 ## Cite us
