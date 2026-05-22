@@ -1,0 +1,672 @@
+{
+  "document": "btv1b84472995_f723",
+  "total_examples": 83,
+  "average_cer": 0.012428985955693268,
+  "total_cer": 1.0316058343225412,
+  "results": [
+    {
+      "example_idx": 0,
+      "cer": 0.0,
+      "predicted_text": "nicolas le quint. es quiex proces il es",
+      "ground_truth_text": "nicolas le quint. es quiex proces il es",
+      "num_predictions": 39,
+      "num_ground_truth": 39
+    },
+    {
+      "example_idx": 1,
+      "cer": 0.025,
+      "predicted_text": "toit contenu le dit pierre auor este ma",
+      "ground_truth_text": "toit contenu le dit pierre auoir este ma",
+      "num_predictions": 39,
+      "num_ground_truth": 40
+    },
+    {
+      "example_idx": 2,
+      "cer": 0.02631578947368421,
+      "predicted_text": "rie auant quil eust  este religieux. Et",
+      "ground_truth_text": "rie auant quil eust este religieux. Et",
+      "num_predictions": 39,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 3,
+      "cer": 0.04878048780487805,
+      "predicted_text": "de puis quil fu entre en relligion sa fe\u0303me",
+      "ground_truth_text": "de pus quil fu entre en religion sa f\u1ebdme",
+      "num_predictions": 43,
+      "num_ground_truth": 40
+    },
+    {
+      "example_idx": 4,
+      "cer": 0.0,
+      "predicted_text": "lauoit fait semondre par pluseurs foiz",
+      "ground_truth_text": "lauoit fait semondre par pluseurs foiz",
+      "num_predictions": 38,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 5,
+      "cer": 0.0,
+      "predicted_text": "et auoit a nom sa dite fe\u0303me Iehanne",
+      "ground_truth_text": "et auoit a nom sa dite f\u1ebdme Iehanne",
+      "num_predictions": 36,
+      "num_ground_truth": 35
+    },
+    {
+      "example_idx": 6,
+      "cer": 0.0,
+      "predicted_text": "mathie. le quel pierre en desobeissant as",
+      "ground_truth_text": "mathie. le quel pierre en desobeissant as",
+      "num_predictions": 41,
+      "num_ground_truth": 41
+    },
+    {
+      "example_idx": 7,
+      "cer": 0.0,
+      "predicted_text": "commandemens de sainte eglise ne",
+      "ground_truth_text": "commandemens de sainte eglise ne",
+      "num_predictions": 32,
+      "num_ground_truth": 32
+    },
+    {
+      "example_idx": 8,
+      "cer": 0.0,
+      "predicted_text": "uoult onques retourner auecques sa",
+      "ground_truth_text": "uoult onques retourner auecques sa",
+      "num_predictions": 34,
+      "num_ground_truth": 34
+    },
+    {
+      "example_idx": 9,
+      "cer": 0.023255813953488372,
+      "predicted_text": "dicte fe\u0303me. Et pour ceste cause le dit p\u0364\u0364",
+      "ground_truth_text": "dicte f\u1ebdme. Et pour ceste cause le dit pp\u0364",
+      "num_predictions": 43,
+      "num_ground_truth": 41
+    },
+    {
+      "example_idx": 10,
+      "cer": 0.02702702702702703,
+      "predicted_text": "co\u0303me contumaux lee denonca pour esco\u0303",
+      "ground_truth_text": "c\u00f5me contumaux le denonca pour esc\u00f5",
+      "num_predictions": 38,
+      "num_ground_truth": 35
+    },
+    {
+      "example_idx": 11,
+      "cer": 0.0,
+      "predicted_text": "mene par la uertu des diz proces faiz en",
+      "ground_truth_text": "mene par la uertu des diz proces faiz en",
+      "num_predictions": 40,
+      "num_ground_truth": 40
+    },
+    {
+      "example_idx": 12,
+      "cer": 0.0,
+      "predicted_text": "contre li ala requeste de sa dite fe\u0303me.",
+      "ground_truth_text": "contre li ala requeste de sa dite f\u1ebdme.",
+      "num_predictions": 40,
+      "num_ground_truth": 39
+    },
+    {
+      "example_idx": 13,
+      "cer": 0.05263157894736842,
+      "predicted_text": "\u00b6Item en ce temps ot le Roy dee france",
+      "ground_truth_text": "\u00b6 Item en ce temps ot le Roy de france",
+      "num_predictions": 38,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 14,
+      "cer": 0.02631578947368421,
+      "predicted_text": "deliberacion auecques son conseil  sa",
+      "ground_truth_text": "deliberacion auecques son conseil a sa",
+      "num_predictions": 37,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 15,
+      "cer": 0.0,
+      "predicted_text": "uoir mon se pour le deffant du Roy",
+      "ground_truth_text": "uoir mon se pour le deffant du Roy",
+      "num_predictions": 34,
+      "num_ground_truth": 34
+    },
+    {
+      "example_idx": 16,
+      "cer": 0.0,
+      "predicted_text": "dangleterre qui estoit son ho\u0303me de la",
+      "ground_truth_text": "dangleterre qui estoit son h\u00f5me de la",
+      "num_predictions": 38,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 17,
+      "cer": 0.0,
+      "predicted_text": "duche daquitaine et le quel estoit re",
+      "ground_truth_text": "duche daquitaine et le quel estoit re",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 18,
+      "cer": 0.0,
+      "predicted_text": "fusant de en faire ho\u0303mage au dit Roy de",
+      "ground_truth_text": "fusant de en faire h\u00f5mage au dit Roy de",
+      "num_predictions": 40,
+      "num_ground_truth": 39
+    },
+    {
+      "example_idx": 19,
+      "cer": 0.0,
+      "predicted_text": "france se le dit Roy de france la deuroit",
+      "ground_truth_text": "france se le dit Roy de france la deuroit",
+      "num_predictions": 41,
+      "num_ground_truth": 41
+    },
+    {
+      "example_idx": 20,
+      "cer": 0.0,
+      "predicted_text": "appliquier a sa seigneurie. Si li fu res",
+      "ground_truth_text": "appliquier a sa seigneurie. Si li fu res",
+      "num_predictions": 40,
+      "num_ground_truth": 40
+    },
+    {
+      "example_idx": 21,
+      "cer": 0.0,
+      "predicted_text": "pondu que nou. Mais seulement du",
+      "ground_truth_text": "pondu que nou. Mais seulement du",
+      "num_predictions": 32,
+      "num_ground_truth": 32
+    },
+    {
+      "example_idx": 22,
+      "cer": 0.0,
+      "predicted_text": "rant le temps que lo\u0303mage na pas este",
+      "ground_truth_text": "rant le temps que l\u00f5mage na pas este",
+      "num_predictions": 37,
+      "num_ground_truth": 36
+    },
+    {
+      "example_idx": 23,
+      "cer": 0.0,
+      "predicted_text": "fait. suppose que la citacion ait este fai",
+      "ground_truth_text": "fait. suppose que la citacion ait este fai",
+      "num_predictions": 42,
+      "num_ground_truth": 42
+    },
+    {
+      "example_idx": 24,
+      "cer": 0.02631578947368421,
+      "predicted_text": "te deuemment. le seigneur puet faire en",
+      "ground_truth_text": "te deuement. le seigneur puet faire en",
+      "num_predictions": 39,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 25,
+      "cer": 0.05263157894736842,
+      "predicted_text": "dementres les fruis de laterre d son",
+      "ground_truth_text": "dementres les fruis de la terre de son",
+      "num_predictions": 36,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 26,
+      "cer": 0.02564102564102564,
+      "predicted_text": "uassal siens iiusques a tant que son dit",
+      "ground_truth_text": "uassal siens iusques a tant que son dit",
+      "num_predictions": 40,
+      "num_ground_truth": 39
+    },
+    {
+      "example_idx": 27,
+      "cer": 0.02564102564102564,
+      "predicted_text": "uassal retourne a lo\u0303mage de son seign",
+      "ground_truth_text": "uassal retourne a l\u00f5mage de son seign\u1dd1",
+      "num_predictions": 38,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 28,
+      "cer": 0.0,
+      "predicted_text": "Et pour ceste cause furent enuoiez en",
+      "ground_truth_text": "Et pour ceste cause furent enuoiez en",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 29,
+      "cer": 0.05128205128205128,
+      "predicted_text": "gascoigne leuesque darraz et le seigne",
+      "ground_truth_text": "gascoigne leuesque dairaz et le seigne\u1dd1",
+      "num_predictions": 38,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 30,
+      "cer": 0.0,
+      "predicted_text": "de Craon afin quilz meissent tous les",
+      "ground_truth_text": "de Craon afin quilz meissent tous les",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 31,
+      "cer": 0.0,
+      "predicted_text": "emolumens et reuenues de la duche",
+      "ground_truth_text": "emolumens et reuenues de la duche",
+      "num_predictions": 33,
+      "num_ground_truth": 33
+    },
+    {
+      "example_idx": 32,
+      "cer": 0.0,
+      "predicted_text": "daquitaine en la main du Roy de fn\u0363ce",
+      "ground_truth_text": "daquitaine en la main du Roy de fn\u0363ce",
+      "num_predictions": 37,
+      "num_ground_truth": 36
+    },
+    {
+      "example_idx": 33,
+      "cer": 0.02702702702702703,
+      "predicted_text": "iusques a tant que le Roy dangleterre",
+      "ground_truth_text": "iusques a tant que le roy dangleterre",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 34,
+      "cer": 0.0,
+      "predicted_text": "li eust fait ho\u0303mage deu. \u00b6 Item dere",
+      "ground_truth_text": "li eust fait h\u00f5mage deu. \u00b6 Item dere",
+      "num_predictions": 37,
+      "num_ground_truth": 36
+    },
+    {
+      "example_idx": 35,
+      "cer": 0.0,
+      "predicted_text": "chief et dabondant le Roy de france en",
+      "ground_truth_text": "chief et dabondant le Roy de france en",
+      "num_predictions": 38,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 36,
+      "cer": 0.0,
+      "predicted_text": "uoia autres messages en angleterre",
+      "ground_truth_text": "uoia autres messages en angleterre",
+      "num_predictions": 34,
+      "num_ground_truth": 34
+    },
+    {
+      "example_idx": 37,
+      "cer": 0.0,
+      "predicted_text": "au dit Roy dangleterre afin quil fust",
+      "ground_truth_text": "au dit Roy dangleterre afin quil fust",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 38,
+      "cer": 0.05405405405405406,
+      "predicted_text": "cite une foiz pour toutes pourle  dit",
+      "ground_truth_text": "cite une foiz pour toutes pour le dit",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 39,
+      "cer": 0.0,
+      "predicted_text": "ho\u0303mage faire. Et par tele maniere que",
+      "ground_truth_text": "h\u00f5mage faire. Et par tele maniere que",
+      "num_predictions": 38,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 40,
+      "cer": 0.0,
+      "predicted_text": "sil estoit negligent de faire le dit ho\u0303ma",
+      "ground_truth_text": "sil estoit negligent de faire le dit h\u00f5ma",
+      "num_predictions": 42,
+      "num_ground_truth": 41
+    },
+    {
+      "example_idx": 41,
+      "cer": 0.0,
+      "predicted_text": "ge len procederoit contre lui par la for",
+      "ground_truth_text": "ge len procederoit contre lui par la for",
+      "num_predictions": 40,
+      "num_ground_truth": 40
+    },
+    {
+      "example_idx": 42,
+      "cer": 0.02702702702702703,
+      "predicted_text": "me et par la manere que droit le don",
+      "ground_truth_text": "me et par la maniere que droit le don",
+      "num_predictions": 36,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 43,
+      "cer": 0.0,
+      "predicted_text": "roit.\u00b6 Item en celui temps la Royne",
+      "ground_truth_text": "roit.\u00b6 Item en celui temps la Royne",
+      "num_predictions": 35,
+      "num_ground_truth": 35
+    },
+    {
+      "example_idx": 44,
+      "cer": 0.0,
+      "predicted_text": "de france enfanta .i. filz mais il mou",
+      "ground_truth_text": "de france enfanta .i. filz mais il mou",
+      "num_predictions": 38,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 45,
+      "cer": 0.0,
+      "predicted_text": "rut assez tost apres et fu enterre en le",
+      "ground_truth_text": "rut assez tost apres et fu enterre en le",
+      "num_predictions": 40,
+      "num_ground_truth": 40
+    },
+    {
+      "example_idx": 46,
+      "cer": 0.0,
+      "predicted_text": "glise des freres meneurs a paris \u00b6Co\u0303",
+      "ground_truth_text": "glise des freres meneurs a paris \u00b6C\u00f5",
+      "num_predictions": 37,
+      "num_ground_truth": 36
+    },
+    {
+      "example_idx": 47,
+      "cer": 0.02857142857142857,
+      "predicted_text": "ment lee Roy dangleterre se mist. en",
+      "ground_truth_text": "ment le Roy dangleterre se mist. en",
+      "num_predictions": 36,
+      "num_ground_truth": 35
+    },
+    {
+      "example_idx": 48,
+      "cer": 0.0,
+      "predicted_text": "mer pour uenir en la cite damiens ou",
+      "ground_truth_text": "mer pour uenir en la cite damiens ou",
+      "num_predictions": 36,
+      "num_ground_truth": 36
+    },
+    {
+      "example_idx": 49,
+      "cer": 0.027777777777777776,
+      "predicted_text": "le Roy dangleterre dessus dit deuoitt",
+      "ground_truth_text": "le Roy dangleterre dessus dit deuoit",
+      "num_predictions": 37,
+      "num_ground_truth": 36
+    },
+    {
+      "example_idx": 50,
+      "cer": 0.0,
+      "predicted_text": "faire ho\u0303mage au Roy de france de la",
+      "ground_truth_text": "faire h\u00f5mage au Roy de france de la",
+      "num_predictions": 36,
+      "num_ground_truth": 35
+    },
+    {
+      "example_idx": 51,
+      "cer": 0.05128205128205128,
+      "predicted_text": "duchie daqutaine et de la cont de po\u0303",
+      "ground_truth_text": "duchie daquitaine et de la conte de p\u00f5",
+      "num_predictions": 37,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 52,
+      "cer": 0.0,
+      "predicted_text": "tieu co\u0303me ho\u0303me du Roy de france.",
+      "ground_truth_text": "tieu c\u00f5me h\u00f5me du Roy de france.",
+      "num_predictions": 34,
+      "num_ground_truth": 32
+    },
+    {
+      "example_idx": 53,
+      "cer": 0.04,
+      "predicted_text": "An de grace Mill CCC.xxix.",
+      "ground_truth_text": "An de grace Mil CCC.xxix.",
+      "num_predictions": 26,
+      "num_ground_truth": 25
+    },
+    {
+      "example_idx": 54,
+      "cer": 0.0,
+      "predicted_text": "le Roy dangleterre entra",
+      "ground_truth_text": "le Roy dangleterre entra",
+      "num_predictions": 24,
+      "num_ground_truth": 24
+    },
+    {
+      "example_idx": 55,
+      "cer": 0.0,
+      "predicted_text": "en mer le dymenche apres",
+      "ground_truth_text": "en mer le dymenche apres",
+      "num_predictions": 24,
+      "num_ground_truth": 24
+    },
+    {
+      "example_idx": 56,
+      "cer": 0.0,
+      "predicted_text": "la trinite et passa a Bou",
+      "ground_truth_text": "la trinite et passa a Bou",
+      "num_predictions": 25,
+      "num_ground_truth": 25
+    },
+    {
+      "example_idx": 57,
+      "cer": 0.043478260869565216,
+      "predicted_text": "loigne. Quant le Roy de",
+      "ground_truth_text": "loigne. Quant le roy de",
+      "num_predictions": 23,
+      "num_ground_truth": 23
+    },
+    {
+      "example_idx": 58,
+      "cer": 0.02702702702702703,
+      "predicted_text": "frence sot la uenue du dit Roy dangle",
+      "ground_truth_text": "france sot la uenue du dit Roy dangle",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 59,
+      "cer": 0.04878048780487805,
+      "predicted_text": "terre si unt agrant foison d ses baro\u0303s",
+      "ground_truth_text": "terre si uint agrant foison de ses bar\u00f5s",
+      "num_predictions": 39,
+      "num_ground_truth": 40
+    },
+    {
+      "example_idx": 60,
+      "cer": 0.02857142857142857,
+      "predicted_text": "prelas et autres aa Amiens et enuoia",
+      "ground_truth_text": "prelas et autres a Amiens et enuoia",
+      "num_predictions": 36,
+      "num_ground_truth": 35
+    },
+    {
+      "example_idx": 61,
+      "cer": 0.02702702702702703,
+      "predicted_text": "alencontre du dit Roy dangleterre des",
+      "ground_truth_text": "alencontre du dit roy dangleterre des",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 62,
+      "cer": 0.0,
+      "predicted_text": "plus grans de son lignage qui moult",
+      "ground_truth_text": "plus grans de son lignage qui moult",
+      "num_predictions": 35,
+      "num_ground_truth": 35
+    },
+    {
+      "example_idx": 63,
+      "cer": 0.0,
+      "predicted_text": "noblement et honnorablement lad",
+      "ground_truth_text": "noblement et honnorablement lad",
+      "num_predictions": 31,
+      "num_ground_truth": 31
+    },
+    {
+      "example_idx": 64,
+      "cer": 0.05263157894736842,
+      "predicted_text": "menerent en la cite daniens en la  q\u0303le",
+      "ground_truth_text": "menerent en la cite damiens en la q\u0303le",
+      "num_predictions": 39,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 65,
+      "cer": 0.02702702702702703,
+      "predicted_text": "le Roy de france actendoit le dit RRoy",
+      "ground_truth_text": "le Roy de france actendoit le dit Roy",
+      "num_predictions": 38,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 66,
+      "cer": 0.0,
+      "predicted_text": "dangleterre qui li uenoit faire ho\u0303ma",
+      "ground_truth_text": "dangleterre qui li uenoit faire h\u00f5ma",
+      "num_predictions": 37,
+      "num_ground_truth": 36
+    },
+    {
+      "example_idx": 67,
+      "cer": 0.02702702702702703,
+      "predicted_text": "de la duchie daquitaiine \u204a de pontieu.",
+      "ground_truth_text": "de la duchie daquitaine \u204a de pontieu.",
+      "num_predictions": 38,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 68,
+      "cer": 0.0,
+      "predicted_text": "si co\u0303me dessus est. dit.\u00b6 Quant les",
+      "ground_truth_text": "si c\u00f5me dessus est. dit.\u00b6 Quant les",
+      "num_predictions": 36,
+      "num_ground_truth": 35
+    },
+    {
+      "example_idx": 69,
+      "cer": 0.02857142857142857,
+      "predicted_text": "deux Roy sentreuient si firent m\u0142t",
+      "ground_truth_text": "deux Roy sentreuirent si firent m\u0142t",
+      "num_predictions": 34,
+      "num_ground_truth": 35
+    },
+    {
+      "example_idx": 70,
+      "cer": 0.0,
+      "predicted_text": "grant feste lun alautre. Et apres ce",
+      "ground_truth_text": "grant feste lun alautre. Et apres ce",
+      "num_predictions": 36,
+      "num_ground_truth": 36
+    },
+    {
+      "example_idx": 71,
+      "cer": 0.02857142857142857,
+      "predicted_text": "co\u0303mencierent aparler euls et leur",
+      "ground_truth_text": "c\u00f5mencierent a parler euls et leur",
+      "num_predictions": 34,
+      "num_ground_truth": 34
+    },
+    {
+      "example_idx": 72,
+      "cer": 0.02631578947368421,
+      "predicted_text": "couseil de moult dee choses et par espe",
+      "ground_truth_text": "couseil de moult de choses et par espe",
+      "num_predictions": 39,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 73,
+      "cer": 0.0,
+      "predicted_text": "cial sur la matiere pour quoy ilz estoi",
+      "ground_truth_text": "cial sur la matiere pour quoy ilz estoi",
+      "num_predictions": 39,
+      "num_ground_truth": 39
+    },
+    {
+      "example_idx": 74,
+      "cer": 0.0,
+      "predicted_text": "ent assemblez. Et li fist requerir le",
+      "ground_truth_text": "ent assemblez. Et li fist requerir le",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 75,
+      "cer": 0.0,
+      "predicted_text": "Roy de france quil feist son deuoir \ua751",
+      "ground_truth_text": "Roy de france quil feist son deuoir \ua751",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 76,
+      "cer": 0.0,
+      "predicted_text": "deuers luy de la dite duchie daquitaine",
+      "ground_truth_text": "deuers luy de la dite duchie daquitaine",
+      "num_predictions": 39,
+      "num_ground_truth": 39
+    },
+    {
+      "example_idx": 77,
+      "cer": 0.0,
+      "predicted_text": "et de la conte de pontieu. Lors fu respo\u0303",
+      "ground_truth_text": "et de la conte de pontieu. Lors fu resp\u00f5",
+      "num_predictions": 41,
+      "num_ground_truth": 40
+    },
+    {
+      "example_idx": 78,
+      "cer": 0.0,
+      "predicted_text": "du depar le Roy dangleterre et en sa pre",
+      "ground_truth_text": "du depar le Roy dangleterre et en sa pre",
+      "num_predictions": 40,
+      "num_ground_truth": 40
+    },
+    {
+      "example_idx": 79,
+      "cer": 0.0,
+      "predicted_text": "sence et fu dit que messire Charles de",
+      "ground_truth_text": "sence et fu dit que messire Charles de",
+      "num_predictions": 38,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 80,
+      "cer": 0.0,
+      "predicted_text": "ualois pere du dit Roy phelippe auoit",
+      "ground_truth_text": "ualois pere du dit Roy phelippe auoit",
+      "num_predictions": 37,
+      "num_ground_truth": 37
+    },
+    {
+      "example_idx": 81,
+      "cer": 0.0,
+      "predicted_text": "despoillie le Roy dangleterre en grant",
+      "ground_truth_text": "despoillie le Roy dangleterre en grant",
+      "num_predictions": 38,
+      "num_ground_truth": 38
+    },
+    {
+      "example_idx": 82,
+      "cer": 0.0,
+      "predicted_text": "preiudice de li et de son Royaume dune",
+      "ground_truth_text": "preiudice de li et de son Royaume dune",
+      "num_predictions": 38,
+      "num_ground_truth": 38
+    }
+  ]
+}

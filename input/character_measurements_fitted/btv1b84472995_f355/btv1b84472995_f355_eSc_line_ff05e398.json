@@ -1,0 +1,194 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 32.80630655729039,
+        "cy": 48.52611522674561,
+        "w": 18.652097513824984,
+        "h": 46.65716228485108
+      },
+      "confidence": 0.996222198009491,
+      "query_idx": 2,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 55.33851454968244,
+        "cy": 52.820485496521,
+        "w": 27.770518411495196,
+        "h": 36.645243358612056
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 6,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 73.45435514214822,
+        "cy": 43.018223476409915,
+        "w": 14.147326489327302,
+        "h": 18.192370605468753
+      },
+      "confidence": 0.9962167739868164,
+      "query_idx": 8,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 39,
+      "character": "n",
+      "bbox": {
+        "cx": 95.55773404608189,
+        "cy": 53.4870754301548,
+        "w": 41.14010715665583,
+        "h": 37.03932133913042
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 10,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 129.52274364493152,
+        "cy": 51.24114519953728,
+        "w": 30.043439436833523,
+        "h": 39.0324912428856
+      },
+      "confidence": 0.9962227940559387,
+      "query_idx": 14,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 28,
+      "character": "b",
+      "bbox": {
+        "cx": 160.57662978917267,
+        "cy": 45.68183823823929,
+        "w": 29.019634692598032,
+        "h": 46.47740213871002
+      },
+      "confidence": 0.9962227940559387,
+      "query_idx": 20,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 188.38427792162477,
+        "cy": 43.83296699523926,
+        "w": 18.825087176328395,
+        "h": 46.10529112815857
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 30,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 208.61382285014952,
+        "cy": 48.907188034057626,
+        "w": 26.052168120469247,
+        "h": 38.03663005828859
+      },
+      "confidence": 0.9962226748466492,
+      "query_idx": 32,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 229.04912716252076,
+        "cy": 44.10123252868652,
+        "w": 17.718086691463697,
+        "h": 21.27028913497925
+      },
+      "confidence": 0.9962227940559387,
+      "query_idx": 50,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 20,
+      "character": "R",
+      "bbox": {
+        "cx": 261.8788321276091,
+        "cy": 39.49829149246216,
+        "w": 54.26769961623132,
+        "h": 42.51737051010132
+      },
+      "confidence": 0.9962198138237,
+      "query_idx": 98,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 293.8217291641959,
+        "cy": 44.08198738396168,
+        "w": 34.33791571369204,
+        "h": 36.86067629456521
+      },
+      "confidence": 0.9962226748466492,
+      "query_idx": 166,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 49,
+      "character": "y",
+      "bbox": {
+        "cx": 324.8871982292161,
+        "cy": 49.33159160614014,
+        "w": 32.92122010261778,
+        "h": 49.83471050262452
+      },
+      "confidence": 0.9962164163589478,
+      "query_idx": 190,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 348.20638962805384,
+        "cy": 43.40255355834961,
+        "w": 13.781517188055918,
+        "h": 18.95564789772034
+      },
+      "confidence": 0.9962217211723328,
+      "query_idx": 196,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "l",
+    "e",
+    " ",
+    "n",
+    "o",
+    "b",
+    "l",
+    "e",
+    " ",
+    "R",
+    "o",
+    "y",
+    "."
+  ],
+  "predicted_text": "le noble Roy.",
+  "ground_truth_text": "le noble Roy.",
+  "cer": 0.0,
+  "num_predictions": 13,
+  "num_ground_truth": 13,
+  "path": "/home/rbaena/datasets/btv1b84472995/images/btv1b84472995_f355/btv1b84472995_f355_eSc_line_ff05e398.png"
+}

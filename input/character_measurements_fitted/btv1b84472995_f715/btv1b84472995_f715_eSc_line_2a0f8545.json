@@ -1,0 +1,180 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 30,
+      "character": "d",
+      "bbox": {
+        "cx": 34.61784522102765,
+        "cy": 45.256115196810825,
+        "w": 26.442581912609917,
+        "h": 57.04862781895531
+      },
+      "confidence": 0.9962223172187805,
+      "query_idx": 46,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 57.69741559902411,
+        "cy": 45.916754659016924,
+        "w": 26.3889313193516,
+        "h": 42.05941607157389
+      },
+      "confidence": 0.9960734248161316,
+      "query_idx": 48,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 0,
+      "character": " ",
+      "bbox": {
+        "cx": 77.19664195195543,
+        "cy": 48.51290092468262,
+        "w": 17.18018721535568,
+        "h": 16.371919377644858
+      },
+      "confidence": 0.9962224364280701,
+      "query_idx": 52,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 28,
+      "character": "b",
+      "bbox": {
+        "cx": 101.4771784675059,
+        "cy": 43.99539996120665,
+        "w": 29.270034747598032,
+        "h": 54.14387278821734
+      },
+      "confidence": 0.9962219595909119,
+      "query_idx": 74,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 133.6448572707634,
+        "cy": 50.28643528752857,
+        "w": 36.69372516069528,
+        "h": 42.90468514495426
+      },
+      "confidence": 0.9962214827537537,
+      "query_idx": 116,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 154.42122901141332,
+        "cy": 48.786176109313956,
+        "w": 26.43113477005386,
+        "h": 44.53967336018879
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 118,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 45,
+      "character": "t",
+      "bbox": {
+        "cx": 180.36278579091527,
+        "cy": 48.82363986968994,
+        "w": 31.175328516627275,
+        "h": 44.91128838857014
+      },
+      "confidence": 0.9962227940559387,
+      "query_idx": 126,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 27,
+      "character": "a",
+      "bbox": {
+        "cx": 208.41758690829053,
+        "cy": 49.522516602277754,
+        "w": 39.39977744237291,
+        "h": 44.470204039414725
+      },
+      "confidence": 0.9962227940559387,
+      "query_idx": 134,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 35,
+      "character": "i",
+      "bbox": {
+        "cx": 235.13078203469672,
+        "cy": 52.98076267242431,
+        "w": 18.120677330107014,
+        "h": 37.664583047231034
+      },
+      "confidence": 0.9962225556373596,
+      "query_idx": 138,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 33,
+      "character": "g",
+      "bbox": {
+        "cx": 267.71327914825497,
+        "cy": 61.08833084106445,
+        "w": 40.51030283157323,
+        "h": 56.30299758911132
+      },
+      "confidence": 0.9962217807769775,
+      "query_idx": 158,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 39,
+      "character": "n",
+      "bbox": {
+        "cx": 300.55194810797406,
+        "cy": 57.851091395484076,
+        "w": 45.311969966788524,
+        "h": 39.824973572625055
+      },
+      "confidence": 0.9962228536605835,
+      "query_idx": 168,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 330.2824166849334,
+        "cy": 57.03776308695475,
+        "w": 17.478777402046433,
+        "h": 42.298442141215006
+      },
+      "confidence": 0.6271633505821228,
+      "query_idx": 186,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "d",
+    "e",
+    " ",
+    "b",
+    "r",
+    "e",
+    "t",
+    "a",
+    "i",
+    "g",
+    "n",
+    "e"
+  ],
+  "predicted_text": "de bretaigne",
+  "ground_truth_text": "de bretaigne",
+  "cer": 0.0,
+  "num_predictions": 12,
+  "num_ground_truth": 12,
+  "path": "/home/rbaena/datasets/btv1b84472995/images/btv1b84472995_f715/btv1b84472995_f715_eSc_line_2a0f8545.png"
+}

@@ -1,31 +1,31 @@
 {
   "document": "btv1b84472995_f841",
   "total_examples": 82,
-  "average_cer": 0.0046040079855290544,
-  "total_cer": 0.37752865481338244,
+  "average_cer": 0.012986528845813508,
+  "total_cer": 1.0648953653567077,
   "results": [
     {
       "example_idx": 0,
-      "cer": 0.0,
-      "predicted_text": "estoient assemblez a Cilli en Mencien",
+      "cer": 0.02702702702702703,
+      "predicted_text": "estoient assemblez a Cilli en Meucien",
       "ground_truth_text": "estoient assemblez a Cilli en Mencien",
       "num_predictions": 37,
       "num_ground_truth": 37
     },
     {
       "example_idx": 1,
-      "cer": 0.0,
-      "predicted_text": "des quiex estoit Capitain un appelle Iehan",
+      "cer": 0.023809523809523808,
+      "predicted_text": "des quiex estoit Capitain un appelle Iehau",
       "ground_truth_text": "des quiex estoit Capitain un appelle Iehan",
       "num_predictions": 42,
       "num_ground_truth": 42
     },
     {
       "example_idx": 2,
-      "cer": 0.0,
-      "predicted_text": "uaillant preuost des mouuoies du Roy",
+      "cer": 0.027777777777777776,
+      "predicted_text": "uaillant preuost des mouoies du Roy",
       "ground_truth_text": "uaillant preuost des mouuoies du Roy",
-      "num_predictions": 36,
+      "num_predictions": 35,
       "num_ground_truth": 36
     },
     {
@@ -54,18 +54,18 @@
     },
     {
       "example_idx": 6,
-      "cer": 0.046511627906976744,
-      "predicted_text": "Iure au dit regent ue iz li seroie\u0303t bons",
-      "ground_truth_text": "Iure au dit regent que ilz li seroi\u1ebdt bons",
-      "num_predictions": 41,
+      "cer": 0.023255813953488372,
+      "predicted_text": "Iure au dit regent que ilz li sseroiẽt bons",
+      "ground_truth_text": "Iure au dit regent que ilz li seroiẽt bons",
+      "num_predictions": 44,
       "num_ground_truth": 42
     },
     {
       "example_idx": 7,
-      "cer": 0.0,
-      "predicted_text": "et loiaux et ne souffreroient aucune chose",
+      "cer": 0.023809523809523808,
+      "predicted_text": "et loiaux et ne souffreroent aucune chose",
       "ground_truth_text": "et loiaux et ne souffreroient aucune chose",
-      "num_predictions": 42,
+      "num_predictions": 41,
       "num_ground_truth": 42
     },
     {
@@ -86,25 +86,25 @@
     },
     {
       "example_idx": 10,
-      "cer": 0.0,
-      "predicted_text": "de la dicte cite aus diz de paris \u204a de Cilly",
-      "ground_truth_text": "de la dicte cite aus diz de paris \u204a de Cilly",
-      "num_predictions": 44,
+      "cer": 0.045454545454545456,
+      "predicted_text": "de la dicte cite aus diz de paris ⁊ dee C illy",
+      "ground_truth_text": "de la dicte cite aus diz de paris ⁊ de Cilly",
+      "num_predictions": 46,
       "num_ground_truth": 44
     },
     {
       "example_idx": 11,
-      "cer": 0.0,
-      "predicted_text": "et firent mectre par les Rues les tables",
+      "cer": 0.025,
+      "predicted_text": "et firent mectrre par les Rues les tables",
       "ground_truth_text": "et firent mectre par les Rues les tables",
-      "num_predictions": 40,
+      "num_predictions": 41,
       "num_ground_truth": 40
     },
     {
       "example_idx": 12,
       "cer": 0.0,
-      "predicted_text": "et les nappes et le pain le uin \u204a la uiande",
-      "ground_truth_text": "et les nappes et le pain le uin \u204a la uiande",
+      "predicted_text": "et les nappes et le pain le uin ⁊ la uiande",
+      "ground_truth_text": "et les nappes et le pain le uin ⁊ la uiande",
       "num_predictions": 43,
       "num_ground_truth": 43
     },
@@ -134,10 +134,10 @@
     },
     {
       "example_idx": 16,
-      "cer": 0.0,
-      "predicted_text": "Marchie de la dicte uille de Meaulx ou q\u0303l",
-      "ground_truth_text": "Marchie de la dicte uille de Meaulx ou q\u0303l",
-      "num_predictions": 42,
+      "cer": 0.023809523809523808,
+      "predicted_text": "Marchie de la dicte uille d Meaulx ou q̃l",
+      "ground_truth_text": "Marchie de la dicte uille de Meaulx ou q̃l",
+      "num_predictions": 41,
       "num_ground_truth": 41
     },
     {
@@ -150,18 +150,18 @@
     },
     {
       "example_idx": 18,
-      "cer": 0.02631578947368421,
-      "predicted_text": "et la suer du dit Regent appellee mada",
+      "cer": 0.05263157894736842,
+      "predicted_text": "et la suer du  dit Regent appellee mada",
       "ground_truth_text": "et la suer du dit regent appellee mada",
-      "num_predictions": 38,
+      "num_predictions": 39,
       "num_ground_truth": 38
     },
     {
       "example_idx": 19,
-      "cer": 0.024390243902439025,
-      "predicted_text": "me y sabel de france qui puis fu fe\u0303me  du",
-      "ground_truth_text": "me y sabel de france qui puis fu f\u1ebdme du",
-      "num_predictions": 42,
+      "cer": 0.0,
+      "predicted_text": "me y sabel de france qui puis fu fẽme du",
+      "ground_truth_text": "me y sabel de france qui puis fu fẽme du",
+      "num_predictions": 41,
       "num_ground_truth": 40
     },
     {
@@ -183,24 +183,24 @@
     {
       "example_idx": 22,
       "cer": 0.0,
-      "predicted_text": "a son mariage. Et auecques eulz estoie\u0303t",
-      "ground_truth_text": "a son mariage. Et auecques eulz estoi\u1ebdt",
+      "predicted_text": "a son mariage. Et auecques eulz estoiẽt",
+      "ground_truth_text": "a son mariage. Et auecques eulz estoiẽt",
       "num_predictions": 40,
       "num_ground_truth": 39
     },
     {
       "example_idx": 23,
       "cer": 0.0,
-      "predicted_text": "le Conte de foez le seigneur de hangest \u204a",
-      "ground_truth_text": "le Conte de foez le seigneur de hangest \u204a",
+      "predicted_text": "le Conte de foez le seigneur de hangest ⁊",
+      "ground_truth_text": "le Conte de foez le seigneur de hangest ⁊",
       "num_predictions": 41,
       "num_ground_truth": 41
     },
     {
       "example_idx": 24,
       "cer": 0.0,
-      "predicted_text": "pluseurs autres gentilz ho\u0303mes que le dit",
-      "ground_truth_text": "pluseurs autres gentilz h\u00f5mes que le dit",
+      "predicted_text": "pluseurs autres gentilz hõmes que le dit",
+      "ground_truth_text": "pluseurs autres gentilz hõmes que le dit",
       "num_predictions": 41,
       "num_ground_truth": 40
     },
@@ -215,17 +215,17 @@
     {
       "example_idx": 26,
       "cer": 0.0,
-      "predicted_text": "dicte duchesse sa fe\u0303me sa fille sa suer et",
-      "ground_truth_text": "dicte duchesse sa f\u1ebdme sa fille sa suer et",
+      "predicted_text": "dicte duchesse sa fẽme sa fille sa suer et",
+      "ground_truth_text": "dicte duchesse sa fẽme sa fille sa suer et",
       "num_predictions": 43,
       "num_ground_truth": 42
     },
     {
       "example_idx": 27,
-      "cer": 0.0,
-      "predicted_text": "le dit Marchie. Si issirent du dit Mar",
+      "cer": 0.02631578947368421,
+      "predicted_text": "le dit Marchie. Sii issirent du dit Mar",
       "ground_truth_text": "le dit Marchie. Si issirent du dit Mar",
-      "num_predictions": 38,
+      "num_predictions": 39,
       "num_ground_truth": 38
     },
     {
@@ -238,17 +238,17 @@
     },
     {
       "example_idx": 29,
-      "cer": 0.0,
-      "predicted_text": "gest et aucuns autres iusques au nom",
+      "cer": 0.027777777777777776,
+      "predicted_text": "gest et aucuuns autres iusques au nom",
       "ground_truth_text": "gest et aucuns autres iusques au nom",
-      "num_predictions": 36,
+      "num_predictions": 37,
       "num_ground_truth": 36
     },
     {
       "example_idx": 30,
       "cer": 0.0,
-      "predicted_text": "bre de .xxu. ho\u0303mes darmes ou enuiron",
-      "ground_truth_text": "bre de .xxu. h\u00f5mes darmes ou enuiron",
+      "predicted_text": "bre de .xxu. hõmes darmes ou enuiron",
+      "ground_truth_text": "bre de .xxu. hõmes darmes ou enuiron",
       "num_predictions": 37,
       "num_ground_truth": 36
     },
@@ -270,58 +270,58 @@
     },
     {
       "example_idx": 33,
-      "cer": 0.0,
-      "predicted_text": "a euls. Et la fu tue un cheualier du dit",
+      "cer": 0.025,
+      "predicted_text": "a euls. Et la fu tue un cheualier du dt",
       "ground_truth_text": "a euls. Et la fu tue un cheualier du dit",
-      "num_predictions": 40,
+      "num_predictions": 39,
       "num_ground_truth": 40
     },
     {
       "example_idx": 34,
-      "cer": 0.027777777777777776,
-      "predicted_text": "MMarchie appelle mon\u1e9c loys de cha\u0303bly",
-      "ground_truth_text": "Marchie appelle mon\u1e9c loys de ch\u00e3bly",
-      "num_predictions": 37,
+      "cer": 0.0,
+      "predicted_text": "Marchie appelle monẜ loys de chãbly",
+      "ground_truth_text": "Marchie appelle monẜ loys de chãbly",
+      "num_predictions": 36,
       "num_ground_truth": 35
     },
     {
       "example_idx": 35,
-      "cer": 0.0,
-      "predicted_text": "dun uireton pres de lueil Finablement",
+      "cer": 0.02702702702702703,
+      "predicted_text": "dun uireton pres de lueil Fnablement",
       "ground_truth_text": "dun uireton pres de lueil Finablement",
-      "num_predictions": 37,
+      "num_predictions": 36,
       "num_ground_truth": 37
     },
     {
       "example_idx": 36,
-      "cer": 0.0,
-      "predicted_text": "ceuls du dit marchie orent uictoire et",
+      "cer": 0.05263157894736842,
+      "predicted_text": "ceuls du di marche orent uictoire et",
       "ground_truth_text": "ceuls du dit marchie orent uictoire et",
-      "num_predictions": 38,
+      "num_predictions": 36,
       "num_ground_truth": 38
     },
     {
       "example_idx": 37,
-      "cer": 0.0,
-      "predicted_text": "furent ceuls de paris de Cilly et pluseur\u1de4",
-      "ground_truth_text": "furent ceuls de paris de Cilly et pluseur\u1de4",
-      "num_predictions": 42,
+      "cer": 0.023809523809523808,
+      "predicted_text": "furent ceuls de paris de Cilly et pluseur",
+      "ground_truth_text": "furent ceuls de paris de Cilly et pluseurᷤ",
+      "num_predictions": 41,
       "num_ground_truth": 41
     },
     {
       "example_idx": 38,
-      "cer": 0.0,
-      "predicted_text": "de la dicte cite de Meaulx qui sestoient",
+      "cer": 0.025,
+      "predicted_text": "de la dicte cite d Meaulx qui sestoient",
       "ground_truth_text": "de la dicte cite de Meaulx qui sestoient",
-      "num_predictions": 40,
+      "num_predictions": 39,
       "num_ground_truth": 40
     },
     {
       "example_idx": 39,
-      "cer": 0.0,
-      "predicted_text": "mis auecques euls desconfis. Et pource",
+      "cer": 0.02631578947368421,
+      "predicted_text": "mis auecques euls desconfis. Et poure",
       "ground_truth_text": "mis auecques euls desconfis. Et pource",
-      "num_predictions": 38,
+      "num_predictions": 37,
       "num_ground_truth": 38
     },
     {
@@ -334,10 +334,10 @@
     },
     {
       "example_idx": 41,
-      "cer": 0.0,
-      "predicted_text": "en la dicte cite et ardirent aucunes mai",
+      "cer": 0.025,
+      "predicted_text": "en la dicte cite et arrdirent aucunes mai",
       "ground_truth_text": "en la dicte cite et ardirent aucunes mai",
-      "num_predictions": 40,
+      "num_predictions": 41,
       "num_ground_truth": 40
     },
     {
@@ -367,8 +367,8 @@
     {
       "example_idx": 45,
       "cer": 0.0,
-      "predicted_text": "Et pour ce ceuls du dit marchie pilliere\u0303t",
-      "ground_truth_text": "Et pour ce ceuls du dit marchie pillier\u1ebdt",
+      "predicted_text": "Et pour ce ceuls du dit marchie pillierẽt",
+      "ground_truth_text": "Et pour ce ceuls du dit marchie pillierẽt",
       "num_predictions": 42,
       "num_ground_truth": 41
     },
@@ -390,10 +390,10 @@
     },
     {
       "example_idx": 48,
-      "cer": 0.0,
-      "predicted_text": "aucunes maisons des chanoines. Mes",
+      "cer": 0.029411764705882353,
+      "predicted_text": "aucues maisons des chanoines. Mes",
       "ground_truth_text": "aucunes maisons des chanoines. Mes",
-      "num_predictions": 34,
+      "num_predictions": 33,
       "num_ground_truth": 34
     },
     {
@@ -407,7 +407,7 @@
     {
       "example_idx": 50,
       "cer": 0.02564102564102564,
-      "predicted_text": "chastel qui estoit au Roy ars et dura le",
+      "predicted_text": "hastel qui estoit au Roy ars et dura lle",
       "ground_truth_text": "hastel qui estoit au Roy ars et dura le",
       "num_predictions": 40,
       "num_ground_truth": 39
@@ -415,8 +415,8 @@
     {
       "example_idx": 51,
       "cer": 0.0,
-      "predicted_text": "feu tant en la dite cite co\u0303me ou dit chastel",
-      "ground_truth_text": "feu tant en la dite cite c\u00f5me ou dit chastel",
+      "predicted_text": "feu tant en la dite cite cõme ou dit chastel",
+      "ground_truth_text": "feu tant en la dite cite cõme ou dit chastel",
       "num_predictions": 45,
       "num_ground_truth": 44
     },
@@ -438,18 +438,18 @@
     },
     {
       "example_idx": 54,
-      "cer": 0.0,
-      "predicted_text": "la dicte uille de meaulx et pluseurs autres",
+      "cer": 0.023255813953488372,
+      "predicted_text": "la dicte uill de meaulx et pluseurs autres",
       "ground_truth_text": "la dicte uille de meaulx et pluseurs autres",
-      "num_predictions": 43,
+      "num_predictions": 42,
       "num_ground_truth": 43
     },
     {
       "example_idx": 55,
       "cer": 0.023809523809523808,
-      "predicted_text": "ho\u0303mes et fe\u0303mes et les tindrent prison\u033es",
-      "ground_truth_text": "h\u00f5mes et f\u1ebdmes. et les tindrent prison\u033es",
-      "num_predictions": 41,
+      "predicted_text": "hõmes et fẽmes. et les tinidrent prison̾s",
+      "ground_truth_text": "hõmes et fẽmes. et les tindrent prison̾s",
+      "num_predictions": 43,
       "num_ground_truth": 39
     },
     {
@@ -463,24 +463,24 @@
     {
       "example_idx": 57,
       "cer": 0.0,
-      "predicted_text": "le dit maire si co\u0303me drois estoit. De la",
-      "ground_truth_text": "le dit maire si c\u00f5me drois estoit. De la",
+      "predicted_text": "le dit maire si cõme drois estoit. De la",
+      "ground_truth_text": "le dit maire si cõme drois estoit. De la",
       "num_predictions": 41,
       "num_ground_truth": 40
     },
     {
       "example_idx": 58,
-      "cer": 0.024390243902439025,
-      "predicted_text": "mort de Guil\u0142e Cale par le Roy de nauarrre",
-      "ground_truth_text": "mort de Guil\u0142e Cale par le Roy de nauarre",
-      "num_predictions": 42,
+      "cer": 0.04878048780487805,
+      "predicted_text": "mort de Guilłe Cale par lee Roy e nauarre",
+      "ground_truth_text": "mort de Guilłe Cale par le Roy de nauarre",
+      "num_predictions": 41,
       "num_ground_truth": 41
     },
     {
       "example_idx": 59,
       "cer": 0.0,
-      "predicted_text": "et co\u0303ment le dit Roy ala de Biauuoisin",
-      "ground_truth_text": "et c\u00f5ment le dit Roy ala de Biauuoisin",
+      "predicted_text": "et cõment le dit Roy ala de Biauuoisin",
+      "ground_truth_text": "et cõment le dit Roy ala de Biauuoisin",
       "num_predictions": 39,
       "num_ground_truth": 38
     },
@@ -495,9 +495,9 @@
     {
       "example_idx": 61,
       "cer": 0.043478260869565216,
-      "predicted_text": "N celui temps  marchans:",
+      "predicted_text": "N celui temps marchans.",
       "ground_truth_text": "N celui temps marchans:",
-      "num_predictions": 24,
+      "num_predictions": 23,
       "num_ground_truth": 23
     },
     {
@@ -518,18 +518,18 @@
     },
     {
       "example_idx": 64,
-      "cer": 0.02631578947368421,
-      "predicted_text": "pluseurs dee ceuls des co\u0303munes. Et par",
-      "ground_truth_text": "pluseurs de ceuls des c\u00f5munes. Et par",
-      "num_predictions": 39,
+      "cer": 0.0,
+      "predicted_text": "pluseurs de ceuls des cõmunes. Et par",
+      "ground_truth_text": "pluseurs de ceuls des cõmunes. Et par",
+      "num_predictions": 38,
       "num_ground_truth": 37
     },
     {
       "example_idx": 65,
-      "cer": 0.0,
-      "predicted_text": "especial fist couper la teste au dit Giul\u0142e",
-      "ground_truth_text": "especial fist couper la teste au dit Giul\u0142e",
-      "num_predictions": 43,
+      "cer": 0.046511627906976744,
+      "predicted_text": "especial fist couper laa teste au dit Giiulłe",
+      "ground_truth_text": "especial fist couper la teste au dit Giulłe",
+      "num_predictions": 45,
       "num_ground_truth": 43
     },
     {
@@ -550,18 +550,18 @@
     },
     {
       "example_idx": 68,
-      "cer": 0.0,
-      "predicted_text": "que il alast uers euls a Paris il se traist",
+      "cer": 0.023255813953488372,
+      "predicted_text": "que il alast uers eul a Paris il se traist",
       "ground_truth_text": "que il alast uers euls a Paris il se traist",
-      "num_predictions": 43,
+      "num_predictions": 42,
       "num_ground_truth": 43
     },
     {
       "example_idx": 69,
-      "cer": 0.0,
-      "predicted_text": "a saint Oyn en lostel du Roy appelle",
+      "cer": 0.08333333333333333,
+      "predicted_text": "asant Oynen lostel du Roy appelle",
       "ground_truth_text": "a saint Oyn en lostel du Roy appelle",
-      "num_predictions": 36,
+      "num_predictions": 33,
       "num_ground_truth": 36
     },
     {
@@ -583,17 +583,17 @@
     {
       "example_idx": 72,
       "cer": 0.05555555555555555,
-      "predicted_text": "\u0364dit Roy. Et le ieudy .xiiii iour du",
-      "ground_truth_text": "dit Roy. Et le ieudy .xiiii\u0364 iour du",
-      "num_predictions": 36,
+      "predicted_text": "dit Roy. Et le Ieudy .xiiii iour du",
+      "ground_truth_text": "dit Roy. Et le ieudy .xiiiiͤ iour du",
+      "num_predictions": 35,
       "num_ground_truth": 35
     },
     {
       "example_idx": 73,
-      "cer": 0.0,
-      "predicted_text": "dit mois de Iuing ala le dit Roy de na",
+      "cer": 0.02631578947368421,
+      "predicted_text": "dit mois de Iung ala le dit Roy de na",
       "ground_truth_text": "dit mois de Iuing ala le dit Roy de na",
-      "num_predictions": 38,
+      "num_predictions": 37,
       "num_ground_truth": 38
     },
     {
@@ -614,10 +614,10 @@
     },
     {
       "example_idx": 76,
-      "cer": 0.02702702702702703,
-      "predicted_text": "compaignier iuusques la ou il descendy",
+      "cer": 0.0,
+      "predicted_text": "compaignier iusques la ou il descendy",
       "ground_truth_text": "compaignier iusques la ou il descendy",
-      "num_predictions": 38,
+      "num_predictions": 37,
       "num_ground_truth": 37
     },
     {
@@ -630,26 +630,26 @@
     },
     {
       "example_idx": 78,
-      "cer": 0.0,
-      "predicted_text": "Du preschement que le Roy de Nauarre",
+      "cer": 0.027777777777777776,
+      "predicted_text": "Du preschement qu le Roy de Nauarre",
       "ground_truth_text": "Du preschement que le Roy de Nauarre",
-      "num_predictions": 36,
+      "num_predictions": 35,
       "num_ground_truth": 36
     },
     {
       "example_idx": 79,
       "cer": 0.0,
-      "predicted_text": "fist en lostel de la uille. et co\u0303ment par le",
-      "ground_truth_text": "fist en lostel de la uille. et c\u00f5ment par le",
+      "predicted_text": "fist en lostel de la uille. et cõment par le",
+      "ground_truth_text": "fist en lostel de la uille. et cõment par le",
       "num_predictions": 45,
       "num_ground_truth": 44
     },
     {
       "example_idx": 80,
-      "cer": 0.0,
-      "predicted_text": "enortement de ses aliez fu fait Capitain",
+      "cer": 0.05,
+      "predicted_text": "enortement de sealiez fu fait Capitain",
       "ground_truth_text": "enortement de ses aliez fu fait Capitain",
-      "num_predictions": 40,
+      "num_predictions": 38,
       "num_ground_truth": 40
     },
     {

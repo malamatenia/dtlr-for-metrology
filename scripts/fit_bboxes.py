@@ -1,5 +1,5 @@
 """
-correct_bboxes.py
+fit_bboxes.py
 =================
 Optional pre-processing step: refine predicted bounding boxes by removing
 whitespace padding estimated from prototype masks.
@@ -16,29 +16,29 @@ Pipeline
 2. For each predicted bbox in character_measurements/:
    - Look up the sprite_index → padding ratios
    - Shrink the bbox by those ratios (asymmetric trim shifts cx/cy)
-   - Write corrected JSON to OUTPUT_BBOX_METRICS_JSON
+   - Write fitted JSON to OUTPUT_BBOX_METRICS_JSON
 
-3. (Optional) Visualise corrected bboxes drawn on line images.
+3. (Optional) Visualise fitted bboxes drawn on line images.
 
 4. (Optional) Side-by-side before/after for a single line.
 
 Usage in notebook
 -----------------
-    from correct_bboxes import correct_bboxes_pipeline, visualise_corrections
+    from fit_bboxes import fit_bboxes_pipeline, visualise_fitted_bboxes
 
-    correct_bboxes_pipeline(
+    fit_bboxes_pipeline(
         proto_folder          = "input/prototypes/baseline_without_aspect_ratio",
         input_measurements    = "input/character_measurements",
-        output_measurements   = "output/character_measurements_corrected",
+        output_measurements   = "output/character_measurements_fitted",
         output_cropped_protos = "output/prototype_cropped",   # optional
         threshold             = 0.75 * 255,
         sprite_range          = range(0, 120),
         save_ratios_csv       = "output/prototype_bbox_proportions.csv",
     )
 
-    # optional — draws corrected bboxes on line images
-    visualise_corrections(
-        corrected_measurements = "output/character_measurements_corrected",
+    # optional — draws fitted bboxes on line images
+    visualise_fitted_bboxes(
+        fitted_measurements = "output/character_measurements_fitted",
         line_images            = "dataset/images",
         output_vis_folder      = "output/line_level_with_boxes",
     )
@@ -48,7 +48,7 @@ Usage in notebook
         doc              = "btv1b84472995_f009",
         line             = "btv1b84472995_f009_eSc_line_00acb699",
         orig_measurements = "input/character_measurements",
-        corr_measurements = "output/character_measurements_corrected",
+        fitted_measurements = "output/character_measurements_fitted",
         line_images       = "dataset/images",
     )
 
@@ -195,7 +195,7 @@ def compute_padding_ratios(
 # STEP 2 — apply ratios to prediction bboxes
 # =============================================================================
 
-def _correct_bbox(
+def _fit_bbox(
     bbox: Dict[str, float],
     ratios: Tuple[float, float, float, float],
 ) -> Dict[str, float]:
@@ -226,33 +226,33 @@ def _correct_bbox(
     }
 
 
-def apply_corrections(
+def apply_fitting(
     dict_ratios: Dict[int, Tuple[float, float, float, float]],
     input_measurements: str | Path,
     output_measurements: str | Path,
     verbose: bool = True,
 ) -> Tuple[int, set]:
     """
-    Walk input_measurements/, correct every bbox whose sprite_index is in
-    dict_ratios, and write corrected JSONs to output_measurements/.
+    Walk input_measurements/, fit every bbox whose sprite_index is in
+    dict_ratios, and write fitted JSONs to output_measurements/.
 
     Parameters
     ----------
     dict_ratios          : output of compute_padding_ratios()
     input_measurements   : path to original character_measurements/ folder
-    output_measurements  : path to write corrected JSONs (created if needed)
+    output_measurements  : path to write fitted JSONs (created if needed)
     verbose              : print progress
 
     Returns
     -------
-    (corrected_files, skipped_sprites)
-        corrected_files  : number of JSON files written
+    (fitted_files, skipped_sprites)
+        fitted_files  : number of JSON files written
         skipped_sprites  : set of sprite indices with no prototype (bbox unchanged)
     """
     input_measurements  = Path(input_measurements)
     output_measurements = Path(output_measurements)
 
-    corrected_files  = 0
+    fitted_files  = 0
     skipped_sprites: set = set()
 
     for doc in sorted(os.listdir(input_measurements)):
@@ -274,28 +274,28 @@ def apply_corrections(
                 if sprite is None:
                     continue
                 if sprite in dict_ratios:
-                    pred["bbox"] = _correct_bbox(pred["bbox"], dict_ratios[sprite])
+                    pred["bbox"] = _fit_bbox(pred["bbox"], dict_ratios[sprite])
                 else:
                     skipped_sprites.add(sprite)
 
             with open(out_doc / fname, "w") as f:
                 json.dump(data, f, indent=2)
 
-            corrected_files += 1
+            fitted_files += 1
 
     if verbose:
-        print(f"apply_corrections: {corrected_files} files written to {output_measurements}")
+        print(f"apply_fitting: {fitted_files} files written to {output_measurements}")
         if skipped_sprites:
             print(f"  Sprites with no prototype (bbox unchanged): {sorted(skipped_sprites)}")
 
-    return corrected_files, skipped_sprites
+    return fitted_files, skipped_sprites
 
 
 # =============================================================================
 # CONVENIENCE WRAPPER — runs steps 1 + 2 together
 # =============================================================================
 
-def correct_bboxes_pipeline(
+def fit_bboxes_pipeline(
     proto_folder: str | Path,
     input_measurements: str | Path,
     output_measurements: str | Path,
@@ -306,13 +306,13 @@ def correct_bboxes_pipeline(
     verbose: bool = True,
 ) -> Dict[int, Tuple[float, float, float, float]]:
     """
-    Run the full bbox-correction pipeline in one call.
+    Run the full bbox-fitting pipeline in one call.
 
     Parameters
     ----------
     proto_folder          : prototypes/baseline_without_aspect_ratio/
     input_measurements    : original character_measurements/
-    output_measurements   : destination for corrected JSONs
+    output_measurements   : destination for fitted JSONs
     output_cropped_protos : (optional) save tight-cropped sprites here
     threshold             : ink/background threshold (default 0.75 × 255)
     sprite_range          : sprite indices to process (default 0–119)
@@ -332,7 +332,7 @@ def correct_bboxes_pipeline(
         verbose               = verbose,
     )
 
-    apply_corrections(
+    apply_fitting(
         dict_ratios         = dict_ratios,
         input_measurements  = input_measurements,
         output_measurements = output_measurements,
@@ -343,7 +343,7 @@ def correct_bboxes_pipeline(
 
 
 # =============================================================================
-# STEP 3 (optional) — visualise corrected bboxes on line images
+# STEP 3 (optional) — visualise fitted bboxes on line images
 # =============================================================================
 
 def _draw_bbox(draw: ImageDraw.ImageDraw,
@@ -354,29 +354,29 @@ def _draw_bbox(draw: ImageDraw.ImageDraw,
     draw.rectangle([x1, y1, x2, y2], outline=color, width=width)
 
 
-def visualise_corrections(
-    corrected_measurements: str | Path,
+def visualise_fitted_bboxes(
+    fitted_measurements: str | Path,
     line_images: str | Path,
     output_vis_folder: str | Path,
     color: str = "red",
     verbose: bool = True,
 ) -> None:
     """
-    Draw corrected bboxes on their line images and save to output_vis_folder/.
+    Draw fitted bboxes on their line images and save to output_vis_folder/.
 
     Parameters
     ----------
-    corrected_measurements : output_measurements from apply_corrections()
+    fitted_measurements : output_measurements from apply_fitting()
     line_images            : folder containing per-doc subfolders of line PNGs
     output_vis_folder      : destination for visualisation PNGs
     color                  : bbox outline colour (default "red")
     """
-    corrected_measurements = Path(corrected_measurements)
+    fitted_measurements = Path(fitted_measurements)
     line_images            = Path(line_images)
     output_vis_folder      = Path(output_vis_folder)
     output_vis_folder.mkdir(parents=True, exist_ok=True)
 
-    for root, _, files in os.walk(corrected_measurements):
+    for root, _, files in os.walk(fitted_measurements):
         for fname in sorted(files):
             if not fname.endswith(".json"):
                 continue
@@ -399,13 +399,13 @@ def visualise_corrections(
                 b = pred["bbox"]
                 _draw_bbox(draw, b["cx"], b["cy"], b["w"], b["h"], color=color)
 
-            out_path = output_vis_folder / (base + "_corrected.png")
+            out_path = output_vis_folder / (base + "_fitted.png")
             img.save(out_path)
             if verbose:
                 print(f"  saved: {out_path}")
 
     if verbose:
-        print("visualise_corrections: done.")
+        print("visualise_fitted_bboxes: done.")
 
 
 # =============================================================================
@@ -416,7 +416,7 @@ def plot_before_after(
     doc: str,
     line: str,
     orig_measurements: str | Path,
-    corr_measurements: str | Path,
+    fitted_measurements: str | Path,
     line_images: str | Path,
     figsize: Tuple[int, int] = (20, 6),
     color: str = "red",
@@ -429,13 +429,13 @@ def plot_before_after(
     doc               : document folder name, e.g. "btv1b84472995_f009"
     line              : line filename stem, e.g. "btv1b84472995_f009_eSc_line_00acb699"
     orig_measurements : original character_measurements/ folder
-    corr_measurements : corrected character_measurements/ folder
+    fitted_measurements : fitted character_measurements/ folder
     line_images       : folder containing per-doc subfolders of line PNGs
     """
     import matplotlib.pyplot as plt
 
     orig_measurements = Path(orig_measurements)
-    corr_measurements = Path(corr_measurements)
+    fitted_measurements = Path(fitted_measurements)
     line_images       = Path(line_images)
     image_path        = line_images / doc / (line + ".png")
 
@@ -446,8 +446,8 @@ def plot_before_after(
     fig, axes = plt.subplots(2, 1, figsize=figsize)
     for ax, meas_folder, title in zip(
         axes,
-        [orig_measurements, corr_measurements],
-        ["Before correction", "After correction"],
+        [orig_measurements, fitted_measurements],
+        ["Before fitting", "After fitting"],
     ):
         json_path = meas_folder / doc / (line + ".json")
         if not json_path.exists():

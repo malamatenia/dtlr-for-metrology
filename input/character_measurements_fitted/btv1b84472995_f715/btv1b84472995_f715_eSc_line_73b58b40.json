@@ -1,0 +1,110 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 38,
+      "character": "m",
+      "bbox": {
+        "cx": 51.59841280502483,
+        "cy": 41.864395017425224,
+        "w": 43.561384692001,
+        "h": 31.483268886804584
+      },
+      "confidence": 0.9962208271026611,
+      "query_idx": 98,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 88.97006377756921,
+        "cy": 42.65052858491739,
+        "w": 26.516830421753497,
+        "h": 43.74065859119098
+      },
+      "confidence": 0.996220052242279,
+      "query_idx": 112,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 46,
+      "character": "u",
+      "bbox": {
+        "cx": 123.49974418598447,
+        "cy": 43.10498901208243,
+        "w": 41.31871641398779,
+        "h": 36.97211607297262
+      },
+      "confidence": 0.9962080717086792,
+      "query_idx": 128,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 155.66579367054834,
+        "cy": 43.53667543166214,
+        "w": 33.66842997834115,
+        "h": 40.21473872992728
+      },
+      "confidence": 0.9962212443351746,
+      "query_idx": 144,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 46,
+      "character": "u",
+      "bbox": {
+        "cx": 193.47538123625876,
+        "cy": 43.1443140870995,
+        "w": 43.55726940384329,
+        "h": 38.77432131105
+      },
+      "confidence": 0.9962223172187805,
+      "query_idx": 176,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 45,
+      "character": "t",
+      "bbox": {
+        "cx": 227.75009275948418,
+        "cy": 42.51675017674764,
+        "w": 32.32097541938495,
+        "h": 41.08071231842041
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 178,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 251.4399679215228,
+        "cy": 51.93250846862793,
+        "w": 17.72195927041476,
+        "h": 30.738776524861656
+      },
+      "confidence": 0.9962227940559387,
+      "query_idx": 184,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "m",
+    "o",
+    "u",
+    "r",
+    "u",
+    "t",
+    "."
+  ],
+  "predicted_text": "mourut.",
+  "ground_truth_text": "mourut.",
+  "cer": 0.0,
+  "num_predictions": 7,
+  "num_ground_truth": 7,
+  "path": "/home/rbaena/datasets/btv1b84472995/images/btv1b84472995_f715/btv1b84472995_f715_eSc_line_73b58b40.png"
+}

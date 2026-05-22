@@ -1,12 +1,29 @@
 {
+  "0": {
+    "character": " ",
+    "bbox_stats": {
+      "mean_width": 19.028370917152476,
+      "mean_height": 36.08912481707756,
+      "var_width": 5.978205324672394,
+      "var_height": 158.18402750638452,
+      "count": 693
+    },
+    "sprite_selection_stats": {
+      "sprite_0_ratio": 0.0,
+      "sprite_1_ratio": 0.0,
+      "sprite_0_count": 0,
+      "sprite_1_count": 0,
+      "total_count": 0
+    }
+  },
   "1": {
     "character": "'",
     "bbox_stats": {
-      "mean_width": 12.637853916255962,
-      "mean_height": 8.529077771483639,
-      "var_width": 4.362090857627723,
-      "var_height": 35.98074420956826,
-      "count": 688
+      "mean_width": 0.0,
+      "mean_height": 0.0,
+      "var_width": 0.0,
+      "var_height": 0.0,
+      "count": 0
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -19,11 +36,11 @@
   "2": {
     "character": ".",
     "bbox_stats": {
-      "mean_width": 0.0,
-      "mean_height": 0.0,
-      "var_width": 0.0,
-      "var_height": 0.0,
-      "count": 0
+      "mean_width": 29.15850320358267,
+      "mean_height": 27.886914712954788,
+      "var_width": 10.118131228365662,
+      "var_height": 14.15446928170542,
+      "count": 26
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -36,23 +53,6 @@
   "3": {
     "character": ":",
     "bbox_stats": {
-      "mean_width": 31.335750114164835,
-      "mean_height": 33.56447891998291,
-      "var_width": 6.844471757226534,
-      "var_height": 7.8164996503788275,
-      "count": 25
-    },
-    "sprite_selection_stats": {
-      "sprite_0_ratio": 0.0,
-      "sprite_1_ratio": 0.0,
-      "sprite_0_count": 0,
-      "sprite_1_count": 0,
-      "total_count": 0
-    }
-  },
-  "4": {
-    "character": "A",
-    "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
       "var_width": 0.0,
@@ -67,14 +67,31 @@
       "total_count": 0
     }
   },
-  "5": {
-    "character": "B",
+  "4": {
+    "character": "A",
     "bbox_stats": {
-      "mean_width": 37.66299564480662,
-      "mean_height": 43.10771827697754,
+      "mean_width": 36.481513214111324,
+      "mean_height": 39.9480785369873,
       "var_width": 0.0,
       "var_height": 0.0,
       "count": 1
+    },
+    "sprite_selection_stats": {
+      "sprite_0_ratio": 0.0,
+      "sprite_1_ratio": 0.0,
+      "sprite_0_count": 0,
+      "sprite_1_count": 0,
+      "total_count": 0
+    }
+  },
+  "5": {
+    "character": "B",
+    "bbox_stats": {
+      "mean_width": 40.44257671753742,
+      "mean_height": 42.66316504478455,
+      "var_width": 0.7590487044376173,
+      "var_height": 0.008455729728140859,
+      "count": 2
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -87,11 +104,11 @@
   "6": {
     "character": "C",
     "bbox_stats": {
-      "mean_width": 43.769305471770956,
-      "mean_height": 43.01522634029388,
-      "var_width": 1.5047942058822366,
-      "var_height": 0.08224875789026571,
-      "count": 2
+      "mean_width": 49.87793980771504,
+      "mean_height": 48.394711914062505,
+      "var_width": 39.671269230010054,
+      "var_height": 50.145094726341334,
+      "count": 5
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -104,25 +121,8 @@
   "7": {
     "character": "D",
     "bbox_stats": {
-      "mean_width": 49.23501606866851,
-      "mean_height": 50.61574045181274,
-      "var_width": 43.45121935182088,
-      "var_height": 17.937011250172525,
-      "count": 5
-    },
-    "sprite_selection_stats": {
-      "sprite_0_ratio": 0.0,
-      "sprite_1_ratio": 0.0,
-      "sprite_0_count": 0,
-      "sprite_1_count": 0,
-      "total_count": 0
-    }
-  },
-  "8": {
-    "character": "E",
-    "bbox_stats": {
-      "mean_width": 59.608867776546276,
-      "mean_height": 54.084468460083,
+      "mean_width": 60.40721063876371,
+      "mean_height": 54.04833424886068,
       "var_width": 0.0,
       "var_height": 0.0,
       "count": 1
@@ -135,14 +135,31 @@
       "total_count": 0
     }
   },
+  "8": {
+    "character": "E",
+    "bbox_stats": {
+      "mean_width": 50.62377762344291,
+      "mean_height": 49.54726972050136,
+      "var_width": 17.31234186667544,
+      "var_height": 6.093061685933072,
+      "count": 12
+    },
+    "sprite_selection_stats": {
+      "sprite_0_ratio": 0.0,
+      "sprite_1_ratio": 0.0,
+      "sprite_0_count": 0,
+      "sprite_1_count": 0,
+      "total_count": 0
+    }
+  },
   "9": {
     "character": "F",
     "bbox_stats": {
-      "mean_width": 51.296872278195295,
-      "mean_height": 50.58636064529419,
-      "var_width": 23.723645591301054,
-      "var_height": 7.450503325097776,
-      "count": 13
+      "mean_width": 0.0,
+      "mean_height": 0.0,
+      "var_width": 0.0,
+      "var_height": 0.0,
+      "count": 0
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -240,11 +257,11 @@
   "15": {
     "character": "M",
     "bbox_stats": {
-      "mean_width": 0.0,
-      "mean_height": 0.0,
-      "var_width": 0.0,
-      "var_height": 0.0,
-      "count": 0
+      "mean_width": 62.70395438144338,
+      "mean_height": 48.27104791005452,
+      "var_width": 7.341072209487371,
+      "var_height": 0.8635857100925457,
+      "count": 2
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -257,11 +274,11 @@
   "16": {
     "character": "N",
     "bbox_stats": {
-      "mean_width": 61.60628866347302,
-      "mean_height": 49.99027590751648,
-      "var_width": 17.35386760815994,
-      "var_height": 0.7354700268855691,
-      "count": 2
+      "mean_width": 0.0,
+      "mean_height": 0.0,
+      "var_width": 0.0,
+      "var_height": 0.0,
+      "count": 0
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -325,11 +342,11 @@
   "20": {
     "character": "R",
     "bbox_stats": {
-      "mean_width": 0.0,
-      "mean_height": 0.0,
-      "var_width": 0.0,
-      "var_height": 0.0,
-      "count": 0
+      "mean_width": 47.2534644327767,
+      "mean_height": 45.73639873602451,
+      "var_width": 17.17833944166651,
+      "var_height": 8.506944483640796,
+      "count": 13
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -342,23 +359,6 @@
   "21": {
     "character": "S",
     "bbox_stats": {
-      "mean_width": 47.23862313715079,
-      "mean_height": 45.60872321128845,
-      "var_width": 22.419913076283443,
-      "var_height": 4.422698904851449,
-      "count": 13
-    },
-    "sprite_selection_stats": {
-      "sprite_0_ratio": 0.0,
-      "sprite_1_ratio": 0.0,
-      "sprite_0_count": 0,
-      "sprite_1_count": 0,
-      "total_count": 0
-    }
-  },
-  "22": {
-    "character": "T",
-    "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
       "var_width": 0.0,
@@ -373,14 +373,31 @@
       "total_count": 0
     }
   },
+  "22": {
+    "character": "T",
+    "bbox_stats": {
+      "mean_width": 48.29250717163086,
+      "mean_height": 50.33425750732422,
+      "var_width": 0.0,
+      "var_height": 0.0,
+      "count": 1
+    },
+    "sprite_selection_stats": {
+      "sprite_0_ratio": 0.0,
+      "sprite_1_ratio": 0.0,
+      "sprite_0_count": 0,
+      "sprite_1_count": 0,
+      "total_count": 0
+    }
+  },
   "23": {
     "character": "U",
     "bbox_stats": {
-      "mean_width": 48.715249609134105,
-      "mean_height": 48.910389264424644,
-      "var_width": 2.1507253514280236,
-      "var_height": 11.554052202196841,
-      "count": 3
+      "mean_width": 0.0,
+      "mean_height": 0.0,
+      "var_width": 0.0,
+      "var_height": 0.0,
+      "count": 0
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -444,11 +461,11 @@
   "27": {
     "character": "a",
     "bbox_stats": {
-      "mean_width": 0.0,
-      "mean_height": 0.0,
-      "var_width": 0.0,
-      "var_height": 0.0,
-      "count": 0
+      "mean_width": 42.0043260999195,
+      "mean_height": 43.03996922607421,
+      "var_width": 5.741621122758594,
+      "var_height": 3.4390848205644478,
+      "count": 250
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -461,11 +478,11 @@
   "28": {
     "character": "b",
     "bbox_stats": {
-      "mean_width": 41.4519202025791,
-      "mean_height": 43.99662329845429,
-      "var_width": 5.713646512913723,
-      "var_height": 3.0772861784084826,
-      "count": 250
+      "mean_width": 37.370795713387544,
+      "mean_height": 51.404050267537436,
+      "var_width": 5.152754366069683,
+      "var_height": 2.8225066778917887,
+      "count": 10
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -478,11 +495,11 @@
   "29": {
     "character": "c",
     "bbox_stats": {
-      "mean_width": 35.65678042667184,
-      "mean_height": 52.56856056213379,
-      "var_width": 5.277511060571706,
-      "var_height": 5.10457782338576,
-      "count": 10
+      "mean_width": 34.78854294375817,
+      "mean_height": 40.81549970693755,
+      "var_width": 4.747404325597492,
+      "var_height": 4.333305824974006,
+      "count": 95
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -495,11 +512,11 @@
   "30": {
     "character": "d",
     "bbox_stats": {
-      "mean_width": 33.56168589573321,
-      "mean_height": 41.84802225715235,
-      "var_width": 4.200623876820233,
-      "var_height": 4.632681315052147,
-      "count": 95
+      "mean_width": 38.48612260865002,
+      "mean_height": 45.92185312484702,
+      "var_width": 5.308300609756598,
+      "var_height": 9.959247150281254,
+      "count": 128
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -512,11 +529,11 @@
   "31": {
     "character": "e",
     "bbox_stats": {
-      "mean_width": 34.96067887041484,
-      "mean_height": 45.92443891055882,
-      "var_width": 4.367063430728865,
-      "var_height": 8.488036348910773,
-      "count": 128
+      "mean_width": 34.432659327453315,
+      "mean_height": 41.381395498855866,
+      "var_width": 5.723044394838837,
+      "var_height": 3.438658619847705,
+      "count": 571
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -529,11 +546,11 @@
   "32": {
     "character": "f",
     "bbox_stats": {
-      "mean_width": 32.50584163223936,
-      "mean_height": 41.9585165576369,
-      "var_width": 6.744849179610052,
-      "var_height": 3.20809884215232,
-      "count": 573
+      "mean_width": 37.13937614999724,
+      "mean_height": 54.324779143156846,
+      "var_width": 4.431482297437761,
+      "var_height": 5.413714849687419,
+      "count": 45
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -546,11 +563,11 @@
   "33": {
     "character": "g",
     "bbox_stats": {
-      "mean_width": 33.222482012748614,
-      "mean_height": 53.32920028262668,
-      "var_width": 4.060196895629898,
-      "var_height": 5.240156522298368,
-      "count": 45
+      "mean_width": 48.00790347386389,
+      "mean_height": 57.71429321924846,
+      "var_width": 11.271389375217646,
+      "var_height": 5.019485019190956,
+      "count": 30
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -563,11 +580,11 @@
   "34": {
     "character": "h",
     "bbox_stats": {
-      "mean_width": 48.7725458327491,
-      "mean_height": 57.23574574311574,
-      "var_width": 13.42092330074426,
-      "var_height": 3.8471945009625803,
-      "count": 30
+      "mean_width": 42.11516762576268,
+      "mean_height": 63.380713932488554,
+      "var_width": 9.101841321069351,
+      "var_height": 14.780616122528146,
+      "count": 31
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -580,11 +597,11 @@
   "35": {
     "character": "i",
     "bbox_stats": {
-      "mean_width": 39.277210586797366,
-      "mean_height": 65.22663330262708,
-      "var_width": 10.133204490225205,
-      "var_height": 8.840060376567703,
-      "count": 31
+      "mean_width": 27.27036396567774,
+      "mean_height": 40.35687776249456,
+      "var_width": 18.914218838699224,
+      "var_height": 8.433856192618501,
+      "count": 177
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -597,11 +614,11 @@
   "36": {
     "character": "k",
     "bbox_stats": {
-      "mean_width": 21.618108673552907,
-      "mean_height": 38.835004402104246,
-      "var_width": 6.513865521598276,
-      "var_height": 5.470650999631083,
-      "count": 186
+      "mean_width": 0.0,
+      "mean_height": 0.0,
+      "var_width": 0.0,
+      "var_height": 0.0,
+      "count": 0
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -614,11 +631,11 @@
   "37": {
     "character": "l",
     "bbox_stats": {
-      "mean_width": 0.0,
-      "mean_height": 0.0,
-      "var_width": 0.0,
-      "var_height": 0.0,
-      "count": 0
+      "mean_width": 32.55997890282134,
+      "mean_height": 52.75628861728169,
+      "var_width": 4.023876170418131,
+      "var_height": 5.919726499091387,
+      "count": 112
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -631,11 +648,11 @@
   "38": {
     "character": "m",
     "bbox_stats": {
-      "mean_width": 34.445932421043935,
-      "mean_height": 53.34797354957514,
-      "var_width": 4.534958645584976,
-      "var_height": 6.301902417031829,
-      "count": 114
+      "mean_width": 62.854718298399256,
+      "mean_height": 39.56400715443823,
+      "var_width": 15.321489288559631,
+      "var_height": 1.4393603388302878,
+      "count": 48
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -648,11 +665,11 @@
   "39": {
     "character": "n",
     "bbox_stats": {
-      "mean_width": 61.90492358013104,
-      "mean_height": 41.61421017160221,
-      "var_width": 23.660952065623743,
-      "var_height": 1.9052475215958506,
-      "count": 49
+      "mean_width": 46.280841843515,
+      "mean_height": 40.50584301144469,
+      "var_width": 11.272387804966092,
+      "var_height": 2.700203943010307,
+      "count": 255
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -665,11 +682,11 @@
   "40": {
     "character": "o",
     "bbox_stats": {
-      "mean_width": 44.30574524973686,
-      "mean_height": 42.754545102310175,
-      "var_width": 6.021652204242786,
-      "var_height": 3.197965747886572,
-      "count": 250
+      "mean_width": 37.20330481452613,
+      "mean_height": 42.63393129267782,
+      "var_width": 4.777207527743356,
+      "var_height": 4.054495471377688,
+      "count": 212
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -682,11 +699,11 @@
   "41": {
     "character": "p",
     "bbox_stats": {
-      "mean_width": 35.44485593227949,
-      "mean_height": 42.682218412426415,
-      "var_width": 4.463446423387816,
-      "var_height": 3.3425506493690915,
-      "count": 211
+      "mean_width": 44.26679164195914,
+      "mean_height": 54.36279081286805,
+      "var_width": 9.976720117325096,
+      "var_height": 4.56092620122909,
+      "count": 55
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -699,11 +716,11 @@
   "42": {
     "character": "q",
     "bbox_stats": {
-      "mean_width": 41.53830325860497,
-      "mean_height": 55.840089336742054,
-      "var_width": 9.860306240338783,
-      "var_height": 3.3735799518425442,
-      "count": 55
+      "mean_width": 38.98369876379311,
+      "mean_height": 54.257763745444166,
+      "var_width": 6.113572833282382,
+      "var_height": 8.050176624463203,
+      "count": 35
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -716,11 +733,11 @@
   "43": {
     "character": "r",
     "bbox_stats": {
-      "mean_width": 39.71646684931844,
-      "mean_height": 55.33448127746582,
-      "var_width": 8.452145030386218,
-      "var_height": 7.469108021853154,
-      "count": 35
+      "mean_width": 41.04631546178542,
+      "mean_height": 40.45723296156875,
+      "var_width": 10.44239767608792,
+      "var_height": 3.214850368693163,
+      "count": 222
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -733,11 +750,11 @@
   "44": {
     "character": "s",
     "bbox_stats": {
-      "mean_width": 38.77185366846269,
-      "mean_height": 40.71467306657075,
-      "var_width": 8.901545246182613,
-      "var_height": 2.7914038522827767,
-      "count": 221
+      "mean_width": 37.5800540290061,
+      "mean_height": 48.15992958679451,
+      "var_width": 8.451455255014436,
+      "var_height": 28.668993964115533,
+      "count": 303
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -750,11 +767,11 @@
   "45": {
     "character": "t",
     "bbox_stats": {
-      "mean_width": 34.302813273934746,
-      "mean_height": 48.59807620320544,
-      "var_width": 7.28932786057772,
-      "var_height": 29.832113463491282,
-      "count": 298
+      "mean_width": 40.56342009908169,
+      "mean_height": 44.15892589482648,
+      "var_width": 8.983975655733637,
+      "var_height": 4.091278641566718,
+      "count": 228
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -767,11 +784,11 @@
   "46": {
     "character": "u",
     "bbox_stats": {
-      "mean_width": 37.4697833905411,
-      "mean_height": 44.27191850616221,
-      "var_width": 10.690310382829534,
-      "var_height": 3.7339956405603534,
-      "count": 228
+      "mean_width": 45.67484087690504,
+      "mean_height": 40.42672545223834,
+      "var_width": 9.411336727776037,
+      "var_height": 2.845360842628693,
+      "count": 234
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -783,23 +800,6 @@
   },
   "47": {
     "character": "w",
-    "bbox_stats": {
-      "mean_width": 43.51261514724249,
-      "mean_height": 42.01631344038726,
-      "var_width": 8.22403880019694,
-      "var_height": 3.3784446020435315,
-      "count": 237
-    },
-    "sprite_selection_stats": {
-      "sprite_0_ratio": 0.0,
-      "sprite_1_ratio": 0.0,
-      "sprite_0_count": 0,
-      "sprite_1_count": 0,
-      "total_count": 0
-    }
-  },
-  "48": {
-    "character": "x",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -815,14 +815,31 @@
       "total_count": 0
     }
   },
+  "48": {
+    "character": "x",
+    "bbox_stats": {
+      "mean_width": 39.6913161256512,
+      "mean_height": 44.45555444197221,
+      "var_width": 3.587582529084443,
+      "var_height": 1.4503159953406863,
+      "count": 11
+    },
+    "sprite_selection_stats": {
+      "sprite_0_ratio": 0.0,
+      "sprite_1_ratio": 0.0,
+      "sprite_0_count": 0,
+      "sprite_1_count": 0,
+      "total_count": 0
+    }
+  },
   "49": {
     "character": "y",
     "bbox_stats": {
-      "mean_width": 38.338759087293404,
-      "mean_height": 47.305436628515075,
-      "var_width": 4.528567862354958,
-      "var_height": 1.6843047609426236,
-      "count": 11
+      "mean_width": 36.60048438440502,
+      "mean_height": 51.77020716349283,
+      "var_width": 6.900276943761587,
+      "var_height": 7.107398623581207,
+      "count": 20
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -835,11 +852,11 @@
   "50": {
     "character": "z",
     "bbox_stats": {
-      "mean_width": 36.29774838957785,
-      "mean_height": 53.15036826372146,
-      "var_width": 5.028054777861509,
-      "var_height": 8.832380714342168,
-      "count": 20
+      "mean_width": 30.014652894192324,
+      "mean_height": 52.560945214896364,
+      "var_width": 11.172708770124625,
+      "var_height": 9.144984490265603,
+      "count": 29
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -850,13 +867,13 @@
     }
   },
   "51": {
-    "character": "\u00b6",
+    "character": "¶",
     "bbox_stats": {
-      "mean_width": 34.491701860563076,
-      "mean_height": 51.88759849389394,
-      "var_width": 10.700156658087511,
-      "var_height": 5.439154949379381,
-      "count": 30
+      "mean_width": 0.0,
+      "mean_height": 0.0,
+      "var_width": 0.0,
+      "var_height": 0.0,
+      "count": 0
     },
     "sprite_selection_stats": {
       "sprite_0_ratio": 0.0,
@@ -867,7 +884,7 @@
     }
   },
   "52": {
-    "character": "\u0111",
+    "character": "đ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -884,7 +901,7 @@
     }
   },
   "53": {
-    "character": "\u0127",
+    "character": "ħ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -901,7 +918,24 @@
     }
   },
   "54": {
-    "character": "\u0142",
+    "character": "ł",
+    "bbox_stats": {
+      "mean_width": 38.42041702665358,
+      "mean_height": 54.403236262003574,
+      "var_width": 0.0,
+      "var_height": 0.0,
+      "count": 1
+    },
+    "sprite_selection_stats": {
+      "sprite_0_ratio": 0.0,
+      "sprite_1_ratio": 0.0,
+      "sprite_0_count": 0,
+      "sprite_1_count": 0,
+      "total_count": 0
+    }
+  },
+  "55": {
+    "character": "Α",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -917,25 +951,8 @@
       "total_count": 0
     }
   },
-  "55": {
-    "character": "\u0391",
-    "bbox_stats": {
-      "mean_width": 36.765405505149914,
-      "mean_height": 56.523190116882326,
-      "var_width": 0.0,
-      "var_height": 0.0,
-      "count": 1
-    },
-    "sprite_selection_stats": {
-      "sprite_0_ratio": 0.0,
-      "sprite_1_ratio": 0.0,
-      "sprite_0_count": 0,
-      "sprite_1_count": 0,
-      "total_count": 0
-    }
-  },
   "56": {
-    "character": "\u03a9",
+    "character": "Ω",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -952,7 +969,58 @@
     }
   },
   "57": {
-    "character": "\u1e9c",
+    "character": "ẜ",
+    "bbox_stats": {
+      "mean_width": 39.061249423257024,
+      "mean_height": 52.78140363693237,
+      "var_width": 0.0,
+      "var_height": 0.0,
+      "count": 1
+    },
+    "sprite_selection_stats": {
+      "sprite_0_ratio": 0.0,
+      "sprite_1_ratio": 0.0,
+      "sprite_0_count": 0,
+      "sprite_1_count": 0,
+      "total_count": 0
+    }
+  },
+  "58": {
+    "character": "⁊",
+    "bbox_stats": {
+      "mean_width": 41.95855336010246,
+      "mean_height": 40.72677851456862,
+      "var_width": 10.550583922540863,
+      "var_height": 3.4550205750892067,
+      "count": 13
+    },
+    "sprite_selection_stats": {
+      "sprite_0_ratio": 0.0,
+      "sprite_1_ratio": 0.0,
+      "sprite_0_count": 0,
+      "sprite_1_count": 0,
+      "total_count": 0
+    }
+  },
+  "59": {
+    "character": "ꝑ",
+    "bbox_stats": {
+      "mean_width": 46.198052398296966,
+      "mean_height": 56.237895774841306,
+      "var_width": 0.0,
+      "var_height": 0.0,
+      "count": 1
+    },
+    "sprite_selection_stats": {
+      "sprite_0_ratio": 0.0,
+      "sprite_1_ratio": 0.0,
+      "sprite_0_count": 0,
+      "sprite_1_count": 0,
+      "total_count": 0
+    }
+  },
+  "60": {
+    "character": "ꝓ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -968,59 +1036,8 @@
       "total_count": 0
     }
   },
-  "58": {
-    "character": "\u204a",
-    "bbox_stats": {
-      "mean_width": 36.957065849166156,
-      "mean_height": 56.48850159645081,
-      "var_width": 0.0,
-      "var_height": 0.0,
-      "count": 1
-    },
-    "sprite_selection_stats": {
-      "sprite_0_ratio": 0.0,
-      "sprite_1_ratio": 0.0,
-      "sprite_0_count": 0,
-      "sprite_1_count": 0,
-      "total_count": 0
-    }
-  },
-  "59": {
-    "character": "\ua751",
-    "bbox_stats": {
-      "mean_width": 47.54596197510435,
-      "mean_height": 41.199675493973956,
-      "var_width": 13.366036209085717,
-      "var_height": 2.5785934837990183,
-      "count": 13
-    },
-    "sprite_selection_stats": {
-      "sprite_0_ratio": 0.0,
-      "sprite_1_ratio": 0.0,
-      "sprite_0_count": 0,
-      "sprite_1_count": 0,
-      "total_count": 0
-    }
-  },
-  "60": {
-    "character": "\ua753",
-    "bbox_stats": {
-      "mean_width": 45.22062855188026,
-      "mean_height": 60.40589075088501,
-      "var_width": 0.0,
-      "var_height": 0.0,
-      "count": 1
-    },
-    "sprite_selection_stats": {
-      "sprite_0_ratio": 0.0,
-      "sprite_1_ratio": 0.0,
-      "sprite_0_count": 0,
-      "sprite_1_count": 0,
-      "total_count": 0
-    }
-  },
   "61": {
-    "character": "\ua758",
+    "character": "Ꝙ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1037,7 +1054,7 @@
     }
   },
   "62": {
-    "character": "\ua759",
+    "character": "ꝙ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1054,7 +1071,7 @@
     }
   },
   "63": {
-    "character": "\ua76f",
+    "character": "ꝯ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1071,7 +1088,24 @@
     }
   },
   "64": {
-    "character": "\ua770",
+    "character": "ꝰ",
+    "bbox_stats": {
+      "mean_width": 30.374635391588384,
+      "mean_height": 58.63499387105306,
+      "var_width": 0.05855080383511721,
+      "var_height": 1.6550486559576267,
+      "count": 2
+    },
+    "sprite_selection_stats": {
+      "sprite_0_ratio": 0.0,
+      "sprite_1_ratio": 0.0,
+      "sprite_0_count": 0,
+      "sprite_1_count": 0,
+      "total_count": 0
+    }
+  },
+  "65": {
+    "character": "ꝵ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1087,25 +1121,8 @@
       "total_count": 0
     }
   },
-  "65": {
-    "character": "\ua775",
-    "bbox_stats": {
-      "mean_width": 33.839907611415626,
-      "mean_height": 56.112101554870605,
-      "var_width": 9.958201782859907,
-      "var_height": 6.332822629250586,
-      "count": 2
-    },
-    "sprite_selection_stats": {
-      "sprite_0_ratio": 0.0,
-      "sprite_1_ratio": 0.0,
-      "sprite_0_count": 0,
-      "sprite_1_count": 0,
-      "total_count": 0
-    }
-  },
   "66": {
-    "character": "\u0303",
+    "character": "̃",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1122,7 +1139,7 @@
     }
   },
   "67": {
-    "character": "\u0335",
+    "character": "̵",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1139,7 +1156,7 @@
     }
   },
   "68": {
-    "character": "\u033e",
+    "character": "̾",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1156,7 +1173,7 @@
     }
   },
   "69": {
-    "character": "\u0363",
+    "character": "ͣ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1173,7 +1190,7 @@
     }
   },
   "70": {
-    "character": "\u0364",
+    "character": "ͤ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1190,7 +1207,7 @@
     }
   },
   "71": {
-    "character": "\u0365",
+    "character": "ͥ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1207,7 +1224,7 @@
     }
   },
   "72": {
-    "character": "\u0366",
+    "character": "ͦ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1224,7 +1241,7 @@
     }
   },
   "73": {
-    "character": "\u0367",
+    "character": "ͧ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1241,7 +1258,7 @@
     }
   },
   "74": {
-    "character": "\u0368",
+    "character": "ͨ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1258,7 +1275,7 @@
     }
   },
   "75": {
-    "character": "\u036b",
+    "character": "ͫ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1275,7 +1292,7 @@
     }
   },
   "76": {
-    "character": "\u1dd1",
+    "character": "᷑",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,
@@ -1292,24 +1309,7 @@
     }
   },
   "77": {
-    "character": "\u1de4",
-    "bbox_stats": {
-      "mean_width": 0.0,
-      "mean_height": 0.0,
-      "var_width": 0.0,
-      "var_height": 0.0,
-      "count": 0
-    },
-    "sprite_selection_stats": {
-      "sprite_0_ratio": 0.0,
-      "sprite_1_ratio": 0.0,
-      "sprite_0_count": 0,
-      "sprite_1_count": 0,
-      "total_count": 0
-    }
-  },
-  "78": {
-    "character": " ",
+    "character": "ᷤ",
     "bbox_stats": {
       "mean_width": 0.0,
       "mean_height": 0.0,

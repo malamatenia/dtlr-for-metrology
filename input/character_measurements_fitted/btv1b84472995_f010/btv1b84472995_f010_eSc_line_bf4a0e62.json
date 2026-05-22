@@ -1,0 +1,110 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 29,
+      "character": "c",
+      "bbox": {
+        "cx": 21.1506853523901,
+        "cy": 51.674040441380605,
+        "w": 21.061025527911,
+        "h": 41.466151180532236
+      },
+      "confidence": 0.9962210655212402,
+      "query_idx": 2,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 37,
+      "character": "l",
+      "bbox": {
+        "cx": 41.17982763112602,
+        "cy": 45.89062296549479,
+        "w": 15.354040252017434,
+        "h": 56.30064583089616
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 6,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 64.64005539511555,
+        "cy": 52.12028897603352,
+        "w": 26.74098090155649,
+        "h": 41.06689870357513
+      },
+      "confidence": 0.9962227940559387,
+      "query_idx": 52,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 30,
+      "character": "d",
+      "bbox": {
+        "cx": 97.64292403506694,
+        "cy": 49.1485522588094,
+        "w": 28.69416884513899,
+        "h": 53.94631614685059
+      },
+      "confidence": 0.9962216019630432,
+      "query_idx": 64,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 35,
+      "character": "i",
+      "bbox": {
+        "cx": 125.38456557430115,
+        "cy": 52.7883311589559,
+        "w": 17.245023593794826,
+        "h": 40.95472708543142
+      },
+      "confidence": 0.9962226748466492,
+      "query_idx": 84,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 152.61687850817447,
+        "cy": 54.106333859761556,
+        "w": 30.583652433298397,
+        "h": 43.35056151549021
+      },
+      "confidence": 0.9962092638015747,
+      "query_idx": 90,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 188.62125720007944,
+        "cy": 59.52392717997233,
+        "w": 12.1897093304133,
+        "h": 11.07233395576477
+      },
+      "confidence": 0.9962224364280701,
+      "query_idx": 108,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "c",
+    "l",
+    "o",
+    "d",
+    "i",
+    "o",
+    "."
+  ],
+  "predicted_text": "clodio.",
+  "ground_truth_text": "clodio.",
+  "cer": 0.0,
+  "num_predictions": 7,
+  "num_ground_truth": 7,
+  "path": "/home/rbaena/datasets/btv1b84472995/images/btv1b84472995_f010/btv1b84472995_f010_eSc_line_bf4a0e62.png"
+}

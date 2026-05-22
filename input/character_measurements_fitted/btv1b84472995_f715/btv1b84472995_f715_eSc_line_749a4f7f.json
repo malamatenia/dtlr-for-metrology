@@ -1,0 +1,96 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 32,
+      "character": "f",
+      "bbox": {
+        "cx": 28.85832204626895,
+        "cy": 41.09169423845079,
+        "w": 21.4956151781411,
+        "h": 55.75567279391818
+      },
+      "confidence": 0.9961614608764648,
+      "query_idx": 8,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 51.749666788112165,
+        "cy": 46.26096513403787,
+        "w": 27.907908609543718,
+        "h": 39.521253885163205
+      },
+      "confidence": 0.9962206482887268,
+      "query_idx": 10,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 35,
+      "character": "i",
+      "bbox": {
+        "cx": 68.79794750953542,
+        "cy": 46.65360005696615,
+        "w": 13.962848054951635,
+        "h": 39.58765580919054
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 14,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 93.06388392273723,
+        "cy": 39.42694556381968,
+        "w": 20.802394339750563,
+        "h": 55.08471648825541
+      },
+      "confidence": 0.9962211847305298,
+      "query_idx": 18,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 110.63838463610617,
+        "cy": 45.46002623240153,
+        "w": 22.648597954333525,
+        "h": 43.867975997924816
+      },
+      "confidence": 0.9962226748466492,
+      "query_idx": 42,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 140.79287134367846,
+        "cy": 52.92189305623373,
+        "w": 14.392092671887628,
+        "h": 26.040366808573406
+      },
+      "confidence": 0.9962223172187805,
+      "query_idx": 50,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "f",
+    "r",
+    "i",
+    "s",
+    "e",
+    "."
+  ],
+  "predicted_text": "frise.",
+  "ground_truth_text": "frise.",
+  "cer": 0.0,
+  "num_predictions": 6,
+  "num_ground_truth": 6,
+  "path": "/home/rbaena/datasets/btv1b84472995/images/btv1b84472995_f715/btv1b84472995_f715_eSc_line_749a4f7f.png"
+}

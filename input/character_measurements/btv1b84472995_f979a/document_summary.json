@@ -1,29 +1,29 @@
 {
   "document": "btv1b84472995_f979a",
   "total_examples": 36,
-  "average_cer": 0.0050296173923136105,
-  "total_cer": 0.18106622612328999,
+  "average_cer": 0.016049777134622596,
+  "total_cer": 0.5777919768464135,
   "results": [
     {
       "example_idx": 0,
-      "cer": 0.022222222222222223,
-      "predicted_text": "Et appres ce uint deuers le roy de nauarre .i.",
+      "cer": 0.044444444444444446,
+      "predicted_text": "Et apres ce uiint deuers le roy de nauarre.i.",
       "ground_truth_text": "Et apres ce uint deuers le roy de nauarre .i.",
-      "num_predictions": 46,
+      "num_predictions": 45,
       "num_ground_truth": 45
     },
     {
       "example_idx": 1,
       "cer": 0.021739130434782608,
-      "predicted_text": "docteur qui estoit des diz messages et  qui m\u0142t",
-      "ground_truth_text": "docteur qui estoit des diz messages et qui m\u0142t",
-      "num_predictions": 47,
+      "predicted_text": "docteur qui estoit des diz mesages et qui młt",
+      "ground_truth_text": "docteur qui estoit des diz messages et qui młt",
+      "num_predictions": 45,
       "num_ground_truth": 46
     },
     {
       "example_idx": 2,
-      "cer": 0.0,
-      "predicted_text": "uouloit parler au dit roy de nauarre et lui",
+      "cer": 0.046511627906976744,
+      "predicted_text": "uouloit parler aau dit roy de auarre et lui",
       "ground_truth_text": "uouloit parler au dit roy de nauarre et lui",
       "num_predictions": 43,
       "num_ground_truth": 43
@@ -38,32 +38,32 @@
     },
     {
       "example_idx": 4,
-      "cer": 0.0,
-      "predicted_text": "bien amiables de par mon\u1e9c daniou esc\u0365ptes",
-      "ground_truth_text": "bien amiables de par mon\u1e9c daniou esc\u0365ptes",
-      "num_predictions": 41,
+      "cer": 0.024390243902439025,
+      "predicted_text": "bien amiables de par monẜ daniou escptes",
+      "ground_truth_text": "bien amiables de par monẜ daniou escͥptes",
+      "num_predictions": 40,
       "num_ground_truth": 40
     },
     {
       "example_idx": 5,
-      "cer": 0.02127659574468085,
-      "predicted_text": "de sa maiin. et li dist que il uousist estre ami",
+      "cer": 0.0,
+      "predicted_text": "de sa main. et li dist que il uousist estre ami",
       "ground_truth_text": "de sa main. et li dist que il uousist estre ami",
-      "num_predictions": 48,
+      "num_predictions": 47,
       "num_ground_truth": 47
     },
     {
       "example_idx": 6,
       "cer": 0.0,
-      "predicted_text": "de mon\u1e9c et il seroit le sien. et se uoulsist char",
-      "ground_truth_text": "de mon\u1e9c et il seroit le sien. et se uoulsist char",
+      "predicted_text": "de monẜ et il seroit le sien. et se uoulsist char",
+      "ground_truth_text": "de monẜ et il seroit le sien. et se uoulsist char",
       "num_predictions": 49,
       "num_ground_truth": 49
     },
     {
       "example_idx": 7,
       "cer": 0.020833333333333332,
-      "predicted_text": "gier  de son fait. Et apres ce que le dit docteur",
+      "predicted_text": "gier de son fait. Et apress ce que le dit docteur",
       "ground_truth_text": "gier de son fait. Et apres ce que le dit docteur",
       "num_predictions": 49,
       "num_ground_truth": 48
@@ -78,10 +78,10 @@
     },
     {
       "example_idx": 9,
-      "cer": 0.0,
-      "predicted_text": "an dit Iaquet et li dist oultre que il sauoit",
+      "cer": 0.022222222222222223,
+      "predicted_text": "an dit Iaquet et li dist oultre que i sauoit",
       "ground_truth_text": "an dit Iaquet et li dist oultre que il sauoit",
-      "num_predictions": 45,
+      "num_predictions": 44,
       "num_ground_truth": 45
     },
     {
@@ -95,73 +95,73 @@
     {
       "example_idx": 11,
       "cer": 0.0,
-      "predicted_text": "ceuoir et li uouloit baillier du tour du basto\u0303",
-      "ground_truth_text": "ceuoir et li uouloit baillier du tour du bast\u00f5",
+      "predicted_text": "ceuoir et li uouloit baillier du tour du bastõ",
+      "ground_truth_text": "ceuoir et li uouloit baillier du tour du bastõ",
       "num_predictions": 47,
       "num_ground_truth": 46
     },
     {
       "example_idx": 12,
       "cer": 0.0,
-      "predicted_text": "car il sauoit bien que il estoit lo\u0303me du mon",
-      "ground_truth_text": "car il sauoit bien que il estoit l\u00f5me du mon",
+      "predicted_text": "car il sauoit bien que il estoit lõme du mon",
+      "ground_truth_text": "car il sauoit bien que il estoit lõme du mon",
       "num_predictions": 45,
       "num_ground_truth": 44
     },
     {
       "example_idx": 13,
-      "cer": 0.0,
-      "predicted_text": "de que mon\u1e9c daniou haioit plus. et q\u0303 puis",
-      "ground_truth_text": "de que mon\u1e9c daniou haioit plus. et q\u0303 puis",
-      "num_predictions": 42,
+      "cer": 0.047619047619047616,
+      "predicted_text": "de que monẜ ddanion haioit plus. et q̃ puis",
+      "ground_truth_text": "de que monẜ daniou haioit plus. et q̃ puis",
+      "num_predictions": 43,
       "num_ground_truth": 41
     },
     {
       "example_idx": 14,
-      "cer": 0.0,
-      "predicted_text": "quil uouloit faindre estre son ami il se fain",
+      "cer": 0.044444444444444446,
+      "predicted_text": "quil uouloit faiindre estre son ami il se faiin",
       "ground_truth_text": "quil uouloit faindre estre son ami il se fain",
-      "num_predictions": 45,
+      "num_predictions": 47,
       "num_ground_truth": 45
     },
     {
       "example_idx": 15,
-      "cer": 0.0,
-      "predicted_text": "droit aussi et lui douroit un tour du baston",
+      "cer": 0.022727272727272728,
+      "predicted_text": "droit aussi et lui douroit un tourr du baston",
       "ground_truth_text": "droit aussi et lui douroit un tour du baston",
-      "num_predictions": 44,
+      "num_predictions": 45,
       "num_ground_truth": 44
     },
     {
       "example_idx": 16,
       "cer": 0.021739130434782608,
-      "predicted_text": "come il lui uouloit baillier car il se charge",
-      "ground_truth_text": "c\u00f5me il lui uouloit baillier car il se charge",
-      "num_predictions": 45,
+      "predicted_text": "cõme il lui uouloit  baillier car il se charge",
+      "ground_truth_text": "cõme il lui uouloit baillier car il se charge",
+      "num_predictions": 47,
       "num_ground_truth": 45
     },
     {
       "example_idx": 17,
       "cer": 0.0,
-      "predicted_text": "roit de son fait et soubz umbre \u204a couleur de",
-      "ground_truth_text": "roit de son fait et soubz umbre \u204a couleur de",
+      "predicted_text": "roit de son fait et soubz umbre ⁊ couleur de",
+      "ground_truth_text": "roit de son fait et soubz umbre ⁊ couleur de",
       "num_predictions": 44,
       "num_ground_truth": 44
     },
     {
       "example_idx": 18,
       "cer": 0.0,
-      "predicted_text": "faire la besoigne de mon\u1e9c daniou il feroit",
-      "ground_truth_text": "faire la besoigne de mon\u1e9c daniou il feroit",
+      "predicted_text": "faire la besoigne de monẜ daniou il feroit",
+      "ground_truth_text": "faire la besoigne de monẜ daniou il feroit",
       "num_predictions": 42,
       "num_ground_truth": 42
     },
     {
       "example_idx": 19,
-      "cer": 0.0,
-      "predicted_text": "son traictie auecques le roy darragon. Et",
+      "cer": 0.024390243902439025,
+      "predicted_text": "son traictie auecques le roy darrago. Et",
       "ground_truth_text": "son traictie auecques le roy darragon. Et",
-      "num_predictions": 41,
+      "num_predictions": 40,
       "num_ground_truth": 41
     },
     {
@@ -182,25 +182,25 @@
     },
     {
       "example_idx": 22,
-      "cer": 0.027777777777777776,
-      "predicted_text": "roy desspaigne. \u00b6 Et Ie Iaquet de Rue",
-      "ground_truth_text": "roy despaigne. \u00b6 Et Ie Iaquet de Rue",
-      "num_predictions": 37,
+      "cer": 0.0,
+      "predicted_text": "roy despaigne. ¶ Et Ie Iaquet de Rue",
+      "ground_truth_text": "roy despaigne. ¶ Et Ie Iaquet de Rue",
+      "num_predictions": 36,
       "num_ground_truth": 36
     },
     {
       "example_idx": 23,
       "cer": 0.022222222222222223,
-      "predicted_text": "dessus noomme confesse et Iure sur les saintes",
+      "predicted_text": "dessus nomme confesse et Iure sur les saiintes",
       "ground_truth_text": "dessus nomme confesse et Iure sur les saintes",
       "num_predictions": 46,
       "num_ground_truth": 45
     },
     {
       "example_idx": 24,
-      "cer": 0.0,
-      "predicted_text": "enuangiles de dieu par moy touchees \u204a sur",
-      "ground_truth_text": "enuangiles de dieu par moy touchees \u204a sur",
+      "cer": 0.04878048780487805,
+      "predicted_text": "enuangiles de die par moy toucheees ⁊ sur",
+      "ground_truth_text": "enuangiles de dieu par moy touchees ⁊ sur",
       "num_predictions": 41,
       "num_ground_truth": 41
     },
@@ -214,24 +214,24 @@
     },
     {
       "example_idx": 26,
-      "cer": 0.0,
-      "predicted_text": "que les choses dessus escriptes en ces trois",
+      "cer": 0.022727272727272728,
+      "predicted_text": "que les choses dessus escriiptes en ces trois",
       "ground_truth_text": "que les choses dessus escriptes en ces trois",
-      "num_predictions": 44,
+      "num_predictions": 45,
       "num_ground_truth": 44
     },
     {
       "example_idx": 27,
       "cer": 0.0,
-      "predicted_text": "rooles de parchemin les quelles apres ce q\u0303",
-      "ground_truth_text": "rooles de parchemin les quelles apres ce q\u0303",
+      "predicted_text": "rooles de parchemin les quelles apres ce q̃",
+      "ground_truth_text": "rooles de parchemin les quelles apres ce q̃",
       "num_predictions": 43,
       "num_ground_truth": 42
     },
     {
       "example_idx": 28,
-      "cer": 0.0,
-      "predicted_text": "ie les ay confessees sanz force et sanz contrai",
+      "cer": 0.02127659574468085,
+      "predicted_text": "ie les ay confessees sanz force et sanz coutrai",
       "ground_truth_text": "ie les ay confessees sanz force et sanz contrai",
       "num_predictions": 47,
       "num_ground_truth": 47
@@ -262,34 +262,34 @@
     },
     {
       "example_idx": 32,
-      "cer": 0.0,
-      "predicted_text": "uraies par la maniere que dessus sont esc\u0365p",
-      "ground_truth_text": "uraies par la maniere que dessus sont esc\u0365p",
-      "num_predictions": 43,
+      "cer": 0.023255813953488372,
+      "predicted_text": "uraies par la maniere que desssus sont escͥp",
+      "ground_truth_text": "uraies par la maniere que dessus sont escͥp",
+      "num_predictions": 44,
       "num_ground_truth": 42
     },
     {
       "example_idx": 33,
-      "cer": 0.023255813953488372,
-      "predicted_text": "tes. Et en tesmoing de  ce iay ce escript de",
+      "cer": 0.046511627906976744,
+      "predicted_text": "tes. Et en tesmoinng de ce iay ce escrript de",
       "ground_truth_text": "tes. Et en tesmoing de ce iay ce escript de",
-      "num_predictions": 44,
+      "num_predictions": 45,
       "num_ground_truth": 43
     },
     {
       "example_idx": 34,
-      "cer": 0.0,
-      "predicted_text": "ma main le premier iour dauril lan Mil",
+      "cer": 0.02631578947368421,
+      "predicted_text": "ma man le premier iour dauril lan Mil",
       "ground_truth_text": "ma main le premier iour dauril lan Mil",
-      "num_predictions": 38,
+      "num_predictions": 37,
       "num_ground_truth": 38
     },
     {
       "example_idx": 35,
-      "cer": 0.0,
-      "predicted_text": "CCC.lxxuii. auant pasques. Iaque de Rue",
+      "cer": 0.02564102564102564,
+      "predicted_text": "CC.lxxuii. auant pasques. Iaque de Rue",
       "ground_truth_text": "CCC.lxxuii. auant pasques. Iaque de Rue",
-      "num_predictions": 39,
+      "num_predictions": 38,
       "num_ground_truth": 39
     }
   ]

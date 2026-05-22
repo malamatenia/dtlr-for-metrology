@@ -1,8 +1,8 @@
 {
   "document": "btv1b84472995_f962",
   "total_examples": 100,
-  "average_cer": 0.006955079051115461,
-  "total_cer": 0.6955079051115461,
+  "average_cer": 0.018676963460480204,
+  "total_cer": 1.8676963460480205,
   "results": [
     {
       "example_idx": 0,
@@ -22,32 +22,32 @@
     },
     {
       "example_idx": 2,
-      "cer": 0.0,
-      "predicted_text": "royaume. la deuocion quil auoit ueoir les",
+      "cer": 0.04878048780487805,
+      "predicted_text": "royame. l deuocion quil auoit ueoir les",
       "ground_truth_text": "royaume. la deuocion quil auoit ueoir les",
-      "num_predictions": 41,
+      "num_predictions": 39,
       "num_ground_truth": 41
     },
     {
       "example_idx": 3,
       "cer": 0.023809523809523808,
-      "predicted_text": "saintes reliques et aucuns autres pelerina",
+      "predicted_text": "saintes reliques et aucins autres peleriina",
       "ground_truth_text": "saintes reliques et aucins autres pelerina",
-      "num_predictions": 42,
+      "num_predictions": 43,
       "num_ground_truth": 42
     },
     {
       "example_idx": 4,
-      "cer": 0.0,
-      "predicted_text": "ges ou il auoit sa deuocion. et par especial",
+      "cer": 0.022727272727272728,
+      "predicted_text": "ges o il auoit sa deuocion. et par especial",
       "ground_truth_text": "ges ou il auoit sa deuocion. et par especial",
-      "num_predictions": 44,
+      "num_predictions": 43,
       "num_ground_truth": 44
     },
     {
       "example_idx": 5,
-      "cer": 0.0,
-      "predicted_text": "la grant affeccion quil auoit a ueoir Le",
+      "cer": 0.025,
+      "predicted_text": "la grant affeccion quil auoit a ueoir le",
       "ground_truth_text": "la grant affeccion quil auoit a ueoir Le",
       "num_predictions": 40,
       "num_ground_truth": 40
@@ -55,15 +55,15 @@
     {
       "example_idx": 6,
       "cer": 0.0,
-      "predicted_text": "Roy et parler alui. \u00b6 Et en cest temps",
-      "ground_truth_text": "Roy et parler alui. \u00b6 Et en cest temps",
+      "predicted_text": "Roy et parler alui. ¶ Et en cest temps",
+      "ground_truth_text": "Roy et parler alui. ¶ Et en cest temps",
       "num_predictions": 38,
       "num_ground_truth": 38
     },
     {
       "example_idx": 7,
-      "cer": 0.022727272727272728,
-      "predicted_text": "estoit le Roy a son conseil en sa chabre ou",
+      "cer": 0.06818181818181818,
+      "predicted_text": "estoit le Roy ason conseil en  s chambre ou",
       "ground_truth_text": "estoit le Roy a son conseil en sa chambre ou",
       "num_predictions": 43,
       "num_ground_truth": 44
@@ -103,33 +103,33 @@
     {
       "example_idx": 12,
       "cer": 0.075,
-      "predicted_text": "\u1dd1que a lempereur son onclee qui tant damo",
-      "ground_truth_text": "que a lempereur son oncle qui tant damo\u1dd1",
-      "num_predictions": 41,
+      "predicted_text": "que alempereur son oncle qu tant damo",
+      "ground_truth_text": "que a lempereur son oncle qui tant damo᷑",
+      "num_predictions": 37,
       "num_ground_truth": 39
     },
     {
       "example_idx": 13,
-      "cer": 0.0,
-      "predicted_text": "et fiante li auoit moustre co\u0303me de uenir",
-      "ground_truth_text": "et fiante li auoit moustre c\u00f5me de uenir",
-      "num_predictions": 41,
+      "cer": 0.07317073170731707,
+      "predicted_text": "et fiaute li auoit moistre cõme de uenr",
+      "ground_truth_text": "et fiante li auoit moustre cõme de uenir",
+      "num_predictions": 40,
       "num_ground_truth": 40
     },
     {
       "example_idx": 14,
-      "cer": 0.0,
-      "predicted_text": "en son royaume et par deuers lui il feroit",
+      "cer": 0.023809523809523808,
+      "predicted_text": "en son royanme et par deuers lui il feroit",
       "ground_truth_text": "en son royaume et par deuers lui il feroit",
       "num_predictions": 42,
       "num_ground_truth": 42
     },
     {
       "example_idx": 15,
-      "cer": 0.0,
-      "predicted_text": "monstrer on monstreroit le fait \u204a la iustice",
-      "ground_truth_text": "monstrer on monstreroit le fait \u204a la iustice",
-      "num_predictions": 44,
+      "cer": 0.045454545454545456,
+      "predicted_text": "monstrer o monstreroit le fait ⁊ la istice",
+      "ground_truth_text": "monstrer on monstreroit le fait ⁊ la iustice",
+      "num_predictions": 42,
       "num_ground_truth": 44
     },
     {
@@ -142,10 +142,10 @@
     },
     {
       "example_idx": 17,
-      "cer": 0.0,
-      "predicted_text": "gleterre et le grant tort quil ont tenu ases",
+      "cer": 0.022727272727272728,
+      "predicted_text": "gleterre et le grant tort quil ont ten ases",
       "ground_truth_text": "gleterre et le grant tort quil ont tenu ases",
-      "num_predictions": 44,
+      "num_predictions": 43,
       "num_ground_truth": 44
     },
     {
@@ -174,50 +174,50 @@
     },
     {
       "example_idx": 21,
-      "cer": 0.0,
-      "predicted_text": "en a faites a deux fins \u00b6 Lune pour ce",
-      "ground_truth_text": "en a faites a deux fins \u00b6 Lune pour ce",
+      "cer": 0.07894736842105263,
+      "predicted_text": "en a faites a deux fius ¶ Lime pour ce",
+      "ground_truth_text": "en a faites a deux fins ¶ Lune pour ce",
       "num_predictions": 38,
       "num_ground_truth": 38
     },
     {
       "example_idx": 22,
-      "cer": 0.02631578947368421,
-      "predicted_text": "quil scet que ses eennemis magnifestent",
+      "cer": 0.10526315789473684,
+      "predicted_text": "q scet que ses eniemis magnifestent",
       "ground_truth_text": "quil scet que ses ennemis magnifestent",
-      "num_predictions": 39,
+      "num_predictions": 35,
       "num_ground_truth": 38
     },
     {
       "example_idx": 23,
-      "cer": 0.0,
-      "predicted_text": "en allemaigne et aillieurs le contraire",
+      "cer": 0.07692307692307693,
+      "predicted_text": "en alleaigne et aillieurs le contrae",
       "ground_truth_text": "en allemaigne et aillieurs le contraire",
-      "num_predictions": 39,
+      "num_predictions": 36,
       "num_ground_truth": 39
     },
     {
       "example_idx": 24,
-      "cer": 0.0,
-      "predicted_text": "de la uerite. en eulx iustifiant par quoy",
+      "cer": 0.024390243902439025,
+      "predicted_text": "de la uerite.  en eulx iustifiant par quoy",
       "ground_truth_text": "de la uerite. en eulx iustifiant par quoy",
-      "num_predictions": 41,
+      "num_predictions": 42,
       "num_ground_truth": 41
     },
     {
       "example_idx": 25,
-      "cer": 0.0,
-      "predicted_text": "lempereur et princes et son conseil qui a",
+      "cer": 0.04878048780487805,
+      "predicted_text": "lempereur et priinces et son conseil qui ",
       "ground_truth_text": "lempereur et princes et son conseil qui a",
       "num_predictions": 41,
       "num_ground_truth": 41
     },
     {
       "example_idx": 26,
-      "cer": 0.0,
-      "predicted_text": "uecques lui estoient oy et ueu ce que le Roy",
+      "cer": 0.022727272727272728,
+      "predicted_text": "uecques lui estoientt oy et ueu ce que le Roy",
       "ground_truth_text": "uecques lui estoient oy et ueu ce que le Roy",
-      "num_predictions": 44,
+      "num_predictions": 45,
       "num_ground_truth": 44
     },
     {
@@ -230,10 +230,10 @@
     },
     {
       "example_idx": 28,
-      "cer": 0.02127659574468085,
-      "predicted_text": "et les traictiez de paix faites et les  aliances",
+      "cer": 0.0,
+      "predicted_text": "et les traictiez de paix faites et les aliances",
       "ground_truth_text": "et les traictiez de paix faites et les aliances",
-      "num_predictions": 48,
+      "num_predictions": 47,
       "num_ground_truth": 47
     },
     {
@@ -270,26 +270,26 @@
     },
     {
       "example_idx": 33,
-      "cer": 0.0,
-      "predicted_text": "blier le contraire \u00b6 Lautre raison qui a",
-      "ground_truth_text": "blier le contraire \u00b6 Lautre raison qui a",
-      "num_predictions": 40,
+      "cer": 0.05,
+      "predicted_text": "blier le contraire ¶ Lautre raison qua",
+      "ground_truth_text": "blier le contraire ¶ Lautre raison qui a",
+      "num_predictions": 38,
       "num_ground_truth": 40
     },
     {
       "example_idx": 34,
-      "cer": 0.0,
-      "predicted_text": "ce mouuoit le. Roy estoit pour auoir le co\u0303",
-      "ground_truth_text": "ce mouuoit le. Roy estoit pour auoir le c\u00f5",
-      "num_predictions": 43,
+      "cer": 0.023255813953488372,
+      "predicted_text": "ce mouuoit le.Roy estoit pour auoir le cõ",
+      "ground_truth_text": "ce mouuoit le. Roy estoit pour auoir le cõ",
+      "num_predictions": 42,
       "num_ground_truth": 42
     },
     {
       "example_idx": 35,
-      "cer": 0.0,
-      "predicted_text": "seil et aduis de lempereur apres ce quil aroit",
+      "cer": 0.021739130434782608,
+      "predicted_text": "sei et aduis de lempereur apres ce quil aroit",
       "ground_truth_text": "seil et aduis de lempereur apres ce quil aroit",
-      "num_predictions": 46,
+      "num_predictions": 45,
       "num_ground_truth": 46
     },
     {
@@ -310,18 +310,18 @@
     },
     {
       "example_idx": 38,
-      "cer": 0.0,
-      "predicted_text": "si lui sembloit quil deust souffire ou que pl\ua770",
-      "ground_truth_text": "si lui sembloit quil deust souffire ou que pl\ua770",
-      "num_predictions": 46,
+      "cer": 0.043478260869565216,
+      "predicted_text": "si lui sembloit quiil deust souffire on que plꝰ",
+      "ground_truth_text": "si lui sembloit quil deust souffire ou que plꝰ",
+      "num_predictions": 47,
       "num_ground_truth": 46
     },
     {
       "example_idx": 39,
-      "cer": 0.023255813953488372,
-      "predicted_text": "auant e Roy en deust faire. Aus quelles de",
+      "cer": 0.0,
+      "predicted_text": "auant le Roy en deust faire. Aus quelles de",
       "ground_truth_text": "auant le Roy en deust faire. Aus quelles de",
-      "num_predictions": 42,
+      "num_predictions": 43,
       "num_ground_truth": 43
     },
     {
@@ -342,10 +342,10 @@
     },
     {
       "example_idx": 42,
-      "cer": 0.0,
-      "predicted_text": "anisi le feist. Si ordena son dit conseil et",
+      "cer": 0.022727272727272728,
+      "predicted_text": "ansi le feist. Si ordena son dit conseil et",
       "ground_truth_text": "anisi le feist. Si ordena son dit conseil et",
-      "num_predictions": 44,
+      "num_predictions": 43,
       "num_ground_truth": 44
     },
     {
@@ -358,49 +358,49 @@
     },
     {
       "example_idx": 44,
-      "cer": 0.023255813953488372,
-      "predicted_text": "Et aussi fist saauoir alempereur que a celle",
+      "cer": 0.06976744186046512,
+      "predicted_text": "E  aussi fist sauoir allempereur quea celle",
       "ground_truth_text": "Et aussi fist sauoir alempereur que a celle",
-      "num_predictions": 44,
+      "num_predictions": 43,
       "num_ground_truth": 43
     },
     {
       "example_idx": 45,
-      "cer": 0.0,
-      "predicted_text": "heure lui et son filz les princes prelaz \u204a aut\u033es",
-      "ground_truth_text": "heure lui et son filz les princes prelaz \u204a aut\u033es",
-      "num_predictions": 48,
+      "cer": 0.020833333333333332,
+      "predicted_text": "heure lui et son filz les prnces prelaz ⁊ aut̾s",
+      "ground_truth_text": "heure lui et son filz les princes prelaz ⁊ aut̾s",
+      "num_predictions": 47,
       "num_ground_truth": 47
     },
     {
       "example_idx": 46,
-      "cer": 0.022727272727272728,
-      "predicted_text": "gens de son conseil qui en sa compaignie\u0303es",
-      "ground_truth_text": "gens de son conseil qui en sa compaigni\u1ebd es",
-      "num_predictions": 43,
+      "cer": 0.045454545454545456,
+      "predicted_text": "gens de so conseil qui en sa compaignie es",
+      "ground_truth_text": "gens de son conseil qui en sa compaigniẽ es",
+      "num_predictions": 42,
       "num_ground_truth": 43
     },
     {
       "example_idx": 47,
-      "cer": 0.0,
-      "predicted_text": "toient uenuz feussent au dit lieu du louure",
+      "cer": 0.023255813953488372,
+      "predicted_text": "toient uenuuz feussent au dit lieu du louure",
       "ground_truth_text": "toient uenuz feussent au dit lieu du louure",
-      "num_predictions": 43,
+      "num_predictions": 44,
       "num_ground_truth": 43
     },
     {
       "example_idx": 48,
-      "cer": 0.0,
-      "predicted_text": "a la dite heure pour oyr ce que le Roy lui uou",
+      "cer": 0.021739130434782608,
+      "predicted_text": "a la dite heure pour oyr cce que le Roy lui uou",
       "ground_truth_text": "a la dite heure pour oyr ce que le Roy lui uou",
-      "num_predictions": 46,
+      "num_predictions": 47,
       "num_ground_truth": 46
     },
     {
       "example_idx": 49,
       "cer": 0.02040816326530612,
-      "predicted_text": "droit dire et monstrer. Et fu le uendredy.uiii\u0364.",
-      "ground_truth_text": "droit dire et monstrer. Et fu le uendredy. uiii\u0364.",
+      "predicted_text": "droit dire et monstrer. Et fu le uendredy. uiiͤ.",
+      "ground_truth_text": "droit dire et monstrer. Et fu le uendredy. uiiiͤ.",
       "num_predictions": 48,
       "num_ground_truth": 48
     },
@@ -430,34 +430,34 @@
     },
     {
       "example_idx": 53,
-      "cer": 0.023255813953488372,
-      "predicted_text": "pre garni dor et de perrerie dune espine e",
+      "cer": 0.0,
+      "predicted_text": "pre garni dor et de perrerie dune espine de",
       "ground_truth_text": "pre garni dor et de perrerie dune espine de",
-      "num_predictions": 42,
+      "num_predictions": 43,
       "num_ground_truth": 43
     },
     {
       "example_idx": 54,
-      "cer": 0.0,
-      "predicted_text": "la sainte coronne et dun des os de .S\u033e. m\u0363rtin",
-      "ground_truth_text": "la sainte coronne et dun des os de .S\u033e. m\u0363rtin",
-      "num_predictions": 46,
+      "cer": 0.06521739130434782,
+      "predicted_text": "la sainte coronne et dun des os de..S. mrtin",
+      "ground_truth_text": "la sainte coronne et dun des os de .S̾. mͣrtin",
+      "num_predictions": 44,
       "num_ground_truth": 44
     },
     {
       "example_idx": 55,
       "cer": 0.023255813953488372,
-      "predicted_text": "et de puis li donna de saint denys car m\u0142t",
-      "ground_truth_text": "et de puis lui donna de saint denys car m\u0142t",
+      "predicted_text": "et de puis lui donna de sant denys car młt",
+      "ground_truth_text": "et de puis lui donna de saint denys car młt",
       "num_predictions": 42,
       "num_ground_truth": 43
     },
     {
       "example_idx": 56,
-      "cer": 0.046511627906976744,
-      "predicted_text": "fort en desiroit a auoir  ett en auoit requis",
+      "cer": 0.0,
+      "predicted_text": "fort en desiroit a auoir et en auoit requis",
       "ground_truth_text": "fort en desiroit a auoir et en auoit requis",
-      "num_predictions": 45,
+      "num_predictions": 43,
       "num_ground_truth": 43
     },
     {
@@ -511,16 +511,16 @@
     {
       "example_idx": 63,
       "cer": 0.0,
-      "predicted_text": "notables les dux de braban \u204a de xassoig",
-      "ground_truth_text": "notables les dux de braban \u204a de xassoig",
+      "predicted_text": "notables les dux de braban ⁊ de xassoig",
+      "ground_truth_text": "notables les dux de braban ⁊ de xassoig",
       "num_predictions": 39,
       "num_ground_truth": 39
     },
     {
       "example_idx": 64,
       "cer": 0.0,
-      "predicted_text": "ne et les trois autres ducz dessus no\u0303mez.",
-      "ground_truth_text": "ne et les trois autres ducz dessus n\u00f5mez.",
+      "predicted_text": "ne et les trois autres ducz dessus nõmez.",
+      "ground_truth_text": "ne et les trois autres ducz dessus nõmez.",
       "num_predictions": 42,
       "num_ground_truth": 41
     },
@@ -534,26 +534,26 @@
     },
     {
       "example_idx": 66,
-      "cer": 0.023255813953488372,
-      "predicted_text": "chambellan le seigneur de  coldiz \u204a pluseurs",
-      "ground_truth_text": "chambellan le seigneur de coldiz \u204a pluseurs",
-      "num_predictions": 44,
+      "cer": 0.06976744186046512,
+      "predicted_text": "chambellan l seigneur de coldiz⁊ pluiseurs",
+      "ground_truth_text": "chambellan le seigneur de coldiz ⁊ pluseurs",
+      "num_predictions": 42,
       "num_ground_truth": 43
     },
     {
       "example_idx": 67,
       "cer": 0.0,
-      "predicted_text": "autres seigneurs contes barons \u204a ch\u0142rs",
-      "ground_truth_text": "autres seigneurs contes barons \u204a ch\u0142rs",
+      "predicted_text": "autres seigneurs contes barons ⁊ chłrs",
+      "ground_truth_text": "autres seigneurs contes barons ⁊ chłrs",
       "num_predictions": 38,
       "num_ground_truth": 38
     },
     {
       "example_idx": 68,
-      "cer": 0.05263157894736842,
-      "predicted_text": "isques au nombre de  cinquante \ua751so\u0303nes",
-      "ground_truth_text": "iusques au nombre de cinquante \ua751s\u00f5nes",
-      "num_predictions": 38,
+      "cer": 0.02631578947368421,
+      "predicted_text": "iiusques au nombre de cinquante ꝑsõnes",
+      "ground_truth_text": "iusques au nombre de cinquante ꝑsõnes",
+      "num_predictions": 39,
       "num_ground_truth": 37
     },
     {
@@ -567,17 +567,17 @@
     {
       "example_idx": 70,
       "cer": 0.023255813953488372,
-      "predicted_text": "bien autant et plus. et y  estoient les prin",
+      "predicted_text": "bien autant et plus. et yestoient les prin",
       "ground_truth_text": "bien autant et plus. et y estoient les prin",
-      "num_predictions": 44,
+      "num_predictions": 42,
       "num_ground_truth": 43
     },
     {
       "example_idx": 71,
-      "cer": 0.0,
-      "predicted_text": "cipaux et plus notables dont les noms",
+      "cer": 0.02702702702702703,
+      "predicted_text": "cipauux et plus notables dont les noms",
       "ground_truth_text": "cipaux et plus notables dont les noms",
-      "num_predictions": 37,
+      "num_predictions": 38,
       "num_ground_truth": 37
     },
     {
@@ -590,10 +590,10 @@
     },
     {
       "example_idx": 73,
-      "cer": 0.02631578947368421,
-      "predicted_text": "Berry.de Bourgoigne. de Bourbon et de",
+      "cer": 0.0,
+      "predicted_text": "Berry. de Bourgoigne. de Bourbon et de",
       "ground_truth_text": "Berry. de Bourgoigne. de Bourbon et de",
-      "num_predictions": 37,
+      "num_predictions": 38,
       "num_ground_truth": 38
     },
     {
@@ -615,137 +615,137 @@
     {
       "example_idx": 76,
       "cer": 0.0,
-      "predicted_text": "Brayne. mon\u1e9c Iaques de bourbon. le ma",
-      "ground_truth_text": "Brayne. mon\u1e9c Iaques de bourbon. le ma",
+      "predicted_text": "Brayne. monẜ Iaques de bourbon. le ma",
+      "ground_truth_text": "Brayne. monẜ Iaques de bourbon. le ma",
       "num_predictions": 37,
       "num_ground_truth": 37
     },
     {
       "example_idx": 77,
-      "cer": 0.022222222222222223,
-      "predicted_text": "reschal de france. de blainulle. le seigneur",
+      "cer": 0.0,
+      "predicted_text": "reschal de france. de blainuille. le seigneur",
       "ground_truth_text": "reschal de france. de blainuille. le seigneur",
-      "num_predictions": 44,
+      "num_predictions": 45,
       "num_ground_truth": 45
     },
     {
       "example_idx": 78,
       "cer": 0.0,
-      "predicted_text": "de Rayneual. Mes\u1e9c philebert de lespinace",
-      "ground_truth_text": "de Rayneual. Mes\u1e9c philebert de lespinace",
+      "predicted_text": "de Rayneual. Mesẜ philebert de lespinace",
+      "ground_truth_text": "de Rayneual. Mesẜ philebert de lespinace",
       "num_predictions": 40,
       "num_ground_truth": 40
     },
     {
       "example_idx": 79,
       "cer": 0.0,
-      "predicted_text": "Mon\u1e9c Thomas de uoudenay. Mon\u1e9c arnault",
-      "ground_truth_text": "Mon\u1e9c Thomas de uoudenay. Mon\u1e9c arnault",
+      "predicted_text": "Monẜ Thomas de uoudenay. Monẜ arnault",
+      "ground_truth_text": "Monẜ Thomas de uoudenay. Monẜ arnault",
       "num_predictions": 37,
       "num_ground_truth": 37
     },
     {
       "example_idx": 80,
-      "cer": 0.0,
-      "predicted_text": "de corbie cheualiers et pluseurs autres. Et",
+      "cer": 0.023255813953488372,
+      "predicted_text": "de corbie cheualiers et pluseurs  autres. Et",
       "ground_truth_text": "de corbie cheualiers et pluseurs autres. Et",
-      "num_predictions": 43,
+      "num_predictions": 44,
       "num_ground_truth": 43
     },
     {
       "example_idx": 81,
-      "cer": 0.025,
-      "predicted_text": "des gens du conseil du .Roy y  estoit son",
+      "cer": 0.05,
+      "predicted_text": "des gens duu conseil du . Roy y estoit son",
       "ground_truth_text": "des gens du conseil du .Roy y estoit son",
-      "num_predictions": 41,
+      "num_predictions": 42,
       "num_ground_truth": 40
     },
     {
       "example_idx": 82,
-      "cer": 0.025,
-      "predicted_text": "chancellier. larceuesque de Rains.. Les e",
+      "cer": 0.0,
+      "predicted_text": "chancellier. larceuesque de Rains. Les e",
       "ground_truth_text": "chancellier. larceuesque de Rains. Les e",
-      "num_predictions": 41,
+      "num_predictions": 40,
       "num_ground_truth": 40
     },
     {
       "example_idx": 83,
-      "cer": 0.024390243902439025,
-      "predicted_text": "uesques de laon.de paris. de Biauuais de",
+      "cer": 0.0,
+      "predicted_text": "uesques de laon. de paris. de Biauuais de",
       "ground_truth_text": "uesques de laon. de paris. de Biauuais de",
-      "num_predictions": 40,
+      "num_predictions": 41,
       "num_ground_truth": 41
     },
     {
       "example_idx": 84,
-      "cer": 0.0,
-      "predicted_text": "Baieux. labbe de saint Wast et dautres clers",
+      "cer": 0.06818181818181818,
+      "predicted_text": "aieux. labbe de saiint WWast et dautres clers",
       "ground_truth_text": "Baieux. labbe de saint Wast et dautres clers",
-      "num_predictions": 44,
+      "num_predictions": 45,
       "num_ground_truth": 44
     },
     {
       "example_idx": 85,
       "cer": 0.0,
-      "predicted_text": "et lays du conseil du Roy tant de \ua751lement",
-      "ground_truth_text": "et lays du conseil du Roy tant de \ua751lement",
+      "predicted_text": "et lays du conseil du Roy tant de ꝑlement",
+      "ground_truth_text": "et lays du conseil du Roy tant de ꝑlement",
       "num_predictions": 41,
       "num_ground_truth": 41
     },
     {
       "example_idx": 86,
-      "cer": 0.0,
-      "predicted_text": "que autres. Et estoient lempereur \u204a le Roy",
-      "ground_truth_text": "que autres. Et estoient lempereur \u204a le Roy",
-      "num_predictions": 42,
+      "cer": 0.023809523809523808,
+      "predicted_text": "que autres. Et estoient lemperer ⁊ le Roy",
+      "ground_truth_text": "que autres. Et estoient lempereur ⁊ le Roy",
+      "num_predictions": 41,
       "num_ground_truth": 42
     },
     {
       "example_idx": 87,
-      "cer": 0.023255813953488372,
-      "predicted_text": "et  le Roy des romains en trois chaieres con",
+      "cer": 0.046511627906976744,
+      "predicted_text": "et le Roy des romans en trois cchaieres con",
       "ground_truth_text": "et le Roy des romains en trois chaieres con",
-      "num_predictions": 44,
+      "num_predictions": 43,
       "num_ground_truth": 43
     },
     {
       "example_idx": 88,
-      "cer": 0.0,
-      "predicted_text": "uertes de drap dor et les autres assis a",
+      "cer": 0.025,
+      "predicted_text": "uertes dde drap dor et les autres assis a",
       "ground_truth_text": "uertes de drap dor et les autres assis a",
-      "num_predictions": 40,
+      "num_predictions": 41,
       "num_ground_truth": 40
     },
     {
       "example_idx": 89,
-      "cer": 0.0,
-      "predicted_text": "doubles fourmes en maniere de sieges de",
+      "cer": 0.02564102564102564,
+      "predicted_text": "doubles fourmes en maniere  de sieges de",
       "ground_truth_text": "doubles fourmes en maniere de sieges de",
-      "num_predictions": 39,
+      "num_predictions": 40,
       "num_ground_truth": 39
     },
     {
       "example_idx": 90,
-      "cer": 0.023255813953488372,
-      "predicted_text": "conseil. Et prist le Roy aaparler \u204a mo\u0303strer",
-      "ground_truth_text": "conseil. Et prist le Roy aparler \u204a m\u00f5strer",
-      "num_predictions": 44,
+      "cer": 0.0,
+      "predicted_text": "conseil. Et prist le Roy aparler ⁊ mõstrer",
+      "ground_truth_text": "conseil. Et prist le Roy aparler ⁊ mõstrer",
+      "num_predictions": 43,
       "num_ground_truth": 42
     },
     {
       "example_idx": 91,
-      "cer": 0.0,
-      "predicted_text": "les faiz et besoignes dessus escriptes par",
+      "cer": 0.023809523809523808,
+      "predicted_text": "les faiz et besoignes desss escriptes par",
       "ground_truth_text": "les faiz et besoignes dessus escriptes par",
-      "num_predictions": 42,
+      "num_predictions": 41,
       "num_ground_truth": 42
     },
     {
       "example_idx": 92,
-      "cer": 0.025,
-      "predicted_text": "longne espace de deux heures ett plus. Et",
+      "cer": 0.0,
+      "predicted_text": "longne espace de deux heures et plus. Et",
       "ground_truth_text": "longne espace de deux heures et plus. Et",
-      "num_predictions": 41,
+      "num_predictions": 40,
       "num_ground_truth": 40
     },
     {
@@ -759,8 +759,8 @@
     {
       "example_idx": 94,
       "cer": 0.023809523809523808,
-      "predicted_text": "Royaume de france. et apres de la conq\u0303ste",
-      "ground_truth_text": "royaume de france. et apres de la conq\u0303ste",
+      "predicted_text": "Royaume de france. et apres de la conq̃ste",
+      "ground_truth_text": "royaume de france. et apres de la conq̃ste",
       "num_predictions": 42,
       "num_ground_truth": 41
     },
@@ -782,26 +782,26 @@
     },
     {
       "example_idx": 97,
-      "cer": 0.0,
-      "predicted_text": "crestienne que le dit parz fu sousmis ala",
+      "cer": 0.07317073170731707,
+      "predicted_text": "cresttienne que l ditt parz fu sousmis ala",
       "ground_truth_text": "crestienne que le dit parz fu sousmis ala",
-      "num_predictions": 41,
+      "num_predictions": 42,
       "num_ground_truth": 41
     },
     {
       "example_idx": 98,
-      "cer": 0.0,
-      "predicted_text": "subieccion du. Royaume de france et sanz",
+      "cer": 0.025,
+      "predicted_text": "subieccion du.Royaume de france et sanz",
       "ground_truth_text": "subieccion du. Royaume de france et sanz",
-      "num_predictions": 40,
+      "num_predictions": 39,
       "num_ground_truth": 40
     },
     {
       "example_idx": 99,
-      "cer": 0.0,
-      "predicted_text": "Interruption on contradiction ato\ua770 iours",
-      "ground_truth_text": "Interruption on contradiction ato\ua770 iours",
-      "num_predictions": 40,
+      "cer": 0.05,
+      "predicted_text": "Interruption on contradiction atoꝰꝰꝰ iours",
+      "ground_truth_text": "Interruption on contradiction atoꝰ iours",
+      "num_predictions": 42,
       "num_ground_truth": 40
     }
   ]

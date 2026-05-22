@@ -1,30 +1,30 @@
 {
   "document": "btv1b84472995_f813",
   "total_examples": 83,
-  "average_cer": 0.002950121207231806,
-  "total_cer": 0.2448600602002399,
+  "average_cer": 0.009465275490999351,
+  "total_cer": 0.7856178657529461,
   "results": [
     {
       "example_idx": 0,
       "cer": 0.0,
-      "predicted_text": "naturel co\u0303me par bonne deliberacion de",
-      "ground_truth_text": "naturel c\u00f5me par bonne deliberacion de",
+      "predicted_text": "naturel cõme par bonne deliberacion de",
+      "ground_truth_text": "naturel cõme par bonne deliberacion de",
       "num_predictions": 39,
       "num_ground_truth": 38
     },
     {
       "example_idx": 1,
-      "cer": 0.022727272727272728,
-      "predicted_text": "son conseil fist departir les genz des .iii..",
+      "cer": 0.0,
+      "predicted_text": "son conseil fist departir les genz des .iii.",
       "ground_truth_text": "son conseil fist departir les genz des .iii.",
-      "num_predictions": 45,
+      "num_predictions": 44,
       "num_ground_truth": 44
     },
     {
       "example_idx": 2,
       "cer": 0.0,
-      "predicted_text": "estaz et leur fist dire que chascu\u0303 deulz",
-      "ground_truth_text": "estaz et leur fist dire que chasc\u0169 deulz",
+      "predicted_text": "estaz et leur fist dire que chascũ deulz",
+      "ground_truth_text": "estaz et leur fist dire que chascũ deulz",
       "num_predictions": 41,
       "num_ground_truth": 40
     },
@@ -38,10 +38,10 @@
     },
     {
       "example_idx": 4,
-      "cer": 0.041666666666666664,
-      "predicted_text": "E merquedy eensuyuant qui",
+      "cer": 0.0,
+      "predicted_text": "E merquedy ensuyuant qui",
       "ground_truth_text": "E merquedy ensuyuant qui",
-      "num_predictions": 25,
+      "num_predictions": 24,
       "num_ground_truth": 24
     },
     {
@@ -55,8 +55,8 @@
     {
       "example_idx": 6,
       "cer": 0.0,
-      "predicted_text": "toussains le dit mon\u1e9c le duc",
-      "ground_truth_text": "toussains le dit mon\u1e9c le duc",
+      "predicted_text": "toussains le dit monẜ le duc",
+      "ground_truth_text": "toussains le dit monẜ le duc",
       "num_predictions": 28,
       "num_ground_truth": 28
     },
@@ -95,16 +95,16 @@
     {
       "example_idx": 11,
       "cer": 0.0,
-      "predicted_text": "que ceulz des trois estaz qui estoient apar\u0303",
-      "ground_truth_text": "que ceulz des trois estaz qui estoient apar\u0303",
+      "predicted_text": "que ceulz des trois estaz qui estoient apar̃",
+      "ground_truth_text": "que ceulz des trois estaz qui estoient apar̃",
       "num_predictions": 44,
       "num_ground_truth": 43
     },
     {
       "example_idx": 12,
       "cer": 0.0,
-      "predicted_text": "sen alassent chascun en son pays sanz pl\ua770",
-      "ground_truth_text": "sen alassent chascun en son pays sanz pl\ua770",
+      "predicted_text": "sen alassent chascun en son pays sanz plꝰ",
+      "ground_truth_text": "sen alassent chascun en son pays sanz plꝰ",
       "num_predictions": 41,
       "num_ground_truth": 41
     },
@@ -118,10 +118,10 @@
     },
     {
       "example_idx": 14,
-      "cer": 0.0,
-      "predicted_text": "quil leur dist. Et li fu conseillie par la pl\ua770",
-      "ground_truth_text": "quil leur dist. Et li fu conseillie par la pl\ua770",
-      "num_predictions": 46,
+      "cer": 0.021739130434782608,
+      "predicted_text": "quil leur dist. Et li fu conseillie par laplꝰ",
+      "ground_truth_text": "quil leur dist. Et li fu conseillie par la plꝰ",
+      "num_predictions": 45,
       "num_ground_truth": 46
     },
     {
@@ -135,17 +135,17 @@
     {
       "example_idx": 16,
       "cer": 0.0,
-      "predicted_text": "dit conseil que ainsi le feist. \u00b6 Et pource",
-      "ground_truth_text": "dit conseil que ainsi le feist. \u00b6 Et pource",
+      "predicted_text": "dit conseil que ainsi le feist. ¶ Et pource",
+      "ground_truth_text": "dit conseil que ainsi le feist. ¶ Et pource",
       "num_predictions": 43,
       "num_ground_truth": 43
     },
     {
       "example_idx": 17,
-      "cer": 0.024390243902439025,
-      "predicted_text": "dist aceuls qui presens estoient desdiz.",
+      "cer": 0.0,
+      "predicted_text": "dist aceuls qui presens estoient des diz.",
       "ground_truth_text": "dist aceuls qui presens estoient des diz.",
-      "num_predictions": 40,
+      "num_predictions": 41,
       "num_ground_truth": 41
     },
     {
@@ -183,16 +183,16 @@
     {
       "example_idx": 22,
       "cer": 0.0,
-      "predicted_text": "deroit mais quil eust ouy certains ch\u0142rs",
-      "ground_truth_text": "deroit mais quil eust ouy certains ch\u0142rs",
+      "predicted_text": "deroit mais quil eust ouy certains chłrs",
+      "ground_truth_text": "deroit mais quil eust ouy certains chłrs",
       "num_predictions": 40,
       "num_ground_truth": 40
     },
     {
       "example_idx": 23,
       "cer": 0.0,
-      "predicted_text": "qui uenoient de deuers le dit Roy so\u0303 pere",
-      "ground_truth_text": "qui uenoient de deuers le dit Roy s\u00f5 pere",
+      "predicted_text": "qui uenoient de deuers le dit Roy sõ pere",
+      "ground_truth_text": "qui uenoient de deuers le dit Roy sõ pere",
       "num_predictions": 42,
       "num_ground_truth": 41
     },
@@ -214,10 +214,10 @@
     },
     {
       "example_idx": 26,
-      "cer": 0.0,
-      "predicted_text": "pereeur son oncle par deuers le quel il en",
+      "cer": 0.023809523809523808,
+      "predicted_text": "pereeur son oncle par deuers le que il en",
       "ground_truth_text": "pereeur son oncle par deuers le quel il en",
-      "num_predictions": 42,
+      "num_predictions": 41,
       "num_ground_truth": 42
     },
     {
@@ -238,26 +238,26 @@
     },
     {
       "example_idx": 29,
-      "cer": 0.0,
-      "predicted_text": "cion de gouuerner le royaune de france\u0303",
-      "ground_truth_text": "cion de gouuerner le royaune de franc\u1ebd",
-      "num_predictions": 39,
+      "cer": 0.02564102564102564,
+      "predicted_text": "cion de gouuerner le royaue de francẽ",
+      "ground_truth_text": "cion de gouuerner le royaune de francẽ",
+      "num_predictions": 38,
       "num_ground_truth": 38
     },
     {
       "example_idx": 30,
-      "cer": 0.0,
-      "predicted_text": "par les requestes quilz auoient faites au",
+      "cer": 0.024390243902439025,
+      "predicted_text": "par lles requestes quilz auoient faites au",
       "ground_truth_text": "par les requestes quilz auoient faites au",
-      "num_predictions": 41,
+      "num_predictions": 42,
       "num_ground_truth": 41
     },
     {
       "example_idx": 31,
-      "cer": 0.0,
-      "predicted_text": "dit mon\u1e9c le duc furent m\u0142t dolens et",
-      "ground_truth_text": "dit mon\u1e9c le duc furent m\u0142t dolens et",
-      "num_predictions": 36,
+      "cer": 0.027777777777777776,
+      "predicted_text": "dit monẜ le duc furent młłt dolens et",
+      "ground_truth_text": "dit monẜ le duc furent młt dolens et",
+      "num_predictions": 37,
       "num_ground_truth": 36
     },
     {
@@ -270,74 +270,74 @@
     },
     {
       "example_idx": 33,
-      "cer": 0.0,
-      "predicted_text": "uoient este faites par le dit mon\u1e9c le duc",
-      "ground_truth_text": "uoient este faites par le dit mon\u1e9c le duc",
-      "num_predictions": 41,
+      "cer": 0.024390243902439025,
+      "predicted_text": "uoient este faites par ledit monẜ le duc",
+      "ground_truth_text": "uoient este faites par le dit monẜ le duc",
+      "num_predictions": 40,
       "num_ground_truth": 41
     },
     {
       "example_idx": 34,
-      "cer": 0.0,
-      "predicted_text": "pour departir la dicte assemblee des diz .iii.",
+      "cer": 0.021739130434782608,
+      "predicted_text": "pour departir la dicte assemblee des diz..iii.",
       "ground_truth_text": "pour departir la dicte assemblee des diz .iii.",
       "num_predictions": 46,
       "num_ground_truth": 46
     },
     {
       "example_idx": 35,
-      "cer": 0.0,
-      "predicted_text": "estaz qui estoit aparis. et en uerite ainsi es",
+      "cer": 0.021739130434782608,
+      "predicted_text": "estaz qui estoit aparis. et en  uerite ainsi es",
       "ground_truth_text": "estaz qui estoit aparis. et en uerite ainsi es",
-      "num_predictions": 46,
+      "num_predictions": 47,
       "num_ground_truth": 46
     },
     {
       "example_idx": 36,
       "cer": 0.02631578947368421,
-      "predicted_text": "toit il. \u00b6 Et pour ce lendemaain qui fu",
-      "ground_truth_text": "toit il. \u00b6 Et pour ce lendemain qui fu",
-      "num_predictions": 39,
+      "predicted_text": "toit il. ¶ Et pour ce lendeman qui fu",
+      "ground_truth_text": "toit il. ¶ Et pour ce lendemain qui fu",
+      "num_predictions": 37,
       "num_ground_truth": 38
     },
     {
       "example_idx": 37,
-      "cer": 0.0,
-      "predicted_text": "iour de ieudy pluseurs des diz .iii. estaz",
+      "cer": 0.023809523809523808,
+      "predicted_text": "iour de ieudy pluseurs des diz .ii. estaz",
       "ground_truth_text": "iour de ieudy pluseurs des diz .iii. estaz",
-      "num_predictions": 42,
+      "num_predictions": 41,
       "num_ground_truth": 42
     },
     {
       "example_idx": 38,
-      "cer": 0.0,
-      "predicted_text": "qui encores estoient aparis Le dit mon\u1e9c",
-      "ground_truth_text": "qui encores estoient aparis Le dit mon\u1e9c",
+      "cer": 0.02564102564102564,
+      "predicted_text": "qui encores estoient aparis le dit monẜ",
+      "ground_truth_text": "qui encores estoient aparis Le dit monẜ",
       "num_predictions": 39,
       "num_ground_truth": 39
     },
     {
       "example_idx": 39,
-      "cer": 0.0,
-      "predicted_text": "le duc estant a montlehery la ou il ala",
+      "cer": 0.02564102564102564,
+      "predicted_text": "l duc estant a montlehery la ou il ala",
       "ground_truth_text": "le duc estant a montlehery la ou il ala",
-      "num_predictions": 39,
+      "num_predictions": 38,
       "num_ground_truth": 39
     },
     {
       "example_idx": 40,
-      "cer": 0.0,
-      "predicted_text": "celui iour a matin se assemblerent ou",
+      "cer": 0.02702702702702703,
+      "predicted_text": "ccelui iour a matin se assemblerent ou",
       "ground_truth_text": "celui iour a matin se assemblerent ou",
-      "num_predictions": 37,
+      "num_predictions": 38,
       "num_ground_truth": 37
     },
     {
       "example_idx": 41,
-      "cer": 0.0,
-      "predicted_text": "chapitre des diz freres meneurs. Et la le",
+      "cer": 0.04878048780487805,
+      "predicted_text": "chapitre des diz frers meneurs. Et la e",
       "ground_truth_text": "chapitre des diz freres meneurs. Et la le",
-      "num_predictions": 41,
+      "num_predictions": 39,
       "num_ground_truth": 41
     },
     {
@@ -351,24 +351,24 @@
     {
       "example_idx": 43,
       "cer": 0.0,
-      "predicted_text": "de ceuls qui y uouldrent aler co\u0303ment le",
-      "ground_truth_text": "de ceuls qui y uouldrent aler c\u00f5ment le",
+      "predicted_text": "de ceuls qui y uouldrent aler cõment le",
+      "ground_truth_text": "de ceuls qui y uouldrent aler cõment le",
       "num_predictions": 40,
       "num_ground_truth": 39
     },
     {
       "example_idx": 44,
       "cer": 0.02702702702702703,
-      "predicted_text": "dit mon\u1e9c le  duc leur auoit requis con",
-      "ground_truth_text": "dit mon\u1e9c le duc leur auoit requis con",
-      "num_predictions": 38,
+      "predicted_text": "dit monẜ le duc leur auoit requiscon",
+      "ground_truth_text": "dit monẜ le duc leur auoit requis con",
+      "num_predictions": 36,
       "num_ground_truth": 37
     },
     {
       "example_idx": 45,
       "cer": 0.0,
-      "predicted_text": "seil et aide et co\u0303ment pour ce faire ilz a",
-      "ground_truth_text": "seil et aide et c\u00f5ment pour ce faire ilz a",
+      "predicted_text": "seil et aide et cõment pour ce faire ilz a",
+      "ground_truth_text": "seil et aide et cõment pour ce faire ilz a",
       "num_predictions": 43,
       "num_ground_truth": 42
     },
@@ -382,26 +382,26 @@
     },
     {
       "example_idx": 47,
-      "cer": 0.0,
-      "predicted_text": "et par maintes iournees et prests pour",
+      "cer": 0.02631578947368421,
+      "predicted_text": "et par maintes iournees et prest pour",
       "ground_truth_text": "et par maintes iournees et prests pour",
-      "num_predictions": 38,
+      "num_predictions": 37,
       "num_ground_truth": 38
     },
     {
       "example_idx": 48,
-      "cer": 0.0,
-      "predicted_text": "faire la dicte response la quelle le dit mo\u0303\u1e9c",
-      "ground_truth_text": "faire la dicte response la quelle le dit m\u00f5\u1e9c",
-      "num_predictions": 45,
+      "cer": 0.022222222222222223,
+      "predicted_text": "faire la dicte response la quell le dit mõẜ",
+      "ground_truth_text": "faire la dicte response la quelle le dit mõẜ",
+      "num_predictions": 44,
       "num_ground_truth": 44
     },
     {
       "example_idx": 49,
-      "cer": 0.0,
-      "predicted_text": "le duc nauoit uoulu ouyz. et leur dist",
+      "cer": 0.05263157894736842,
+      "predicted_text": "le duc nauoit uuoulu ouyr. et leur dist",
       "ground_truth_text": "le duc nauoit uoulu ouyz. et leur dist",
-      "num_predictions": 38,
+      "num_predictions": 39,
       "num_ground_truth": 38
     },
     {
@@ -423,17 +423,17 @@
     {
       "example_idx": 52,
       "cer": 0.0,
-      "predicted_text": "esleuz et lemportast en son pays Les q\u0303l",
-      "ground_truth_text": "esleuz et lemportast en son pays Les q\u0303l",
+      "predicted_text": "esleuz et lemportast en son pays Les q̃l",
+      "ground_truth_text": "esleuz et lemportast en son pays Les q̃l",
       "num_predictions": 40,
       "num_ground_truth": 39
     },
     {
       "example_idx": 53,
-      "cer": 0.0,
-      "predicted_text": "les choses firent pluseurs des diz .iii. es",
+      "cer": 0.023255813953488372,
+      "predicted_text": "les choses firent pluseurs des diz .ii. es",
       "ground_truth_text": "les choses firent pluseurs des diz .iii. es",
-      "num_predictions": 43,
+      "num_predictions": 42,
       "num_ground_truth": 43
     },
     {
@@ -447,8 +447,8 @@
     {
       "example_idx": 55,
       "cer": 0.0,
-      "predicted_text": "ia soit ce que par pluseurs foiz le dit mo\u0303\u1e9c",
-      "ground_truth_text": "ia soit ce que par pluseurs foiz le dit m\u00f5\u1e9c",
+      "predicted_text": "ia soit ce que par pluseurs foiz le dit mõẜ",
+      "ground_truth_text": "ia soit ce que par pluseurs foiz le dit mõẜ",
       "num_predictions": 44,
       "num_ground_truth": 43
     },
@@ -478,10 +478,10 @@
     },
     {
       "example_idx": 59,
-      "cer": 0.0,
-      "predicted_text": "quilz li uousissent faire aide pour souste",
+      "cer": 0.023809523809523808,
+      "predicted_text": "quilz li uousissent faire aie pour souste",
       "ground_truth_text": "quilz li uousissent faire aide pour souste",
-      "num_predictions": 42,
+      "num_predictions": 41,
       "num_ground_truth": 42
     },
     {
@@ -519,7 +519,7 @@
     {
       "example_idx": 64,
       "cer": 0.024390243902439025,
-      "predicted_text": "uoieroit certains des conseilliers du Roy",
+      "predicted_text": "uoieroit certanns des conseilliers du roy",
       "ground_truth_text": "uoieroit certains des conseilliers du roy",
       "num_predictions": 41,
       "num_ground_truth": 41
@@ -527,9 +527,9 @@
     {
       "example_idx": 65,
       "cer": 0.02631578947368421,
-      "predicted_text": "par les bailliages du Roy aume pour re",
+      "predicted_text": "par les bailliages du royaume pour re",
       "ground_truth_text": "par les bailliages du roy aume pour re",
-      "num_predictions": 38,
+      "num_predictions": 37,
       "num_ground_truth": 38
     },
     {
@@ -542,26 +542,26 @@
     },
     {
       "example_idx": 67,
-      "cer": 0.0,
-      "predicted_text": "Co\u0303ment mon\u1e9c Robert de clermont des",
-      "ground_truth_text": "C\u00f5ment mon\u1e9c Robert de clermont des",
-      "num_predictions": 35,
+      "cer": 0.02857142857142857,
+      "predicted_text": "Cõment monẜ Robert de  clermont des",
+      "ground_truth_text": "Cõment monẜ Robert de clermont des",
+      "num_predictions": 36,
       "num_ground_truth": 34
     },
     {
       "example_idx": 68,
       "cer": 0.0,
-      "predicted_text": "confist en normandie les gens mon\u1e9c",
-      "ground_truth_text": "confist en normandie les gens mon\u1e9c",
+      "predicted_text": "confist en normandie les gens monẜ",
+      "ground_truth_text": "confist en normandie les gens monẜ",
       "num_predictions": 34,
       "num_ground_truth": 34
     },
     {
       "example_idx": 69,
-      "cer": 0.0,
-      "predicted_text": "phelippe de nauarre. et y fu occis mon\u1e9c",
-      "ground_truth_text": "phelippe de nauarre. et y fu occis mon\u1e9c",
-      "num_predictions": 39,
+      "cer": 0.05128205128205128,
+      "predicted_text": "phelippe de  nauarre. et y fu occis monẜẜ",
+      "ground_truth_text": "phelippe de nauarre. et y fu occis monẜ",
+      "num_predictions": 41,
       "num_ground_truth": 39
     },
     {
@@ -574,10 +574,10 @@
     },
     {
       "example_idx": 71,
-      "cer": 0.0,
-      "predicted_text": "Ores les choses deuant dite\u1de4",
-      "ground_truth_text": "Ores les choses deuant dite\u1de4",
-      "num_predictions": 28,
+      "cer": 0.03571428571428571,
+      "predicted_text": "Ores les choses deuant dite",
+      "ground_truth_text": "Ores les choses deuant diteᷤ",
+      "num_predictions": 27,
       "num_ground_truth": 27
     },
     {
@@ -591,8 +591,8 @@
     {
       "example_idx": 73,
       "cer": 0.0,
-      "predicted_text": "suyuant auint que mo\u0303\u1e9c",
-      "ground_truth_text": "suyuant auint que m\u00f5\u1e9c",
+      "predicted_text": "suyuant auint que mõẜ",
+      "ground_truth_text": "suyuant auint que mõẜ",
       "num_predictions": 22,
       "num_ground_truth": 21
     },
@@ -607,8 +607,8 @@
     {
       "example_idx": 75,
       "cer": 0.0,
-      "predicted_text": "tenant de mon\u1e9c le duc de",
-      "ground_truth_text": "tenant de mon\u1e9c le duc de",
+      "predicted_text": "tenant de monẜ le duc de",
+      "ground_truth_text": "tenant de monẜ le duc de",
       "num_predictions": 24,
       "num_ground_truth": 24
     },
@@ -623,49 +623,49 @@
     {
       "example_idx": 77,
       "cer": 0.0,
-      "predicted_text": "mandie se combati contre les gens de mo\u0303\u1e9c",
-      "ground_truth_text": "mandie se combati contre les gens de m\u00f5\u1e9c",
+      "predicted_text": "mandie se combati contre les gens de mõẜ",
+      "ground_truth_text": "mandie se combati contre les gens de mõẜ",
       "num_predictions": 41,
       "num_ground_truth": 40
     },
     {
       "example_idx": 78,
-      "cer": 0.0,
-      "predicted_text": "phelippe de nauarre qui estoient on pais",
+      "cer": 0.05,
+      "predicted_text": "phelipp de nauarre quii estoient on pais",
       "ground_truth_text": "phelippe de nauarre qui estoient on pais",
       "num_predictions": 40,
       "num_ground_truth": 40
     },
     {
       "example_idx": 79,
-      "cer": 0.0,
-      "predicted_text": "de constantin auecques les quelz estoit",
+      "cer": 0.02564102564102564,
+      "predicted_text": "de constantin auecqus les quelz estoit",
       "ground_truth_text": "de constantin auecques les quelz estoit",
-      "num_predictions": 39,
+      "num_predictions": 38,
       "num_ground_truth": 39
     },
     {
       "example_idx": 80,
       "cer": 0.0,
-      "predicted_text": "mon\u1e9c gode froy de harecourt qui sestoit",
-      "ground_truth_text": "mon\u1e9c gode froy de harecourt qui sestoit",
+      "predicted_text": "monẜ gode froy de harecourt qui sestoit",
+      "ground_truth_text": "monẜ gode froy de harecourt qui sestoit",
       "num_predictions": 39,
       "num_ground_truth": 39
     },
     {
       "example_idx": 81,
-      "cer": 0.02702702702702703,
-      "predicted_text": "rendu ennemi du Roy de france tantost",
+      "cer": 0.0,
+      "predicted_text": "rendu ennemi du roy de france tantost",
       "ground_truth_text": "rendu ennemi du roy de france tantost",
       "num_predictions": 37,
       "num_ground_truth": 37
     },
     {
       "example_idx": 82,
-      "cer": 0.025,
-      "predicted_text": "quil ouyles nouuelles de la mort de son",
+      "cer": 0.0,
+      "predicted_text": "quil ouy les nouuelles de la mort de son",
       "ground_truth_text": "quil ouy les nouuelles de la mort de son",
-      "num_predictions": 39,
+      "num_predictions": 40,
       "num_ground_truth": 40
     }
   ]

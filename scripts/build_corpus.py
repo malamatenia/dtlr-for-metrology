@@ -256,6 +256,7 @@ def build_and_crop_working_corpus(
     outlier_std_threshold = _pick(outlier_std_threshold, "outlier_std_threshold", 4.0)
     group_field           = _pick(group_field,           "group_field",           "gp")
     doc_key_parts         = _pick(doc_key_parts,         "doc_key_parts",         2)
+    filter_border_bboxes  = getattr(config, "filter_border_bboxes", False) if config else False
 
     def safe_crop(image, bbox):
         cx, cy, w, h = bbox["cx"], bbox["cy"], bbox["w"], bbox["h"]
@@ -350,6 +351,22 @@ def build_and_crop_working_corpus(
             with open(os.path.join(doc_path, jf)) as f:
                 data_json = json.load(f)
 
+            # ── Border-touch filter: load image size once per line ────────────
+            # Activated when config.filter_border_bboxes = True.
+            # Any bbox whose edges reach (or exceed) the image boundary is treated
+            # as a nomatch, regardless of its error_label.
+            line_img_size = None  # (width, height) in pixels, or None if unavailable
+            if filter_border_bboxes:
+                img_path = os.path.join(
+                    text_line_images, doc_folder, f"{line_key}.png"
+                )
+                if os.path.exists(img_path):
+                    try:
+                        with Image.open(img_path) as _img:
+                            line_img_size = _img.size  # (width, height)
+                    except Exception:
+                        line_img_size = None
+
             preds = data_json.get("predictions", [])
             for i, p in enumerate(preds):
                 build_stats["gp_total_predictions"][gp] += 1
@@ -359,11 +376,23 @@ def build_and_crop_working_corpus(
                 if target_characters and char not in target_characters:
                     continue
 
-                nomatch_flag = False
-                if p.get("error_label") != "match":
+                # ── Check border touch ────────────────────────────────────────
+                border_flag = False
+                if filter_border_bboxes and line_img_size is not None and "bbox" in p:
+                    bx = p["bbox"]
+                    img_w, img_h = line_img_size
+                    x1 = bx["cx"] - bx["w"] / 2
+                    x2 = bx["cx"] + bx["w"] / 2
+                    y1 = bx["cy"] - bx["h"] / 2
+                    y2 = bx["cy"] + bx["h"] / 2
+                    if x1 <= 0 or y1 <= 0 or x2 >= img_w or y2 >= img_h:
+                        border_flag = True
+
+                nomatch_flag = border_flag
+                if not nomatch_flag and p.get("error_label") != "match":
                     nomatch_flag = True
                     build_stats["gp_nomatch"][gp] += 1
-                else:
+                elif not nomatch_flag:
                     neighbors = []
                     if i > 0:
                         neighbors.append(preds[i - 1].get("error_label"))
@@ -374,6 +403,9 @@ def build_and_crop_working_corpus(
                         build_stats["gp_nomatch"][gp] += 1
                     else:
                         build_stats["gp_match_predictions"][gp] += 1
+                elif border_flag:
+                    # Counted as nomatch due to border touch (not a transcription error)
+                    build_stats["gp_nomatch"][gp] += 1
 
                 w = p["bbox"]["w"]
                 h = p["bbox"]["h"]

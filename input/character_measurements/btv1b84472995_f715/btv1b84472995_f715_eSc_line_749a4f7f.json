@@ -4,65 +4,78 @@
       "sprite_index": 32,
       "character": "f",
       "bbox": {
-        "cx": 34.562096771529895,
-        "cy": 42.56022361715634,
-        "w": 8.306250818460317,
-        "h": 49.51925590435663
+        "cx": 30.05252288949901,
+        "cy": 41.68483969370524,
+        "w": 28.66082023752147,
+        "h": 56.94196370442709
       },
-      "confidence": 0.9952049851417542,
+      "confidence": 0.9961614608764648,
       "query_idx": 8,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 51.11539613789526,
+        "cy": 45.84052626291911,
+        "w": 30.444991210411338,
+        "h": 40.36213162740072
+      },
+      "confidence": 0.9962206482887268,
+      "query_idx": 10,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 35,
+      "character": "i",
+      "bbox": {
+        "cx": 69.18580439995075,
+        "cy": 46.65360005696615,
+        "w": 18.617130739935515,
+        "h": 41.308858235677086
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 14,
       "error_label": "match"
     },
     {
       "sprite_index": 44,
       "character": "s",
       "bbox": {
-        "cx": 94.1805448708746,
-        "cy": 39.63400148103635,
-        "w": 7.539648379878017,
-        "h": 55.32589256664119
+        "cx": 92.78277048571357,
+        "cy": 40.01295318603516,
+        "w": 26.98688995427099,
+        "h": 56.25673173268637
       },
-      "confidence": 0.996219277381897,
-      "query_idx": 26,
-      "error_label": "substitution"
+      "confidence": 0.9962211847305298,
+      "query_idx": 18,
+      "error_label": "match"
     },
     {
       "sprite_index": 31,
       "character": "e",
       "bbox": {
-        "cx": 109.51042400002225,
-        "cy": 45.06811648507913,
-        "w": 7.940854166529618,
-        "h": 44.11817772189777
+        "cx": 111.55657103966023,
+        "cy": 45.46002623240153,
+        "w": 29.381964913729966,
+        "h": 43.86797599792481
       },
-      "confidence": 0.9958649277687073,
-      "query_idx": 28,
-      "error_label": "substitution"
-    },
-    {
-      "sprite_index": 31,
-      "character": "e",
-      "bbox": {
-        "cx": 112.51148505194618,
-        "cy": 44.77251302103201,
-        "w": 6.637807998672557,
-        "h": 43.83164398868879
-      },
-      "confidence": 0.995858907699585,
-      "query_idx": 32,
+      "confidence": 0.9962226748466492,
+      "query_idx": 42,
       "error_label": "match"
     },
     {
       "sprite_index": 2,
       "character": ".",
       "bbox": {
-        "cx": 141.57375466687637,
-        "cy": 51.76836954752605,
-        "w": 7.78651992856274,
-        "h": 19.93199602762858
+        "cx": 140.79287134367846,
+        "cy": 52.92189305623373,
+        "w": 14.392092671887628,
+        "h": 26.040366808573406
       },
-      "confidence": 0.9961819648742676,
-      "query_idx": 194,
+      "confidence": 0.9962223172187805,
+      "query_idx": 50,
       "error_label": "match"
     }
   ],
@@ -74,10 +87,10 @@
     "e",
     "."
   ],
-  "predicted_text": "fsee.",
+  "predicted_text": "frise.",
   "ground_truth_text": "frise.",
-  "cer": 0.5,
-  "num_predictions": 5,
+  "cer": 0.0,
+  "num_predictions": 6,
   "num_ground_truth": 6,
-  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f715/btv1b84472995_f715_eSc_line_749a4f7f.png"
+  "path": "/home/rbaena/datasets/btv1b84472995/images/btv1b84472995_f715/btv1b84472995_f715_eSc_line_749a4f7f.png"
 }

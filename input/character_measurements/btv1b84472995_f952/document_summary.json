@@ -1,8 +1,8 @@
 {
   "document": "btv1b84472995_f952",
   "total_examples": 28,
-  "average_cer": 0.022719236728453322,
-  "total_cer": 0.636138628396693,
+  "average_cer": 0.027056094639989838,
+  "total_cer": 0.7575706499197155,
   "results": [
     {
       "example_idx": 0,
@@ -22,18 +22,18 @@
     },
     {
       "example_idx": 2,
-      "cer": 0.03333333333333333,
-      "predicted_text": "pour ce quilz estoient en  trop",
+      "cer": 0.0,
+      "predicted_text": "pour ce quilz estoient en trop",
       "ground_truth_text": "pour ce quilz estoient en trop",
-      "num_predictions": 31,
+      "num_predictions": 30,
       "num_ground_truth": 30
     },
     {
       "example_idx": 3,
-      "cer": 0.0,
-      "predicted_text": "grande quantite demouras",
+      "cer": 0.08333333333333333,
+      "predicted_text": "grandee quantite deimouras",
       "ground_truth_text": "grande quantite demouras",
-      "num_predictions": 24,
+      "num_predictions": 26,
       "num_ground_truth": 24
     },
     {
@@ -47,41 +47,41 @@
     {
       "example_idx": 5,
       "cer": 0.03225806451612903,
-      "predicted_text": "en la uille usques a ce q\u0303 lem",
-      "ground_truth_text": "en la uille iusques a ce q\u0303 lem",
-      "num_predictions": 30,
+      "predicted_text": "en la uille iiusques a ce q̃ lem",
+      "ground_truth_text": "en la uille iusques a ce q̃ lem",
+      "num_predictions": 32,
       "num_ground_truth": 30
     },
     {
       "example_idx": 6,
-      "cer": 0.0,
-      "predicted_text": "pereur le Roy et toutes leurs gens feussent",
+      "cer": 0.023255813953488372,
+      "predicted_text": "ereur le Roy et toutes leurs gens feussent",
       "ground_truth_text": "pereur le Roy et toutes leurs gens feussent",
-      "num_predictions": 43,
+      "num_predictions": 42,
       "num_ground_truth": 43
     },
     {
       "example_idx": 7,
-      "cer": 0.0,
-      "predicted_text": "entrez et passez en la uille. Et ainsi fu fait. et",
+      "cer": 0.04,
+      "predicted_text": "entrez et passez en la uille. E ainsi fu fait. t",
       "ground_truth_text": "entrez et passez en la uille. Et ainsi fu fait. et",
-      "num_predictions": 50,
+      "num_predictions": 48,
       "num_ground_truth": 50
     },
     {
       "example_idx": 8,
-      "cer": 0.0,
-      "predicted_text": "aussi auoit le Roy fait crier le iour deuant",
+      "cer": 0.045454545454545456,
+      "predicted_text": "aussi auooit le Roy fat crier le iour deuant",
       "ground_truth_text": "aussi auoit le Roy fait crier le iour deuant",
       "num_predictions": 44,
       "num_ground_truth": 44
     },
     {
       "example_idx": 9,
-      "cer": 0.0,
-      "predicted_text": "que nul ne feust si hardi de ocuper le chemin",
+      "cer": 0.044444444444444446,
+      "predicted_text": "que nul ne feust si ardi de ocuper le chemn",
       "ground_truth_text": "que nul ne feust si hardi de ocuper le chemin",
-      "num_predictions": 45,
+      "num_predictions": 43,
       "num_ground_truth": 45
     },
     {
@@ -102,25 +102,25 @@
     },
     {
       "example_idx": 12,
-      "cer": 0.022222222222222223,
-      "predicted_text": "ou ilz sesstoient mis pour ueoir lemperiere le",
+      "cer": 0.0,
+      "predicted_text": "ou ilz sestoient mis pour ueoir lemperiere le",
       "ground_truth_text": "ou ilz sestoient mis pour ueoir lemperiere le",
-      "num_predictions": 46,
+      "num_predictions": 45,
       "num_ground_truth": 45
     },
     {
       "example_idx": 13,
-      "cer": 0.030303030303030304,
-      "predicted_text": "Roy et le Roy des Roumains passer",
+      "cer": 0.12121212121212122,
+      "predicted_text": "Roy et le Roy des Roains paser",
       "ground_truth_text": "Roy et le roy des Roumains passer",
-      "num_predictions": 33,
+      "num_predictions": 30,
       "num_ground_truth": 33
     },
     {
       "example_idx": 14,
-      "cer": 0.07692307692307693,
-      "predicted_text": "T de fait fureut mis \u1e9cgems",
-      "ground_truth_text": "T de fait furent mis \u1e9cgens",
+      "cer": 0.0,
+      "predicted_text": "T de fait furent mis ẜgens",
+      "ground_truth_text": "T de fait furent mis ẜgens",
       "num_predictions": 26,
       "num_ground_truth": 26
     },
@@ -134,32 +134,32 @@
     },
     {
       "example_idx": 16,
-      "cer": 0.16666666666666666,
-      "predicted_text": "Rues qui uiemnent sssurr le",
+      "cer": 0.041666666666666664,
+      "predicted_text": "Res qui uiennent sur le",
       "ground_truth_text": "Rues qui uiennent sur le",
-      "num_predictions": 27,
+      "num_predictions": 23,
       "num_ground_truth": 24
     },
     {
       "example_idx": 17,
-      "cer": 0.11538461538461539,
-      "predicted_text": "chemin de la grant  Rue qpii",
+      "cer": 0.038461538461538464,
+      "predicted_text": "chemin dee la grant Rue qui",
       "ground_truth_text": "chemin de la grant Rue qui",
-      "num_predictions": 28,
+      "num_predictions": 27,
       "num_ground_truth": 26
     },
     {
       "example_idx": 18,
-      "cer": 0.07142857142857142,
-      "predicted_text": "ggarddoient et deffendoient le",
+      "cer": 0.10714285714285714,
+      "predicted_text": "garrdoient et deeffendoien le",
       "ground_truth_text": "gardoient et deffendoient le",
-      "num_predictions": 30,
+      "num_predictions": 29,
       "num_ground_truth": 28
     },
     {
       "example_idx": 19,
       "cer": 0.04,
-      "predicted_text": "peuple de passer.. Et lors",
+      "predicted_text": "peuple dee passer. Et lors",
       "ground_truth_text": "peuple de passer. Et lors",
       "num_predictions": 26,
       "num_ground_truth": 25
@@ -174,50 +174,50 @@
     },
     {
       "example_idx": 21,
-      "cer": 0.0,
-      "predicted_text": "et pristrent le trauers de la rue alans deua\u0303t",
-      "ground_truth_text": "et pristrent le trauers de la rue alans deu\u00e3t",
-      "num_predictions": 46,
+      "cer": 0.021739130434782608,
+      "predicted_text": "et pristrent le trauers de la rue alans deuat",
+      "ground_truth_text": "et pristrent le trauers de la rue alans deuãt",
+      "num_predictions": 45,
       "num_ground_truth": 45
     },
     {
       "example_idx": 22,
-      "cer": 0.0,
-      "predicted_text": "les esciners du corps du Roy leurs maces",
+      "cer": 0.025,
+      "predicted_text": "les escners du corps du Roy leurs maces",
       "ground_truth_text": "les esciners du corps du Roy leurs maces",
-      "num_predictions": 40,
+      "num_predictions": 39,
       "num_ground_truth": 40
     },
     {
       "example_idx": 23,
-      "cer": 0.023809523809523808,
-      "predicted_text": "eu leurs poins leurs espees garmes ddarge\u0303t",
-      "ground_truth_text": "eu leurs poins leurs espees garmes darg\u1ebdt",
-      "num_predictions": 43,
+      "cer": 0.0,
+      "predicted_text": "eu leurs poins leurs espees garmes dargẽt",
+      "ground_truth_text": "eu leurs poins leurs espees garmes dargẽt",
+      "num_predictions": 42,
       "num_ground_truth": 41
     },
     {
       "example_idx": 24,
-      "cer": 0.0,
-      "predicted_text": "en escherpe. Et pour ce que lempereur auoit",
+      "cer": 0.023255813953488372,
+      "predicted_text": "en escherpe. Et pour ce que lempereur auot",
       "ground_truth_text": "en escherpe. Et pour ce que lempereur auoit",
-      "num_predictions": 43,
+      "num_predictions": 42,
       "num_ground_truth": 43
     },
     {
       "example_idx": 25,
-      "cer": 0.0,
-      "predicted_text": "fait sauoir au Roy des ce que il uint a .S\u033e.",
-      "ground_truth_text": "fait sauoir au Roy des ce que il uint a .S\u033e.",
-      "num_predictions": 44,
+      "cer": 0.022727272727272728,
+      "predicted_text": "fait sauoir au Roy des ce que il uint a .S.",
+      "ground_truth_text": "fait sauoir au Roy des ce que il uint a .S̾.",
+      "num_predictions": 43,
       "num_ground_truth": 43
     },
     {
       "example_idx": 26,
-      "cer": 0.023809523809523808,
-      "predicted_text": "denis que ason uenu a paris il ne uouloit",
+      "cer": 0.047619047619047616,
+      "predicted_text": "denis que a son uenu a paris il ne uooouloit",
       "ground_truth_text": "denis que a son uenu a paris il ne uouloit",
-      "num_predictions": 41,
+      "num_predictions": 44,
       "num_ground_truth": 42
     },
     {

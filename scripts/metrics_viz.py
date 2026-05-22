@@ -50,6 +50,7 @@ from __future__ import annotations
 import os
 import re
 import json
+from tqdm import tqdm
 from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple
@@ -99,15 +100,15 @@ VALID_AVG_WIDTH_CHARS = {
 # Metric label registry (column_name -> human label for axis / colorbar)
 METRIC_LABELS: Dict[str, str] = {
     # letter
-    "mean_ar_{char}":   "Aspect Ratio of '{char}'",
-    "std_ar_{char}":    "Std of Aspect Ratio of '{char}'",
-    "cv_ar_{char}":     "Coefficient of Variation of Aspect Ratio of '{char}'",
+    "mean_ar_{char}": r"Aspect Ratio of $\langle \mathrm{{{char}}} \rangle$",
+    "std_ar_{char}": r"Std of Aspect Ratio of $\langle \mathrm{{{char}}} \rangle$",
+    "cv_ar_{char}":  r"Aspect Ratio Coefficient of Variation of $\langle \mathrm{{{char}}} \rangle$",
     # bigram
-    "mean_b_distance_m_{bigram}":          "'{bigram}' Bigram Distance",
-    "mean_b_distance_avg_letter_{bigram}": "'{bigram}' Bigram Distance (norm. avg letter)",
-    "mean_b_distance_px_{bigram}":         "'{bigram}' Bigram Distance (pixels)",
-    "mean_b_ar_{bigram}":                  "'{bigram}' Bigram Aspect Ratio",
-    "cv_b_distance_{bigram}":              "'{bigram}' Bigram Distance Coefficient of Variation",
+    "mean_b_distance_m_{bigram}":          r"$\langle \mathrm{{{bigram}}} \rangle$ Bigram Distance",
+    "mean_b_distance_avg_letter_{bigram}": r"$\langle \mathrm{{{bigram}}} \rangle$ Bigram Distance (avg letter)",
+    "mean_b_distance_px_{bigram}":         r"$\langle \mathrm{{{bigram}}} \rangle$ Bigram Distance (pixels)",
+    "mean_b_ar_{bigram}":                  r"$\langle \mathrm{{{bigram}}} \rangle$ Bigram Aspect Ratio",
+    "cv_b_distance_{bigram}":              r"$\langle \mathrm{{{bigram}}} \rangle$ Bigram Distance Coefficient of Variation",
     # word
     "mean_distance":                "Mean Word Distance (px)",
     "std_distance":                 "Std Word Distance (px)",
@@ -302,6 +303,13 @@ class StudyConfig:
         "MainZone#1"   -- keep only MainZone#1 lines
         "MainZone#2"   -- keep only MainZone#2 lines
         "recto_verso"  -- right column on recto, left column on verso
+
+    filter_border_bboxes : bool
+        When True, any bbox whose edges touch or exceed the image boundary
+        (top, bottom, left, or right) is discarded at corpus-build time,
+        at the same level as the std and recto_verso filters.
+        Requires text_line_images to be accessible during build_and_crop_working_corpus.
+        Default False (original behaviour).
     """
     annotation_json:        str
     character_measurements: str
@@ -327,6 +335,7 @@ class StudyConfig:
     bbox_filter_mode:      Optional[str]   = "threshold"
     outlier_std_threshold: Optional[float] = None
     width_height_tol:      Tuple           = (None, None)
+    filter_border_bboxes:  bool            = False   # discard bboxes touching image edges
 
     # -- Prototype overlay (for plot_cross) ------------------------------------
     prototypes: Optional[str] = None
@@ -637,7 +646,7 @@ def compute_letter_metrics(
 
     rows: Dict[str, dict] = {}
     char_present_in_corpus = False
-    for (doc_folder, c), data in corpus.items():
+    for (doc_folder, c), data in tqdm(corpus.items(), desc=f"letter '{char}'", leave=False):
         if c != char:
             continue
         char_present_in_corpus = True
@@ -702,6 +711,7 @@ def compute_bigram_metrics(
     config: StudyConfig,
     idx: Optional[FolioIndex] = None,
     metadata_rows: Optional[list] = None,
+    json_cache: Optional[dict] = None,
 ) -> pd.DataFrame:
     """
     Add bigram-level spacing metrics for `bigram` to df.
@@ -740,7 +750,9 @@ def compute_bigram_metrics(
     folio_m_widths: Dict[str, list] = defaultdict(list)
     folio_lw:       Dict[str, list] = defaultdict(list)
 
-    for doc_folder in os.listdir(config.character_measurements):
+    _doc_folders = [d for d in os.listdir(config.character_measurements)
+                   if os.path.isdir(os.path.join(config.character_measurements, d))]
+    for doc_folder in tqdm(_doc_folders, desc=f"bigram '{bigram}'", leave=False):
         folio = idx.doc_mappings["folio"].get(doc_folder)
         if doc_folder in config.exclude_doc_ids or folio in config.exclude_doc_ids:
             continue
@@ -752,9 +764,16 @@ def compute_bigram_metrics(
                               idx.line_mappings, folio, config)
 
         for fname in files:
+            fpath = os.path.join(doc_path, fname)
             try:
-                with open(os.path.join(doc_path, fname)) as f:
-                    data = json.load(f)
+                if json_cache is not None:
+                    if fpath not in json_cache:
+                        with open(fpath) as f:
+                            json_cache[fpath] = json.load(f)
+                    data = json_cache[fpath]
+                else:
+                    with open(fpath) as f:
+                        data = json.load(f)
             except Exception:
                 continue
 
@@ -797,33 +816,43 @@ def compute_bigram_metrics(
                         k2 = (fname, round(b2["cx"], 1))
                         if not (kept_lookup.get(k1, False) and kept_lookup.get(k2, False)):
                             continue
+                        # Also require that immediate neighbors in the original sequence
+                        # are kept — ensures p1 and p2 are truly consecutive in the
+                        # filtered sequence (e.g. if the bbox between them was discarded
+                        # by any filter, this bigram instance is rejected).
+                        if i > 0 and "bbox" in preds[i - 1]:
+                            kl = (fname, round(preds[i - 1]["bbox"]["cx"], 1))
+                            if not kept_lookup.get(kl, False):
+                                continue
+                        if i + 2 < len(preds) and "bbox" in preds[i + 2]:
+                            kr = (fname, round(preds[i + 2]["bbox"]["cx"], 1))
+                            if not kept_lookup.get(kr, False):
+                                continue
                     dist = (b2["cx"] - b2["w"]/2) - (b1["cx"] + b1["w"]/2)
-                    cw   = (b2["cx"] + b2["w"]/2) - (b1["cx"] - b1["w"]/2)
+                    cw = (b2["cx"] + b2["w"]/2) - (b1["cx"] - b1["w"]/2)
                     ch   = max(b1["h"], b2["h"])
                     first_pass[doc_folder].append({
                         "distance": dist, "combined_w": cw, "combined_h": ch,
                         "w1": b1["w"], "h1": b1["h"], "w2": b2["w"], "h2": b2["h"],
                     })
 
-    # When metadata_rows supplied, bboxes already filtered — skip global std pass.
-    # When None, apply original global std filter for backward compatibility.
-    if kept_lookup:
-        bounds: dict = {}
-    else:
-        bounds = {}
-        if config.bbox_filter_mode == "threshold" and config.outlier_std_threshold:
-            all_vals = {k: [e[k] for ex in first_pass.values() for e in ex]
-                        for k in ("w1","h1","w2","h2")}
-            for k, arr in all_vals.items():
-                if arr:
-                    mv, s = np.mean(arr), np.std(arr)
-                    t     = config.outlier_std_threshold
-                    bounds[k] = (mv - t*s, mv + t*s)
-
+    # Per-doc std filter on englobante dimensions (combined_w, combined_h).
+    # Mirrors the per-(doc, char) std filter used for letters.
+    # Applied unconditionally — catches anomalously large bigram boxes
+    # (e.g. deletions leaving two bboxes far apart) regardless of kept_lookup.
     sfx  = bigram
     rows: Dict[str, dict] = {}
 
     for doc, examples in first_pass.items():
+        bounds: dict = {}
+        if config.bbox_filter_mode == "threshold" and config.outlier_std_threshold:
+            for k in ("combined_w", "combined_h"):
+                vals = [e[k] for e in examples]
+                if vals:
+                    mv, s = np.mean(vals), np.std(vals)
+                    t = config.outlier_std_threshold
+                    bounds[k] = (mv - t * s, mv + t * s)
+
         keep = [e for e in examples
                 if all(bounds[k][0] <= e[k] <= bounds[k][1] for k in bounds)]
         if not keep:
@@ -872,7 +901,9 @@ def compute_bigram_metrics(
     folio_m_widths: Dict[str, list] = defaultdict(list)
     folio_lw:       Dict[str, list] = defaultdict(list)
 
-    for doc_folder in os.listdir(config.character_measurements):
+    _doc_folders2 = [d for d in os.listdir(config.character_measurements)
+                     if os.path.isdir(os.path.join(config.character_measurements, d))]
+    for doc_folder in tqdm(_doc_folders2, desc=f"bigram '{bigram}' (norm)", leave=False):
         folio = idx.doc_mappings["folio"].get(doc_folder)
         if doc_folder in config.exclude_doc_ids or folio in config.exclude_doc_ids:
             continue
@@ -884,9 +915,16 @@ def compute_bigram_metrics(
                               idx.line_mappings, folio, config)
 
         for fname in files:
+            fpath = os.path.join(doc_path, fname)
             try:
-                with open(os.path.join(doc_path, fname)) as f:
-                    data = json.load(f)
+                if json_cache is not None:
+                    if fpath not in json_cache:
+                        with open(fpath) as f:
+                            json_cache[fpath] = json.load(f)
+                    data = json_cache[fpath]
+                else:
+                    with open(fpath) as f:
+                        data = json.load(f)
             except Exception:
                 continue
 
@@ -925,21 +963,19 @@ def compute_bigram_metrics(
                             "w1": b1["w"], "h1": b1["h"], "w2": b2["w"], "h2": b2["h"],
                         })
 
-    # Outlier filtering
-    bounds: dict = {}
-    if config.bbox_filter_mode == "threshold" and config.outlier_std_threshold:
-        all_vals = {k: [e[k] for ex in first_pass.values() for e in ex]
-                    for k in ("w1","h1","w2","h2")}
-        for k, arr in all_vals.items():
-            if arr:
-                m, s = np.mean(arr), np.std(arr)
-                t    = config.outlier_std_threshold
-                bounds[k] = (m - t*s, m + t*s)
-
     sfx  = bigram
     rows: Dict[str, dict] = {}
 
     for doc, examples in first_pass.items():
+        bounds: dict = {}
+        if config.bbox_filter_mode == "threshold" and config.outlier_std_threshold:
+            for k in ("combined_w", "combined_h"):
+                vals = [e[k] for e in examples]
+                if vals:
+                    mv, s = np.mean(vals), np.std(vals)
+                    t = config.outlier_std_threshold
+                    bounds[k] = (mv - t * s, mv + t * s)
+
         keep = [e for e in examples
                 if all(bounds[k][0] <= e[k] <= bounds[k][1] for k in bounds)]
         if not keep:
@@ -983,6 +1019,7 @@ def compute_word_metrics(
     config: StudyConfig,
     idx: Optional[FolioIndex] = None,
     metadata_rows: Optional[list] = None,
+    json_cache: Optional[dict] = None,
 ) -> pd.DataFrame:
     """
     Add word-spacing metrics per folio to df.
@@ -1048,7 +1085,9 @@ def compute_word_metrics(
 
     rows: Dict[str, dict] = {}
 
-    for doc_folder in os.listdir(config.character_measurements):
+    _doc_folders_w = [d for d in os.listdir(config.character_measurements)
+                      if os.path.isdir(os.path.join(config.character_measurements, d))]
+    for doc_folder in tqdm(_doc_folders_w, desc="word metrics", leave=False):
         folio = idx.doc_mappings["folio"].get(doc_folder)
         if doc_folder in config.exclude_doc_ids or folio in config.exclude_doc_ids:
             continue
@@ -1062,9 +1101,16 @@ def compute_word_metrics(
         all_distances, all_m_widths, all_lw = [], [], []
 
         for jf in files:
+            fpath = os.path.join(doc_path, jf)
             try:
-                with open(os.path.join(doc_path, jf)) as f:
-                    data = json.load(f)
+                if json_cache is not None:
+                    if fpath not in json_cache:
+                        with open(fpath) as f:
+                            json_cache[fpath] = json.load(f)
+                    data = json_cache[fpath]
+                else:
+                    with open(fpath) as f:
+                        data = json.load(f)
             except Exception:
                 continue
 

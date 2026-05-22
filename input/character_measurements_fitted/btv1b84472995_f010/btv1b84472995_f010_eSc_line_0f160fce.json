@@ -1,0 +1,82 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 27,
+      "character": "a",
+      "bbox": {
+        "cx": 27.819067605706145,
+        "cy": 42.46252132521735,
+        "w": 30.538084063419078,
+        "h": 42.09883924060398
+      },
+      "confidence": 0.9962102174758911,
+      "query_idx": 16,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 38,
+      "character": "m",
+      "bbox": {
+        "cx": 63.451705622118574,
+        "cy": 43.59491963916354,
+        "w": 42.19943512317745,
+        "h": 33.48850447336832
+      },
+      "confidence": 0.9962213039398193,
+      "query_idx": 42,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 108.00260536060776,
+        "cy": 42.67737544907464,
+        "w": 24.116228990776605,
+        "h": 40.43806185192531
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 50,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 39,
+      "character": "n",
+      "bbox": {
+        "cx": 134.3172220629315,
+        "cy": 44.245498440000745,
+        "w": 37.4514955476273,
+        "h": 37.93290376663208
+      },
+      "confidence": 0.9962181448936462,
+      "query_idx": 52,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 172.61855759731557,
+        "cy": 51.333719380696614,
+        "w": 19.926435670187306,
+        "h": 28.934781392415363
+      },
+      "confidence": 0.9962226748466492,
+      "query_idx": 62,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "a",
+    "m",
+    "e",
+    "n",
+    "."
+  ],
+  "predicted_text": "amen.",
+  "ground_truth_text": "amen.",
+  "cer": 0.0,
+  "num_predictions": 5,
+  "num_ground_truth": 5,
+  "path": "/home/rbaena/datasets/btv1b84472995/images/btv1b84472995_f010/btv1b84472995_f010_eSc_line_0f160fce.png"
+}

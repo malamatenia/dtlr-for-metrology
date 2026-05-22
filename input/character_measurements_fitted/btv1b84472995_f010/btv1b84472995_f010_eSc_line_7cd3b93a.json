@@ -1,0 +1,125 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 23.996302026886124,
+        "cy": 52.05813507239024,
+        "w": 25.304895083109535,
+        "h": 53.22149958610535
+      },
+      "confidence": 0.9962211847305298,
+      "query_idx": 2,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 45.046792685448594,
+        "cy": 57.88052571614584,
+        "w": 26.17493968396574,
+        "h": 39.565132480197484
+      },
+      "confidence": 0.9960071444511414,
+      "query_idx": 12,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 35,
+      "character": "i",
+      "bbox": {
+        "cx": 68.38388386784911,
+        "cy": 57.68027826944987,
+        "w": 15.3395692837668,
+        "h": 40.163574133978955
+      },
+      "confidence": 0.9962229132652283,
+      "query_idx": 16,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 91.44206061932418,
+        "cy": 52.82427561548021,
+        "w": 21.856006185213715,
+        "h": 50.14794901741875
+      },
+      "confidence": 0.9962218999862671,
+      "query_idx": 20,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 109.9609491438479,
+        "cy": 51.89081894026863,
+        "w": 22.229125499725342,
+        "h": 53.880711163414865
+      },
+      "confidence": 0.9962010979652405,
+      "query_idx": 28,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 40,
+      "character": "o",
+      "bbox": {
+        "cx": 129.74153839790068,
+        "cy": 56.74638290405274,
+        "w": 25.96827931017488,
+        "h": 40.864831606547035
+      },
+      "confidence": 0.9961090087890625,
+      "query_idx": 30,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 39,
+      "character": "n",
+      "bbox": {
+        "cx": 160.7421015662116,
+        "cy": 55.15469902356466,
+        "w": 38.700596796499724,
+        "h": 38.04171037673951
+      },
+      "confidence": 0.9961912035942078,
+      "query_idx": 32,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 44,
+      "character": "s",
+      "bbox": {
+        "cx": 195.16050718389116,
+        "cy": 52.76782279941771,
+        "w": 28.05642565091449,
+        "h": 45.29429695076412
+      },
+      "confidence": 0.9962227940559387,
+      "query_idx": 34,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "s",
+    "o",
+    "i",
+    "s",
+    "s",
+    "o",
+    "n",
+    "s",
+    "."
+  ],
+  "predicted_text": "soissons",
+  "ground_truth_text": "soissons.",
+  "cer": 0.1111111111111111,
+  "num_predictions": 8,
+  "num_ground_truth": 9,
+  "path": "/home/rbaena/datasets/btv1b84472995/images/btv1b84472995_f010/btv1b84472995_f010_eSc_line_7cd3b93a.png"
+}

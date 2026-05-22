@@ -1,0 +1,110 @@
+{
+  "predictions": [
+    {
+      "sprite_index": 32,
+      "character": "f",
+      "bbox": {
+        "cx": 18.766422729402002,
+        "cy": 48.44289838870367,
+        "w": 21.304169269318276,
+        "h": 48.50741517543793
+      },
+      "confidence": 0.9960796236991882,
+      "query_idx": 12,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 42.35313884389034,
+        "cy": 54.7554268853532,
+        "w": 29.824838172741256,
+        "h": 41.371701269017336
+      },
+      "confidence": 0.9961960315704346,
+      "query_idx": 16,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 27,
+      "character": "a",
+      "bbox": {
+        "cx": 69.50967446286627,
+        "cy": 53.38814247482353,
+        "w": 32.83576406992918,
+        "h": 38.8010314948029
+      },
+      "confidence": 0.9962204098701477,
+      "query_idx": 26,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 39,
+      "character": "n",
+      "bbox": {
+        "cx": 104.48345519803095,
+        "cy": 51.94965052273538,
+        "w": 45.62374744009463,
+        "h": 42.29843301110796
+      },
+      "confidence": 0.9962176084518433,
+      "query_idx": 30,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 29,
+      "character": "c",
+      "bbox": {
+        "cx": 140.89164333478783,
+        "cy": 52.41979010999203,
+        "w": 23.46202655041472,
+        "h": 42.72302172780037
+      },
+      "confidence": 0.9962202310562134,
+      "query_idx": 62,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 31,
+      "character": "e",
+      "bbox": {
+        "cx": 159.56023282446762,
+        "cy": 52.02345326741537,
+        "w": 24.849993462821857,
+        "h": 42.39699656168621
+      },
+      "confidence": 0.9962226748466492,
+      "query_idx": 64,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 2,
+      "character": ".",
+      "bbox": {
+        "cx": 195.39476716602948,
+        "cy": 59.334244346618654,
+        "w": 27.16692388818619,
+        "h": 31.132996304829916
+      },
+      "confidence": 0.9962226748466492,
+      "query_idx": 70,
+      "error_label": "match"
+    }
+  ],
+  "ground_truth": [
+    "f",
+    "r",
+    "a",
+    "n",
+    "c",
+    "e",
+    "."
+  ],
+  "predicted_text": "france.",
+  "ground_truth_text": "france.",
+  "cer": 0.0,
+  "num_predictions": 7,
+  "num_ground_truth": 7,
+  "path": "/home/rbaena/datasets/btv1b84472995/images/btv1b84472995_f538/btv1b84472995_f538_eSc_line_3408ab3a.png"
+}

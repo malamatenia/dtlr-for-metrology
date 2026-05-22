@@ -1,93 +1,93 @@
 {
   "predictions": [
     {
-      "sprite_index": 40,
-      "character": "o",
+      "sprite_index": 38,
+      "character": "m",
       "bbox": {
-        "cx": 87.35197127757203,
-        "cy": 43.972681403160095,
-        "w": 23.594141646631257,
-        "h": 44.366050481796265
+        "cx": 51.13499381893971,
+        "cy": 42.26802666982015,
+        "w": 44.48822266417123,
+        "h": 38.74863862991333
       },
-      "confidence": 0.9773831367492676,
-      "query_idx": 16,
+      "confidence": 0.9962208271026611,
+      "query_idx": 98,
       "error_label": "match"
     },
     {
-      "sprite_index": 43,
-      "character": "r",
+      "sprite_index": 40,
+      "character": "o",
       "bbox": {
-        "cx": 150.7452968461982,
-        "cy": 43.1600661277771,
-        "w": 17.319566477479754,
-        "h": 37.851833383242294
+        "cx": 88.97006377756921,
+        "cy": 43.11585474014282,
+        "w": 31.820196506104182,
+        "h": 44.671310901641846
       },
-      "confidence": 0.9251086711883545,
-      "query_idx": 36,
+      "confidence": 0.996220052242279,
+      "query_idx": 112,
       "error_label": "match"
     },
     {
       "sprite_index": 46,
       "character": "u",
       "bbox": {
-        "cx": 201.27969536172998,
-        "cy": 42.82854003955921,
-        "w": 19.2145976941772,
-        "h": 36.81961007416248
+        "cx": 123.49974418598447,
+        "cy": 43.9087306658427,
+        "w": 41.318716413987794,
+        "h": 38.579599380493164
       },
-      "confidence": 0.9961835741996765,
-      "query_idx": 46,
+      "confidence": 0.9962080717086792,
+      "query_idx": 128,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 43,
+      "character": "r",
+      "bbox": {
+        "cx": 154.90060208013148,
+        "cy": 43.108859062194824,
+        "w": 36.729196340008514,
+        "h": 41.0703714688619
+      },
+      "confidence": 0.9962212443351746,
+      "query_idx": 144,
+      "error_label": "match"
+    },
+    {
+      "sprite_index": 46,
+      "character": "u",
+      "bbox": {
+        "cx": 193.47538123625876,
+        "cy": 43.987234115600586,
+        "w": 43.55726940384328,
+        "h": 40.46016136805217
+      },
+      "confidence": 0.9962223172187805,
+      "query_idx": 176,
       "error_label": "match"
     },
     {
       "sprite_index": 45,
       "character": "t",
       "bbox": {
-        "cx": 223.4027290036869,
-        "cy": 42.085686445236206,
-        "w": 15.750367421029438,
-        "h": 39.229403018951416
+        "cx": 228.8775686462069,
+        "cy": 42.51675017674764,
+        "w": 36.07922837512741,
+        "h": 41.08071231842041
       },
-      "confidence": 0.9915580749511719,
-      "query_idx": 58,
-      "error_label": "insertion"
-    },
-    {
-      "sprite_index": 45,
-      "character": "t",
-      "bbox": {
-        "cx": 224.40331583386302,
-        "cy": 42.139965772628784,
-        "w": 17.1930164825811,
-        "h": 39.095844745635986
-      },
-      "confidence": 0.9961873292922974,
-      "query_idx": 60,
+      "confidence": 0.9962229132652283,
+      "query_idx": 178,
       "error_label": "match"
     },
     {
       "sprite_index": 2,
       "character": ".",
       "bbox": {
-        "cx": 248.869290693911,
-        "cy": 46.755185792843506,
-        "w": 8.191833372021762,
-        "h": 17.312586511174835
+        "cx": 251.4399679215228,
+        "cy": 51.93250846862793,
+        "w": 17.72195927041476,
+        "h": 30.738776524861656
       },
-      "confidence": 0.9962217807769775,
-      "query_idx": 182,
-      "error_label": "insertion"
-    },
-    {
-      "sprite_index": 2,
-      "character": ".",
-      "bbox": {
-        "cx": 249.37626905058886,
-        "cy": 46.94437088569005,
-        "w": 8.56258353531885,
-        "h": 16.94439952572187
-      },
-      "confidence": 0.9962218999862671,
+      "confidence": 0.9962227940559387,
       "query_idx": 184,
       "error_label": "match"
     }
@@ -101,10 +101,10 @@
     "t",
     "."
   ],
-  "predicted_text": "orutt..",
+  "predicted_text": "mourut.",
   "ground_truth_text": "mourut.",
-  "cer": 0.5714285714285714,
+  "cer": 0.0,
   "num_predictions": 7,
   "num_ground_truth": 7,
-  "path": "/home/vlachoum/learnable-handwriter/datasets/btv1b84472995/images/btv1b84472995_f715/btv1b84472995_f715_eSc_line_73b58b40.png"
+  "path": "/home/rbaena/datasets/btv1b84472995/images/btv1b84472995_f715/btv1b84472995_f715_eSc_line_73b58b40.png"
 }
