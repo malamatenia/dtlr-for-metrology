@@ -69,7 +69,7 @@
            HEADER BAND
         ─────────────────────────────── */
         .header {
-            padding: 3.5rem 0 2rem;
+            padding: 1.5rem 0 1.5rem;
             text-align: center;
         }
 
@@ -127,13 +127,13 @@
             align-items: center;
             gap: 0.35rem;
             color: var(--muted);
-            font-size: 0.82rem;
+            font-size: 0.92rem;
             font-weight: 600;
             letter-spacing: 0.04em;
             transition: color 0.18s;
         }
         .icon-links a:hover { color: var(--accent); text-decoration: none; }
-        .icon-links img { width: 36px; height: 36px; object-fit: contain; border-radius: 0; }
+        .icon-links img { width: 52px; height: 52px; object-fit: contain; border-radius: 0; }
 
         /* ───────────────────────────────
            DIVIDER
@@ -360,6 +360,9 @@
             <a href="#bibtex">
                 <img src="images/bibtex-mark.png" alt="BibTeX">BibTeX
             </a>
+            <a href="https://doi.org/10.5281/zenodo.18745702" target="_blank">
+                <img src="images/zenodo.svg" alt="BibTeX">Dataset
+            </a>
         </div>
     </header>
 
@@ -369,11 +372,6 @@
          TL;DR
     ══════════════════════════════════════ -->
     <section>
-        <center><h2>TL;DR</h2></center>
-
-        <div class="tldr-box">
-            <p>We bridge <strong>morphological</strong> and <strong>metrological</strong> paleography by extracting character prototypes from manuscript images — and turning them into <strong>scalable, reproducible measurements</strong> of letter proportions and character spacing for metrological paleographic analysis.</p>
-        </div>
 
         <p>
             Paleographic analysis — the study of historical handwriting — still relies heavily on expert eye and subjective comparison. Computational approaches have made progress in recognizing text and extracting character shapes (<em>morphology</em>), but they rarely produce the kind of quantitative measurements (<em>metrology</em>) that are needed for reproducible, large-scale study.
@@ -450,8 +448,7 @@
 
     <hr class="section-rule">
 
-
-    <!-- ══════════════════════════════════════
+            <!-- ══════════════════════════════════════
          DATASET
     ══════════════════════════════════════ -->
     <section>
@@ -463,13 +460,13 @@
                 <p>160 annotated pages (6,808 lines, 279,780 characters) from <em>Les Grandes Chroniques de France</em> (Paris, BnF, fr. 2813), covering four scribal hands (graphic profiles GP1–GP4).</p>
                 <p style="margin-top:0.5rem">
                     <a href="https://doi.org/10.5281/zenodo.18745702" target="_blank">↗ Zenodo dataset</a> &ensp;·&ensp;
-                    <a href="https://malamatenia.github.io/bnf-fr-2813/" target="_blank">↗ Related morphological study using the LHW</a>
                 </p>
             </div>
         </div>
     </section>
 
-        <!-- ══════════════════════════════════════
+
+    <!-- ══════════════════════════════════════
          RESULTS
     ══════════════════════════════════════ -->
 
@@ -485,7 +482,7 @@
 
         <h3>Letter proportionality</h3>
         <p>
-            Character aspect ratios alone are sufficient to distinguish the four hands across the manuscript. GP1 shows ‹a› and ‹n› at a similar ratio, while ‹d›, ‹t›, ‹e› are markedly more elongated. GP2 and GP3 display four distinct proportional groupings — a more differentiated internal organisation. Strikingly, GP1 and GP4 share one proportionality factor, while GP2 and GP3 share another, a pattern potentially linked to shared letter-construction habits.
+            Character aspect ratios alone are sufficient to distinguish the four hands across the manuscript.
         </p>
 
         <figure>
