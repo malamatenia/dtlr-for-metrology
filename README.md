@@ -8,7 +8,7 @@ This repository contains the scripts, notebook, and data needed to **reproduce t
 
 <br>
 
-> **Note:** This repository performs the downstream metrological and paleographical analysis (and reproduces the visualizations reported in the paper). To do so, it uses the outputs from the **[learnable-DTLR](https://github.com/malamatenia/learnable-DTLR/tree/main)** architecture, which handles training and output generation.
+> **Note:** This repository performs the downstream metrological and paleographical analysis (and reproduces the visualizations reported in the paper). To do so, it uses the outputs from the **[morphology4metrology method](https://github.com/raphael-baena/morphology4metrology/tree/main)** architecture, which handles training and output generation.
 
 ## Content
 <details>
@@ -32,7 +32,7 @@ Two steps:
 
  <br>
  
-**1. Generate DTLR outputs for your manuscript.** See the DTLR-for-paleography repository: [add url]. You will obtain:
+**1. Generate outputs for your manuscript.** See the morphology4metrology method repository: [https://github.com/raphael-baena/morphology4metrology/tree/main]. You will obtain:
  
 - A folder of per-line prediction JSONs (one folder per document, one `.json` per line).
 - A `transcribe.json` mapping character indices to characters.
