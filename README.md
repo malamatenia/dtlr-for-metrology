@@ -8,7 +8,7 @@ This repository contains the scripts, notebook, and data needed to **reproduce t
 
 <br>
 
-> **Note:** This repository performs the downstream metrological and paleographical analysis (and reproduces the visualizations reported in the paper). To do so, it uses the outputs from the **[morphology4metrology method](https://github.com/raphael-baena/morphology4metrology/tree/main)** architecture, which handles training and output generation.
+> **Note:** This repository performs the downstream metrological and paleographical analysis (and reproduces the visualizations reported in the paper). To do so, it uses the outputs from the **[morphology4metrology](https://github.com/raphael-baena/morphology4metrology/tree/main)** architecture, which handles training and output generation.
 
 ## Content
 <details>
