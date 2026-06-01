@@ -32,14 +32,14 @@ Two steps:
 
  <br>
  
-**1. Generate outputs for your manuscript.** See the morphology4metrology method repository: [https://github.com/raphael-baena/morphology4metrology/tree/main]. You will obtain:
+**1. Generate outputs for your manuscript.** Train on the [morphology4metrology](https://github.com/raphael-baena/morphology4metrology/tree/main) method. After finetuning on a set of documents, you will obtain:
  
 - A folder of per-line prediction JSONs (one folder per document, one `.json` per line).
 - A `transcribe.json` mapping character indices to characters.
 - A folder of per-document character prototypes.
 <br>
 
-**2. Adapt the analysis to your metadata**. More details in `metrological_analysis.ipynb`.
+**2. Adapt the metrological analysis to your metadata**. More details in `metrological_analysis.ipynb`.
 
 </details>
 
