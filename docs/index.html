@@ -69,7 +69,7 @@
            HEADER BAND
         ─────────────────────────────── */
         .header {
-            padding: 1.5rem 0 1.5rem;
+            padding: 0.5rem 0 0.5rem;
             text-align: center;
         }
 
@@ -378,8 +378,14 @@
         </p>
 
         <ul class="highlights">
-            <li>We extend <a href="https://github.com/raphael-baena/dtlr" target="_blank">DTLR</a> (a detection-based text recognition model) with a prototype-based reconstruction module, to extract character prototypes and reconstruct text lines.</li>
-            <li>Bounding boxes predicted by the detector define character boundaries consistently across the whole dataset, enabling aspect ratio, distance, and spacing measurements.</li>
+            Contributions:
+            <li>We bridge morphological and metrological paleographic analysis by defining
+            measurements based on character prototype alignments, opening the way for
+            more consistent and scalable metrological analysis; </li>
+            <li>we introduce an architecture and training strategy that brings together detection-based character recognition and prototype-based modeling, which improves
+            results, stability, efficiency, and enables us to perform our paleographic measurements;</li>
+            <li> we demonstrate the effectiveness of our approach and measures through a case study, outlining their potential for fine-grained analysis and discovery beyond
+            hand recognition.</li>
         </ul>
     </section>
 
@@ -392,7 +398,7 @@
         <h2>Detection-based approach to prototypical text line modeling</h2>
 
         <p>
-            Our architecture reconstructs text line images from learned <strong>character prototypes</strong>, using the detection model <a href="https://github.com/raphael-baena/dtlr" target="_blank">DTLR</a> to predict character bounding boxes and class labels directly from a line image, using only line-level transcriptions as supervision.  We add a reconstruction module to extract character prototypes and reconstruct text lines.
+            Our architecture reconstructs text line images from learned <strong>character prototypes</strong>, to predict character bounding boxes and class labels directly from a line image, using only line-level transcriptions as supervision.  We add a reconstruction module to extract character prototypes and reconstruct text lines.
         </p>
 
         <figure>
@@ -456,7 +462,7 @@
         <div class="dataset-card">
             <div class="ds-icon">📜</div>
             <div>
-                <h3>Paris, BnF, fr. 2813 — Annotations</h3>
+                <h3>Text-line annotations of Paris, BnF, fr. 2813</h3>
                 <p>160 annotated pages (6,808 lines, 279,780 characters) from <em>Les Grandes Chroniques de France</em> (Paris, BnF, fr. 2813), covering four scribal hands (graphic profiles GP1–GP4).</p>
                 <p style="margin-top:0.5rem">
                     <a href="https://doi.org/10.5281/zenodo.18745702" target="_blank">↗ Zenodo dataset</a> &ensp;·&ensp;
