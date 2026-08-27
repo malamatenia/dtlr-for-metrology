@@ -45,12 +45,20 @@ Two steps:
 
 ## Cite us
 ```bibtex
-@misc{vlachou2026metrology,
-    title = {Leveraging Morphology for Historical Script Metrological Analysis},
-    author = {Vlachou-Efstathiou, Malamatenia and Baena, Raphael and Stutzmann, Dominique and Aubry, Mathieu},
-    publisher = {Document Analysis and Recognition--ICDAR 2026 Vienna, Austria, August 30--September 4, 2026, Proceedings},
-    year = {2026},
-    organization={Springer}
+@inproceedings{vlachou2026metrology,
+  title     = {Leveraging Morphology for Historical Script Metrological Analysis},
+  author    = {Vlachou-Efstathiou, Malamatenia and Baena, Raphaël
+               and Stutzmann, Dominique and Aubry, Mathieu},
+  booktitle = {Document Analysis and Recognition -- ICDAR 2026},
+  editor    = {Fink, Gernot A. and Fornés, Alicia and Kise, Koichi
+               and Lopresti, Daniel},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {16974},
+  pages     = {192--209},
+  publisher = {Springer},
+  year      = {2026},
+  doi       = {10.1007/978-3-032-36039-7_13}
+}
 ```
 Check out also: 
 - [Baena, R., Kalleli, S., & Aubry, M. (2024). General Detection-based Text Line Recognition.](https://detection-based-text-line-recognition.github.io/)
